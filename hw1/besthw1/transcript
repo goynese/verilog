@@ -1,4 +1,0 @@
-# vsim -do -quiet -c -t 1ps adder8 adder8.gate.do 
-# ** Error: (vsim-19) Failed to access library 'adder8.gate' at "adder8.gate".
-# No such file or directory. (errno = ENOENT)
-# Error loading design

@@ -1,7 +1,0 @@
-read_verilog adder8.gate.v
-compile
-report_timing
-report_area
-
-
-
