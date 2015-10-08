@@ -1,0 +1,44 @@
+# PPCMD 1 
+# sroute -connect { blockPin padPin padRing corePin } -layerChangeRange { M1 M9 } -blockPinTarget { nearestRingStripe nearestTarget } -padPinPortConnect { allPort oneGeom } -checkAlignedSecondaryPin 1 -blockPin useLef -allowJogging 1 -crossoverViaBottomLayer M1 -allowLayerChange 1 -targetViaTopLayer M9 -crossoverViaTopLayer M9 -targetViaBottomLayer M1 -nets { VSS VDD }
+# 2 
+# 16 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 1 
+
+# PPCMD 2 
+# addRing -stacked_via_top_layer M9 -around core -jog_distance 0.16 -threshold 0.16 -nets {VDD VSS} -stacked_via_bottom_layer M1 -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 1 -layer_bottom M1 -layer_top M1 -layer_right M2 -layer_left M2 -width_top {3} -width_bottom {3} -width_left {3} -width_right {3} -spacing_top {1} -spacing_bottom {1} -spacing_left {1} -spacing_right {1}
+# 1 
+# 32 
+# 1 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# VSS 3000 1 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 51840 3740 51840 94500 
+# END_RING_PT_INFO_LIST 
+# VSS 3000 2 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 3740 49120 99940 49120 
+# END_RING_PT_INFO_LIST 
+# VDD 3000 1 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 51840 7740 51840 90500 
+# END_RING_PT_INFO_LIST 
+# VDD 3000 2 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 7740 49120 95940 49120 
+# END_RING_PT_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 2 
+

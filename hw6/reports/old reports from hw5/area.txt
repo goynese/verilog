@@ -1,0 +1,33 @@
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : area
+Design : sensor
+Version: E-2010.12-SP2
+Date   : Sun Jun  9 06:38:45 2013
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_typ (File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/synopsys/models/saed90nm_typ_pg.db)
+
+Number of ports:                           19
+Number of nets:                           443
+Number of cells:                          406
+Number of combinational cells:            289
+Number of sequential cells:               117
+Number of macros:                           0
+Number of buf/inv:                         79
+Number of references:                      24
+
+Combinational area:       2571.985018
+Noncombinational area:    3255.997982
+Net Interconnect area:     313.516570  
+
+Total cell area:          5827.983000
+Total area:               6141.499570
+
+Information: This design contains black box (unknown) components. (RPT-8)
+1

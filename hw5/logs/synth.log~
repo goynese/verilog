@@ -1,0 +1,543 @@
+
+                      Design Compiler Graphical
+                            DC Ultra (TM)
+                             DFTMAX (TM)
+                         Power Compiler (TM)
+                           DesignWare (R)
+                           DC Expert (TM)
+                         Design Vision (TM)
+                          HDL Compiler (TM)
+                         VHDL Compiler (TM)
+                            DFT Compiler
+                        Library Compiler (TM)
+                         Design Compiler(R)
+
+           Version E-2010.12-SP2 for linux -- Feb 25, 2011
+               Copyright (c) 1988-2011 Synopsys, Inc.
+
+This software and the associated documentation are confidential and 
+proprietary to Synopsys, Inc. Your use or disclosure of this software 
+is subject to the terms and conditions of a written license agreement 
+between you, or your company, and Synopsys, Inc.
+
+Initializing...
+#synopsys synthesis skeleton script
+#boilerplate
+set hdlin_auto_save_templates true
+true
+set hdlin_check_no_latch      true
+true
+#read in all the modules
+read_sverilog rtl_src/counter.sv
+Loading db file '/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/synopsys/models/saed90nm_typ_pg.db'
+Loading db file '/usr/local/apps/synopsys/current_synthesis/libraries/syn/gtech.db'
+Loading db file '/usr/local/apps/synopsys/current_synthesis/libraries/syn/standard.sldb'
+  Loading link library 'saed90nm_typ'
+  Loading link library 'gtech'
+Loading sverilog file '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/counter.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/counter.sv
+Warning:  /nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/counter.sv:15: 'current_count' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+
+Inferred memory devices in process
+	in routine counter line 11 in file
+		'/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/counter.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      count_reg      | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  current_count_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/counter.db:counter'
+Loaded 1 design.
+Current design is 'counter'.
+counter
+read_sverilog rtl_src/counter_sm.sv
+Loading sverilog file '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/counter_sm.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/counter_sm.sv
+Warning:  /nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/counter_sm.sv:16: The 'declaration initial assignment' construct is not supported.  It will be ignored. (VER-104)
+$display output: Not Working
+
+Statistics for case statements in always block at line 20 in file
+	'/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/counter_sm.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            25            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine counter_sm line 20 in file
+		'/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/counter_sm.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   restart_mem_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|      state_reg      | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      state_reg      | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|     restart_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/counter_sm.db:counter_sm'
+Loaded 1 design.
+Current design is 'counter_sm'.
+counter_sm
+read_sverilog rtl_src/divider_even.sv
+Loading sverilog file '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/divider_even.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/divider_even.sv
+Warning:  /nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/divider_even.sv:16: The 'declaration initial assignment' construct is not supported.  It will be ignored. (VER-104)
+
+Inferred memory devices in process
+	in routine divider_even line 23 in file
+		'/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/divider_even.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      rout_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/divider_even.db:divider_even'
+Loaded 1 design.
+Current design is 'divider_even'.
+divider_even
+read_sverilog rtl_src/fifo.sv
+Loading sverilog file '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/fifo.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/fifo.sv
+$display output: Not Working
+
+Statistics for case statements in always block at line 26 in file
+	'/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/fifo.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            39            |    auto/auto     |
+===============================================
+$display output: Not Working
+
+Statistics for case statements in always block at line 67 in file
+	'/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/fifo.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            75            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine fifo line 26 in file
+		'/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/fifo.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    data_out_reg     | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    read_ptr_reg     | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    prevempty_reg    | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine fifo line 67 in file
+		'/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/fifo.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      byte3_reg      | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    write_ptr_reg    | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|      byte4_reg      | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|      byte1_reg      | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|      byte2_reg      | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/fifo.db:fifo'
+Loaded 1 design.
+Current design is 'fifo'.
+fifo
+read_sverilog rtl_src/mem_to_fifo_sm.sv
+Loading sverilog file '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/mem_to_fifo_sm.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/mem_to_fifo_sm.sv
+$display output: Not Working
+
+Statistics for case statements in always block at line 28 in file
+	'/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/mem_to_fifo_sm.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            41            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine mem_to_fifo_sm line 28 in file
+		'/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/mem_to_fifo_sm.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    ROM_addr_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|      state_reg      | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      state_reg      | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|     fifo_wr_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/mem_to_fifo_sm.db:mem_to_fifo_sm'
+Loaded 1 design.
+Current design is 'mem_to_fifo_sm'.
+mem_to_fifo_sm
+read_sverilog rtl_src/shift_register.sv
+Loading sverilog file '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/shift_register.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/shift_register.sv
+Error:  /nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/shift_register.sv:22: Syntax error at or near token '<='. (VER-294)
+*** Presto compilation terminated with 1 errors. ***
+Error: Can't read 'sverilog' file '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/shift_register.sv'. (UID-59)
+No designs were read
+read_sverilog rtl_src/shift_register_sm.sv
+Loading sverilog file '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/shift_register_sm.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/shift_register_sm.sv
+$display output: Not Working
+
+Statistics for case statements in always block at line 34 in file
+	'/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/shift_register_sm.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            43            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine shift_register_sm line 34 in file
+		'/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/shift_register_sm.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    data_out_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|      state_reg      | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      state_reg      | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|     fifo_rd_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     load_sr_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|    shift_sr_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|       out_reg       | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|       out_reg       | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|       out_reg       | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|       out_reg       | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/shift_register_sm.db:shift_register_sm'
+Loaded 1 design.
+Current design is 'shift_register_sm'.
+shift_register_sm
+read_sverilog rtl_src/sensor.sv
+Loading sverilog file '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/sensor.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/sensor.sv
+Presto compilation completed successfully.
+Current design is now '/nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/sensor.db:sensor'
+Loaded 1 design.
+Current design is 'sensor'.
+sensor
+current_design sensor
+Current design is 'sensor'.
+{sensor}
+link
+
+  Linking design 'sensor'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (7 designs)               /nfs/stak/students/g/goynese/ECE474/hw5/rtl_src/sensor.db, etc
+  saed90nm_typ (library)      /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/synopsys/models/saed90nm_typ_pg.db
+
+Information: Building the design 'shift_register'. (HDL-193)
+Warning:  File /nfs/stak/students/g/goynese/ECE474/hw5/work/shift_register-verilog.pvl for module shift_register cannot be found. (ELAB-320)
+Error:  Module 'shift_register' cannot be found for elaboration. (ELAB-357)
+*** Presto compilation terminated with 1 errors. ***
+Warning: Unable to resolve reference 'shift_register' in 'sensor'. (LINK-5)
+0
+##### constraints are below #####
+#erase all attributes and constrains from the current design
+reset_design
+Information: Building the design 'shift_register'. (HDL-193)
+Warning:  File /nfs/stak/students/g/goynese/ECE474/hw5/work/shift_register-verilog.pvl for module shift_register cannot be found. (ELAB-320)
+Error:  Module 'shift_register' cannot be found for elaboration. (ELAB-357)
+*** Presto compilation terminated with 1 errors. ***
+Warning: Unable to resolve reference 'shift_register' in 'sensor'. (LINK-5)
+1
+#set the environmental conditons to TYPICAL
+set_operating_conditions -max TYPICAL
+Using operating conditions 'TYPICAL' found in library 'saed90nm_typ'.
+1
+#set wire loading model to "8000"
+set_wire_load_model -name 8000
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+#set wire loading mode to top  
+set_wire_load_mode top
+1
+# Define the clock period and clock port with a 10ns clock period
+create_clock -period 10 -name clk [get_ports clk]
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+# Define the clock period and clock port with a 40ns clock period
+create_clock -period 40 -name clk_mem [get_ports clk_mem]
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+# Set the clock uncertainty for setup and hold to +/- 20pS
+set_clock_uncertainty -setup 0.02 [get_clocks {clk clk_mem}]
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_clock_uncertainty -hold 0.02 [get_clocks {clk clk_mem}]
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+# set the "input valid" delay of ROM_data to 1.0nS as measured from clk_mem
+set_input_delay -min 1.0 -clock clk_mem [get_ports ROM_data]
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+# set the setup time requirements for the next block to 1nS
+set_output_delay -max 1.0 -clock clk [all_outputs]
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+#set the fastest input data arrival time of ROM_data to check for hold time changes to 100pS
+#(referenced to clk_mem)
+##set_input_delay......set_clock_uncertainty -setup 0.01..
+set_input_delay 1.0 -max -clock clk [get_ports ROM_data]
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_clock_uncertainty -setup 0.01 [get_clocks clk]
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+# set the hold time requirements for the ROM to 150pS (referenced to clk_mem)
+set_output_delay -max 0.15 -clock clk_mem [get_ports {ROM_re ROM_ce ROM_addr}]
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+# Indicate the drive characteristics of what drives all inputs:
+# let the driving cell be a SDFFARX1
+set_driving_cell -lib_cell SDFFARX1 [remove_from_collection [all_inputs] [get_ports {clk clk_mem}]]
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+# Indicate the capacitive loading on all outputs are equal to 5 AND2X1 inputs
+# >>This command can pull a pin capacitance value from a library by giving it
+# >> saed90nm_typ/AND2X1/IN1 instead of an explicit value
+set_load [expr 5 * [load_of saed90nm_typ/AND2X1/IN1]] [all_outputs]
+1
+# Compile with completely disolved design
+compile  -ungroup_all
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | E-2010.12-DWBB_201012.2 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+
+Information: There are 93 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'shift_register_sm'
+  Ungrouping instance 'U4' 
+  Processing 'fifo'
+  Processing 'mem_to_fifo_sm'
+Information: The register 'state_reg[3]' is a constant and will be removed. (OPT-1206)
+Information: The register 'ROM_addr_reg[3]' is a constant and will be removed. (OPT-1206)
+Information: The register 'ROM_addr_reg[2]' is a constant and will be removed. (OPT-1206)
+  Processing 'divider_even'
+  Processing 'counter'
+  Processing 'counter_sm'
+  Processing 'sensor'
+Information: Building the design 'shift_register'. (HDL-193)
+Warning:  File /nfs/stak/students/g/goynese/ECE474/hw5/work/shift_register-verilog.pvl for module shift_register cannot be found. (ELAB-320)
+Error:  Module 'shift_register' cannot be found for elaboration. (ELAB-357)
+*** Presto compilation terminated with 1 errors. ***
+Warning: Unable to resolve reference 'shift_register' in 'sensor'. (LINK-5)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+  Ungrouping instance 'counter_sm0' 
+  Ungrouping instance 'counter0' 
+  Ungrouping instance 'divider_even0' 
+  Ungrouping instance 'mem_to_fifo_sm0' 
+  Ungrouping instance 'fifo0' 
+  Ungrouping instance 'shift_register_sm0' 
+Information: Total 0 isolation cells are inserted. (UPF-214)
+
+  Beginning Implementation Selection
+  ----------------------------------
+Information: The register 'counter0/count_reg[31]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[30]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[29]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[28]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[27]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[26]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[25]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[24]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[23]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[22]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[21]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[20]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[19]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[18]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[17]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[16]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[15]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[14]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[13]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[12]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[11]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[10]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[9]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[8]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[7]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[6]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[5]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[4]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[3]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[2]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[1]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[0]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[31]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[0]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[1]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[2]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[3]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[4]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[5]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[6]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[7]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[8]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[9]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[10]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[11]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[12]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[13]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[14]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[15]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[16]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[17]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[18]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[19]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[20]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[21]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[22]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[23]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[24]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[25]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[26]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[27]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[28]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[29]' will be removed. (OPT-1207)
+Information: The register 'counter0/current_count_reg[30]' will be removed. (OPT-1207)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01   11603.6      0.00       0.0       0.0                          
+    0:00:01   11603.6      0.00       0.0       0.0                          
+    0:00:01   11603.6      0.00       0.0       0.0                          
+    0:00:02   11603.6      0.00       0.0       0.0                          
+    0:00:02   11603.6      0.00       0.0       0.0                          
+    0:00:02    6785.8      0.00       0.0       0.0                          
+    0:00:02    6785.8      0.00       0.0       0.0                          
+    0:00:02    6785.8      0.00       0.0       0.0                          
+    0:00:02    6785.8      0.00       0.0       0.0                          
+    0:00:02    6785.8      0.00       0.0       0.0                          
+    0:00:02    6785.8      0.00       0.0       0.0                          
+    0:00:02    6785.8      0.00       0.0       0.0                          
+    0:00:02    6785.8      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02    6785.8      0.00       0.0       0.0                          
+    0:00:02    6785.8      0.00       0.0       0.0                          
+    0:00:02    6757.3      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02    6757.3      0.00       0.0       0.0                          
+    0:00:02    6757.3      0.00       0.0       0.0                          
+    0:00:02    6741.6      0.00       0.0       0.0                          
+    0:00:02    6729.6      0.00       0.0       0.0                          
+    0:00:02    6724.0      0.00       0.0       0.0                          
+    0:00:02    6718.4      0.00       0.0       0.0                          
+    0:00:02    6712.8      0.00       0.0       0.0                          
+    0:00:02    6712.8      0.00       0.0       0.0                          
+    0:00:02    6712.8      0.00       0.0       0.0                          
+    0:00:02    6712.8      0.00       0.0       0.0                          
+    0:00:02    6712.8      0.00       0.0       0.0                          
+    0:00:02    6712.8      0.00       0.0       0.0                          
+    0:00:02    6712.8      0.00       0.0       0.0                          
+    0:00:02    6712.8      0.00       0.0       0.0                          
+    0:00:02    6712.8      0.00       0.0       0.0                          
+Loading db file '/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/synopsys/models/saed90nm_typ_pg.db'
+
+  Optimization Complete
+  ---------------------
+1
+# Make sure we are at the top level
+set current_design  sensor
+sensor
+# Generate area and constraints reports on the optimized design
+report_area > reports/area.txt
+# Generate timing report for worst case path
+report_timing -delay max -nworst 2 > reports/delay.txt
+# Generate timing report for hold time
+report_timing -delay min -nworst 2 > reports/hold.txt
+# Find what cells were used to check for latches
+report_hierarchy > reports/hierarchy_to_search_for_latches.txt
+# REMEMBER TO SEARCH THIS FILE IN THE DOIT SCRIPT!!!
+#run a design check
+check_design > reports/check_deisgn.txt
+# Save the optimized design in verilog format
+write -format verilog -hierarchy -output  vlogout/sensor.gate.v
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Writing verilog file '/nfs/stak/students/g/goynese/ECE474/hw5/vlogout/sensor.gate.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+1
+write_sdf sdfout/sensor.gate.sdf -context verilog
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/nfs/stak/students/g/goynese/ECE474/hw5/sdfout/sensor.gate.sdf'. (WT-3)
+Warning: Design contains black-box components.  These cells will have no timing information. (WT-7)
+1
+quit
+Information: Defining new variable 'compile_group_pull_control_logic'. (CMD-041)
+
+Thank you...

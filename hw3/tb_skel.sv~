@@ -1,0 +1,73 @@
+`timescale 1ps/1ps
+
+module tb ();
+  parameter CYCLE = 10000;  //10ns period = 100Mhz
+  integer out_file;
+
+//define needed internal wires (type reg) to apply signals to 	
+	reg clk;
+	reg [7:0] N;
+	reg reset_n;	
+	reg enable;
+	reg out;
+	
+//create the clock
+  initial begin
+    clk = 0;
+    forever #(CYCLE/2) clk = ~clk;
+  end
+ 
+//create reset_n
+  initial begin
+    reset_n = 0;       //initalize reset aserted
+    @(posedge clk);    //wait 2 clock cycles
+    @(posedge clk);   
+    #100 reset_n = 1;   //release reset_n after 100ps past rising edge
+  end
+
+//initalize other signals at reset time
+  initial begin  
+  enable = 1'b1;
+	
+  end 
+  
+  initial begin
+    @(posedge reset_n);
+    enable=1;
+		N <= 'b0;
+
+		#60000 N <= 'b10;
+
+		#130000 N <= 'b100;
+		
+		#260000 enable <= 'b0;
+
+		#350000 enable <= 'b1;
+
+		#350000 N <= 'b110;
+
+		#540000 reset_n <= 'b0;
+
+		#600000 reset_n <= 'b1;
+
+  end
+ 
+  //open file for results
+  initial begin
+    out_file = $fopen("divider.out"); 
+    $fdisplay (out_file, "clk    enable    N    out    time");
+  end
+  //write results to file
+  always @ (negedge clk)  begin
+    $fdisplay (out_file,"%1b    %1b    %8h    %1b   %5d", clk, enable, N, out, $time);
+  end
+
+divider_even #(.WIDTH(8)) divider_0(
+    .clk		(clk		),            // fast input clock
+    .N			(N[7:0] ),            // divide by factor 'N'
+    .reset_n(reset_n),            // asynchronous reset
+    .enable	(enable	),            // enable the even divider
+    .out		(out		)            // slower divided clock
+  );
+
+endmodule 

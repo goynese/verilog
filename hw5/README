@@ -1,0 +1,40 @@
+	-Total gate count and area
+
+Since a nand gate has area 5.443 um^2. I can take the total area 14894.983318 then divide by
+the 5.443, giving me the total number of gates to be 2736. 
+
+
+
+
+	-Worst case setup time in design and its associated path 
+
+The worst case setup time in my delay.txt in reports was 8.53 us. Its path was
+
+  Startpoint: counter_sm0/restart_mem_reg
+              (rising edge-triggered flip-flop clocked by clk)
+
+  Endpoint: fifo0/byte1_reg[1]
+            (rising edge-triggered flip-flop clocked by clk_mem)
+
+
+	
+
+
+	-Worst case hold time in the design and its associated path
+	
+The worst case hold time in my hold.txt file was 0.33 us.   
+
+Startpoint: fifo0/byte1_reg[1]
+              (rising edge-triggered flip-flop clocked by clk_mem)
+
+Endpoint: fifo0/byte1_reg[1]
+            (rising edge-triggered flip-flop clocked by clk_mem)
+
+	
+
+
+
+
+	-Number of latches found if any and how you got rid of them if any
+	
+When searching the hierchy file I didn't find any latches. YAY :)

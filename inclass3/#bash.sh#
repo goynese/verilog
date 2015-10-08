@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "hello world"
+
+if[ -a bash.sh ];
+then
+    echo "Yay bash.sh exists"
+else
+    echo "no"
+fi

@@ -1,0 +1,39 @@
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+check_design summary:
+Version:     E-2010.12-SP2
+Date:        Tue Jun  4 16:17:40 2013
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     16
+    Multiply driven inputs (LINT-6)                                11
+    Shorted outputs (LINT-31)                                       1
+    Constant outputs (LINT-52)                                      4
+
+Tristate                                                            3
+    A tristate bus has a non tri-state driver (LINT-34)             3
+--------------------------------------------------------------------------------
+
+Warning: In design 'sensor', input port 'clk' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sensor', input port 'reset_n' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sensor', input port 'ROM_data[7]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sensor', input port 'ROM_data[6]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sensor', input port 'ROM_data[5]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sensor', input port 'ROM_data[4]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sensor', input port 'ROM_data[3]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sensor', input port 'ROM_data[2]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sensor', input port 'ROM_data[1]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sensor', input port 'ROM_data[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sensor', input port 'clk_mem' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sensor', output port 'ROM_re' is connected directly to output port 'ROM_ce'. (LINT-31)
+Warning: In design 'sensor', three-state bus 'fifo_rd' has non three-state driver 'shift_register_sm0/fifo_rd_reg/Q'. (LINT-34)
+Warning: In design 'sensor', three-state bus 'fifo_wr' has non three-state driver 'mem_to_fifo_sm0/fifo_wr_reg/Q'. (LINT-34)
+Warning: In design 'sensor', three-state bus 'restart_mem' has non three-state driver 'counter_sm0/restart_mem_reg/Q'. (LINT-34)
+Warning: In design 'sensor', output port 'ROM_addr[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'sensor', output port 'ROM_addr[2]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'sensor', output port 'ROM_re' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'sensor', output port 'ROM_ce' is connected directly to 'logic 1'. (LINT-52)
+1

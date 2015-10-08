@@ -1,0 +1,47 @@
+###################################
+# Run the design through Encounter
+###################################
+
+source encounter.globals
+init_design
+
+# Setup Encounter modes
+setPlaceMode -congEffort high
+setPlaceMode -placeIoPins false
+setPlaceMode -timingDriven true
+setDesignMode -process 90
+
+# Create Floorplan
+
+Create floorplan
+
+# add VSS/VDD ring on Metal layers 5 (top/bottom) and 6 (left/right)
+
+
+
+# PLACE PINS on Metal layer 3 (ROM/clk_mem connections on left, everyting else on right)
+
+# route VDD and VSS core power tracks (using sroute)
+
+# Place standard cells
+
+# Create a spare module (with at least 5 cells) and place at least one instance
+
+# Run global Routing
+
+# Place filler cells (DCAP and SHFILL2)
+
+# Run Physical Design Rule (RDC) and Connection checks (LVS)
+setVerifyGeometryMode -area { 0 0 0 0 } -minWidth false -minSpacing false -minArea false -sameNet false -short true -overlap true -offRGrid false -offMGrid true -mergedMGridCheck true -minHole true -implantCheck true -minimumCut true -minStep true -viaEnclosure true -antenna true -insuffMetalOverlap false -pinInBlkg false -diffCellViol true -sameCellViol false -padFillerCellsOverlap true -routingBlkgPinOverlap true -routingCellBlkgOverlap true -regRoutingOnly false -stackedViasOnRegNet false -wireExt true -useNonDefaultSpacing false -maxWidth true -maxNonPrefLength -1 -error 1000 -warning 50
+verifyGeometry
+verifyConnectivity -type all -noAntenna
+
+# Output Verilog Netlist
+saveNetlist ../vlogout/final.v  -excludeLeafCell -excludeCellInst {DCAP SHFILL2}
+# Output DSPF RC Data
+write_sdf ../sdfout/final.sdf
+
+saveDesign [format "top.finished.enc"]
+
+win
+#exit

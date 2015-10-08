@@ -1,0 +1,1613 @@
+Checking out Encounter license ...
+Encounter_Digital_Impl_Sys_XL 11.0 license checkout succeeded.
+You can run 2 CPU jobs with the base license that is currently checked out.
+If required, use the setMultiCpuUsage command to enable multi-CPU processing.
+This Encounter release has been compiled with OA version 22.42-p002.
+
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2011.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: Encounter v11.10-p003_1 (64bit) 12/06/2011 08:21 (Linux 2.6)
+@(#)CDS: NanoRoute v11.10-p002 NR111104-0955/11_10_RTM-UB (database version 2.30, 132.4.1) {superthreading v1.16}
+@(#)CDS: CeltIC v11.10-p003_1 (64bit) 11/29/2011 02:58:11 (Linux 2.6.18-194.el5)
+@(#)CDS: AAE 11.10-p002 (64bit) 12/06/2011 (Linux 2.6.18-194.el5)
+@(#)CDS: CTE 11.10-p003_1 (64bit) Nov 28 2011 21:44:35 (Linux 2.6.18-194.el5)
+@(#)CDS: CPE v11.10-p002
+--- Starting "Encounter v11.10-p003_1" on Sun Jun  9 22:29:08 2013 (mem=60.3M) ---
+--- Running on flip1.engr.oregonstate.edu (x86_64 w/Linux 2.6.32-358.2.1.el6.x86_64) ---
+This version was compiled on Tue Dec 6 08:21:40 PST 2011.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+
+**INFO:  MMMC transition support version v31-80 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+Sourcing tcl/tk file "encounter.tcl" ...
+<CMD> set init_verilog ../vlogout/sensor.gate.v
+<CMD> set init_design_netlisttype Verilog
+<CMD> set init_top_cell sensor
+<CMD> set init_design_settop 0
+<CMD> set init_lef_file {/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/lef/saed90nm_tech.lef /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/lef/saed90nm.lef }
+<CMD> set init_pwr_net VDD
+<CMD> set init_gnd_net VSS
+<CMD> set init_mmmc_file viewDefinition.tcl
+<CMD> init_design
+
+Loading Lef file /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/lef/saed90nm_tech.lef...
+**WARN: (ENCLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'POLYCON', 
+**WARN: (ENCLF-105):	The layer 'PO' specified in SAMENET spacing
+rule is neither a routing layer nor a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M1' and 'VIA1' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M2' and 'VIA2' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M3' and 'VIA3' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M4' and 'VIA4' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M5' and 'VIA5' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M6' and 'VIA6' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M7' and 'VIA7' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M8' and 'VIA8' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+
+Loading Lef file /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/lef/saed90nm.lef...
+Set DBUPerIGU to M2 pitch 320.
+**WARN: (ENCLF-46):	Class CORE macro 'DHFILLLHL2' has no SITE statement defined.
+Class CORE macros require a SITE statement. The SITE ENC_CORE_0 was
+created and will be used for this macro, using height 5.7600 that
+matches the macro SIZE height, and width 0.3200 that matches the
+m2 routing pitch. Define the site explicitly in the LEF file, to
+this message in the future.
+**WARN: (ENCLF-200):	Pin 'IN5' in macro 'AO222X2' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN4' in macro 'AO222X2' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'Q' in macro 'AO222X2' has no ANTENNADIFFAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN3' in macro 'AO222X2' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN2' in macro 'AO222X2' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN1' in macro 'AO222X2' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN6' in macro 'AO222X2' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN3' in macro 'AO221X2' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN2' in macro 'AO221X2' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'Q' in macro 'AO221X2' has no ANTENNADIFFAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN5' in macro 'AO221X2' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN4' in macro 'AO221X2' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN1' in macro 'AO221X2' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'Q' in macro 'AO222X1' has no ANTENNADIFFAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN2' in macro 'AO222X1' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN1' in macro 'AO222X1' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN3' in macro 'AO222X1' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN4' in macro 'AO222X1' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN6' in macro 'AO222X1' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (ENCLF-200):	Pin 'IN5' in macro 'AO222X1' has no ANTENNAGATEAREA attribute defined.
+For any non-power/ground input or inout pin, The attribute should be
+defined if any area ratio antenna attribute is defined on any layer.
+**WARN: (EMS-63):	Message <ENCLF-200> has exceeded the default message display limit of 20.
+To avoid this warning, increase the display limit per unique message
+by using the setMessagLimit <number> command.
+The message limit can be removed by using the unsetMessageLimit command.
+Note that setting a very large number using the setMessageLimit command
+or removing the message limit using the unsetMessageLimit command can
+significantly increase the log file size.
+To suppress a message, use suppressMessage command.
+
+Power Planner/ViaGen version 8.1.46 promoted on 02/17/2009.
+viaInitial starts at Sun Jun  9 22:29:10 2013
+viaInitial ends at Sun Jun  9 22:29:10 2013
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist '../vlogout/sensor.gate.v'
+Module fifo not defined.  Created automatically.
+**WARN: (ENCVL-346):	Module fifo is not defined in LEF files.  It will be treated as an empty module.
+Undeclared bus data_in in module fifo ... created as [7:0].
+Undeclared bus data_out in module fifo ... created as [7:0].
+Inserting temporary buffers to remove assignment statements.
+
+*** Memory Usage v#188 (Current mem = 315.535M, initial mem = 60.289M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=315.5M) ***
+Set top cell to sensor.
+Reading my_max_library_set timing library '/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/synopsys/models/saed90nm_max.lib' ...
+**WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'Q' of cell 'AND2X1' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AND2X1' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'Q' of cell 'AND2X2' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AND2X2' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'Q' of cell 'AND2X4' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AND2X4' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'Q' of cell 'AND3X1' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AND3X1' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'Q' of cell 'AND3X2' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AND3X2' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'Q' of cell 'AND3X4' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AND3X4' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'Q' of cell 'AND4X1' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AND4X1' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'Q' of cell 'AND4X2' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AND4X2' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'Q' of cell 'AND4X4' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AND4X4' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'Q' of cell 'AO21X1' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AO21X1' is not defined in the library.
+Message <TECHLIB-436> has exceeded the message display limit of '20'. setMessageLimit/set_message_limit sets the limit. unsetMessageLimit/unset_message_limit can be used to reset this.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'AOBUFX1' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'AOBUFX2' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'AOBUFX4' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'AODFFARX1' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'AODFFARX2' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'AODFFNARX1' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'AODFFNARX2' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'AOINVX1' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'AOINVX2' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'AOINVX4' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'RDFFNX1' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'RDFFNX2' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'RDFFX1' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'RDFFX2' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'RSDFFNX1' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'RSDFFNX2' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'RSDFFX1' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'RSDFFX2' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'HEADX16' in timing library 'saed90nm_max'.
+**WARN: (ENCTS-124):	Timing library description of pin 'VDDG' is missing from cell 'HEADX2' in timing library 'saed90nm_max'.
+**WARN: (EMS-63):	Message <ENCTS-124> has exceeded the default message display limit of 20.
+To avoid this warning, increase the display limit per unique message
+by using the setMessagLimit <number> command.
+The message limit can be removed by using the unsetMessageLimit command.
+Note that setting a very large number using the setMessageLimit command
+or removing the message limit using the unsetMessageLimit command can
+significantly increase the log file size.
+To suppress a message, use suppressMessage command.
+No function defined for cell 'PMT3'. The cell will only be used for analysis.
+No function defined for cell 'PMT2'. The cell will only be used for analysis.
+No function defined for cell 'PMT1'. The cell will only be used for analysis.
+No function defined for cell 'NMT3'. The cell will only be used for analysis.
+No function defined for cell 'NMT2'. The cell will only be used for analysis.
+No function defined for cell 'NMT1'. The cell will only be used for analysis.
+ read 251 cells in library 'saed90nm_max' 
+Reading my_min_library_set timing library '/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/synopsys/models/saed90nm_min.lib' ...
+No function defined for cell 'PMT3'. The cell will only be used for analysis.
+No function defined for cell 'PMT2'. The cell will only be used for analysis.
+No function defined for cell 'PMT1'. The cell will only be used for analysis.
+No function defined for cell 'NMT3'. The cell will only be used for analysis.
+No function defined for cell 'NMT2'. The cell will only be used for analysis.
+No function defined for cell 'NMT1'. The cell will only be used for analysis.
+ read 251 cells in library 'saed90nm_min' 
+*** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.10min, fe_mem=350.9M) ***
+**WARN: (ENCDB-2504):	Cell fifo is instantiated in the Verilog netlist, but is not defined.
+Mark pin data_out[7] of cell fifo output for net data_out_to_data_in[7] in module sensor 
+Mark pin data_out[6] of cell fifo output for net data_out_to_data_in[6] in module sensor 
+Mark pin data_out[5] of cell fifo output for net data_out_to_data_in[5] in module sensor 
+Mark pin data_out[4] of cell fifo output for net data_out_to_data_in[4] in module sensor 
+Mark pin data_out[3] of cell fifo output for net data_out_to_data_in[3] in module sensor 
+Mark pin data_out[2] of cell fifo output for net data_out_to_data_in[2] in module sensor 
+Mark pin data_out[1] of cell fifo output for net data_out_to_data_in[1] in module sensor 
+Mark pin data_out[0] of cell fifo output for net data_out_to_data_in[0] in module sensor 
+Mark pin fifo_empty of cell fifo output for net fifo_empty in module sensor 
+Found empty module (fifo).
+Starting recursive module instantiation check.
+No recursion found.
+Term dir updated for 0 vinsts of 1 cells.
+Building hierarchical netlist for Cell sensor ...
+*** Netlist is unique.
+** info: there are 504 modules.
+** info: there are 405 stdCell insts.
+
+*** Memory Usage v#188 (Current mem = 354.066M, initial mem = 60.289M) ***
+*info - Done with setDoAssign with 4 assigns removed and 0 assigns could not be removed.
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Input Pin Transition Delay as 0.1 ps.
+Mem message Memory info before deleting aae data base  (MEM=354.1M)
+Mem message Memory info after deleting aae data base  (MEM=354.1M)
+Initializing multi-corner RC extraction with 1 active RC Corners ...
+**WARN: (ENCEXT-2773):	Unable to find a via resistance from LEF technology file;
+**WARN: (ENCEXT-2775):	Via resistance between layer M0 and M1 is assigned 4. Ohms.
+**WARN: (ENCEXT-2777):	Via resistance between layer M1 and M2 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M2 and M3 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M3 and M4 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M4 and M5 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M5 and M6 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M6 and M7 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M7 and M8 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M8 and M9 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in cap table, LEF value 0.044 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M7 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M8 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M9 is not defined in cap table, LEF value 0.076 will be used.
+Summary of Active RC-Corners : 
+ Analysis View: my_analysis_view_setup
+    RC-Corner Name        : my_rc_corner_worst
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+ Analysis View: my_analysis_view_hold
+    RC-Corner Name        : my_rc_corner_worst
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+*Info: initialize multi-corner CTS.
+CTE reading timing constraint file '../sdcout/sensor.gate.sdc' ...
+**WARN: (TCLCMD-1014):	The SDC set_operating_conditions assertion is not supported. Please use the create_delay_corner command to specify the desired operating enviroment. Use the setAnalysisMode command to control single vs. bestCase/worstCase vs. on-chip variation timing analysis. (File ../sdcout/sensor.gate.sdc, Line 9).
+
+**ERROR: (TCLCMD-290):	Could not find technology library 'saed90nm_typ' (File ../sdcout/sensor.gate.sdc, Line 11).
+
+INFO (CTE): read_dc_script finished with  1 WARNING and 1 ERROR
+WARNING (CTE-25): Line: 8 of File ../sdcout/sensor.gate.sdc : Skipped unsupported command: set_units
+
+
+Total number of combinational cells: 149
+Total number of sequential cells: 78
+Total number of tristate cells: 6
+Total number of level shifter cells: 16
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: NBUFFX2 NBUFFX16 NBUFFX4 NBUFFX8
+Total number of usable buffers: 4
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: IBUFFX2 IBUFFX16 IBUFFX32 INVX0 IBUFFX4 IBUFFX8 INVX16 INVX2 INVX1 INVX32 INVX4 INVX8
+Total number of usable inverters: 12
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DELLN1X2 DELLN2X2 DELLN3X2 NBUFFX32
+Total number of identified usable delay cells: 4
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+<CMD> setPlaceMode -congEffort high
+<CMD> setPlaceMode -placeIoPins false
+<CMD> setPlaceMode -timingDriven true
+<CMD> setDesignMode -process 90
+Applying the recommended capacitance filtering threshold values for 90nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.2.
+	These values will be used by all post-route extraction engines, including TQRC, IQRC and QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'standard'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode is 'low'.
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> set init_verilog ../vlogout/sensor.gate.v
+<CMD> set init_design_netlisttype Verilog
+<CMD> set init_top_cell sensor
+<CMD> set init_design_settop 0
+<CMD> set init_lef_file {/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/lef/saed90nm_tech.lef /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/lef/saed90nm.lef }
+<CMD> set init_pwr_net VDD
+<CMD> set init_gnd_net VSS
+<CMD> set init_mmmc_file viewDefinition.tcl
+<CMD> init_design
+**WARN: (ENCSYT-7329):	Cannot load design with init_design, after design is already in memory.  This command is skipped.
+<CMD> setPlaceMode -congEffort high
+<CMD> setPlaceMode -placeIoPins false
+<CMD> setPlaceMode -timingDriven true
+<CMD> setDesignMode -process 90
+Applying the recommended capacitance filtering threshold values for 90nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.2.
+	These values will be used by all post-route extraction engines, including TQRC, IQRC and QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'standard'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode is 'low'.
+<CMD> win
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -site unit -r 0.957015757316 0.90 10.0 10.0 10.0 10.0
+Adjusting Core to Left to: 10.2400. Core to Bottom to: 10.2400.
+**WARN: (ENCFP-325):	After proportional resize, all pre-routed wires will be removed.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> set sprCreateIeRingNets {}
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingWidth 1.0
+<CMD> set sprCreateIeRingSpacing 1.0
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> addRing -stacked_via_top_layer M9 -around core -jog_distance 0.16 -threshold 0.16 -nets {VDD VSS} -stacked_via_bottom_layer M1 -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 1
+
+The power planner created 8 wires.
+*** Ending Ring Generation (totcpu=0:00:00.0, real=0:00:00.0, mem=368.7M) ***
+<CMD> editPin -side Left -use TIEHI -fixOverlap 1 -layer 3 -spreadType start -spacing 2 -start 0.0 0.0 -pin {{ROM_addr[0]} {ROM_addr[1]} {ROM_addr[2]} {ROM_addr[3]} ROM_ce {ROM_data[0]} {ROM_data[1]} {ROM_data[2]} {ROM_data[3]} {ROM_data[4]} {ROM_data[5]} {ROM_data[6]} {ROM_data[7]} ROM_re}
+**WARN: (ENCTR-2104):	Layer M9: Pitch=320 is less than min width=450 + min spacing=450.
+**WARN: (ENCTR-2108):	For layer M9, 305 out of 305 track gaps are narrower (between [0.320..0.320]) than 0.900 (space 0.450 + width 0.450).
+ As a result, your trialRoute congestion could be incorrect.
+Successfully spread [14] pins.
+<CMD> editPin -side Right -fixOverlap 1 -layer 3 -spreadType start -spacing 4 -start 0.0 0.0 -pin {sensor reset_n LED clk_mem clk}
+Successfully spread [5] pins.
+<CMD> editPin -side Left -use TIEHI -fixOverlap 1 -layer 3 -spreadType start -spacing 2.24 -start 0.0 11.36 -pin {{ROM_data[0]} {ROM_data[1]} {ROM_data[2]} {ROM_data[3]} {ROM_data[4]} {ROM_data[5]} {ROM_data[6]} {ROM_data[7]}}
+Successfully spread [8] pins.
+<CMD> sroute -connect { blockPin padPin padRing corePin } -layerChangeRange { M1 M9 } -blockPinTarget { nearestRingStripe nearestTarget } -padPinPortConnect { allPort oneGeom } -checkAlignedSecondaryPin 1 -blockPin useLef -allowJogging 1 -crossoverViaBottomLayer M1 -allowLayerChange 1 -targetViaTopLayer M9 -crossoverViaTopLayer M9 -targetViaBottomLayer M1 -nets { VSS VDD }
+*** Begin SPECIAL ROUTE on Sun Jun  9 22:29:16 2013 ***
+SPECIAL ROUTE ran on directory: /nfs/stak/students/g/goynese/ECE474/hw6/pnr
+SPECIAL ROUTE ran on machine: flip1.engr.oregonstate.edu (Linux 2.6.32-358.2.1.el6.x86_64 Xeon 2.00Ghz)
+
+Begin option processing ...
+srouteConnectPowerBump set to false
+routeSelectNet set to "VSS VDD"
+routeSpecial set to true
+srouteBlockPin set to "useLefConvention"
+srouteBottomLayerLimit set to 1
+srouteBottomTargetLayerLimit set to 1
+srouteConnectStripe set to false
+srouteCrossoverViaBottomLayer set to 1
+srouteCrossoverViaTopLayer set to 9
+srouteFollowCorePinEnd set to 3
+srouteFollowPadPin set to true
+srouteJogControl set to "preferWithChanges differentLayer"
+srouteLevelShifterMaxGap set to 1
+sroutePadPinAllPorts set to true
+sroutePreserveExistingRoutes set to true
+srouteTopLayerLimit set to 9
+srouteTopTargetLayerLimit set to 9
+End option processing: cpu: 0:00:00, real: 0:00:00, peak: 807.00 megs.
+
+Reading DB technology information...
+Finished reading DB technology information.
+Reading floorplan and netlist information...
+Finished reading floorplan and netlist information.
+   **WARN: width of LAYER M2 of VIA VIA12B less than minimum width
+   **WARN: width of LAYER M9 of VIA VIA89 less than minimum width
+   **WARN: width of LAYER M7 of VIA VIA78 less than minimum width
+   **WARN: width of LAYER M8 of VIA VIA78 less than minimum width
+   **WARN: width of LAYER M6 of VIA VIA67 less than minimum width
+   **WARN: width of LAYER M7 of VIA VIA67 less than minimum width
+   **WARN: width of LAYER M5 of VIA VIA56 less than minimum width
+   **WARN: width of LAYER M6 of VIA VIA56 less than minimum width
+   **WARN: width of LAYER M4 of VIA VIA45 less than minimum width
+   **WARN: width of LAYER M5 of VIA VIA45 less than minimum width
+   **WARN: width of LAYER M3 of VIA VIA34 less than minimum width
+   **WARN: width of LAYER M4 of VIA VIA34 less than minimum width
+   **WARN: width of LAYER M2 of VIA VIA23 less than minimum width
+   **WARN: width of LAYER M3 of VIA VIA23 less than minimum width
+   **WARN: width of LAYER M2 of VIA VIA12A less than minimum width
+   A total of 15 warnings.
+Read in 37 layers, 9 routing layers, 1 overlap layer
+Read in 251 macros, 23 used
+Read in 23 components
+  23 core components: 23 unplaced, 0 placed, 0 fixed
+Read in 19 physical pins
+  19 physical pins: 0 unplaced, 19 placed, 0 fixed
+Read in 19 nets
+Read in 2 special nets, 2 routed
+Read in 19 terminals
+2 nets selected.
+
+Begin power routing ...
+**WARN: (ENCSR-1253):	Cannot find any standard cell of net VDD. Check net list, or change option to include cell in given range.
+**WARN: (ENCSR-1254):	Cannot find any block pin of net VDD. Check net list, or change option to include pin in given range.
+**WARN: (ENCSR-1255):	Cannot find any pad pin of net VDD to create pad ring. Check net list, or remove "CLASS CORE" from PORT definition in LEF file, or change option to include pin in given range.
+**WARN: (ENCSR-1256):	Cannot find any CORE class pad pin of net VDD. Check net list, or change port class in LEF file, or change option to include pin in given range.
+Cannot find any AREAIO class pad pin of net VDD. Check net list, or change port class in LEF file, or change option to include pin in given range.
+**WARN: (ENCSR-1253):	Cannot find any standard cell of net VSS. Check net list, or change option to include cell in given range.
+**WARN: (ENCSR-1254):	Cannot find any block pin of net VSS. Check net list, or change option to include pin in given range.
+**WARN: (ENCSR-1255):	Cannot find any pad pin of net VSS to create pad ring. Check net list, or remove "CLASS CORE" from PORT definition in LEF file, or change option to include pin in given range.
+**WARN: (ENCSR-1256):	Cannot find any CORE class pad pin of net VSS. Check net list, or change port class in LEF file, or change option to include pin in given range.
+Cannot find any AREAIO class pad pin of net VSS. Check net list, or change port class in LEF file, or change option to include pin in given range.
+**WARN: (ENCSR-468):	No core cells defined in COMPONENTS section
+ and/or   No core cells defined in SPECIALNETS VDD
+**WARN: (ENCSR-468):	No core cells defined in COMPONENTS section
+ and/or   No core cells defined in SPECIALNETS VDD
+CPU time for FollowPin 0 seconds
+**WARN: (ENCSR-468):	No core cells defined in COMPONENTS section
+ and/or   No core cells defined in SPECIALNETS VSS
+**WARN: (ENCSR-468):	No core cells defined in COMPONENTS section
+ and/or   No core cells defined in SPECIALNETS VSS
+CPU time for FollowPin 0 seconds
+  Number of IO ports routed: 0
+  Number of Block ports routed: 0
+  Number of Core ports routed: 56
+  Number of Pad ports routed: 0
+  Number of Power Bump ports routed: 0
+  Number of Followpin connections: 28
+End power routing: cpu: 0:00:00, real: 0:00:00, peak: 870.00 megs.
+
+
+
+ Begin updating DB with routing results ...
+ Updating DB with 19 io pins ...
+ Updating DB with 12 via definition ...Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+
+
+sroute post-processing starts at Sun Jun  9 22:29:16 2013
+The viaGen is rebuilding shadow vias for net VSS.
+sroute post-processing ends at Sun Jun  9 22:29:16 2013
+
+sroute post-processing starts at Sun Jun  9 22:29:16 2013
+The viaGen is rebuilding shadow vias for net VDD.
+sroute post-processing ends at Sun Jun  9 22:29:16 2013
+sroute: Total CPU time used = 0:0:0
+sroute: Total Real time used = 0:0:1
+sroute: Total Memory used = 0.06 megs
+sroute: Total Peak Memory used = 369.42 megs
+<CMD> setPlaceMode -fp false
+<CMD> placeDesign -prePlaceOpt
+*** Starting placeDesign default flow ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (ENCDC-1629):	The variable rdagUseDefaultDelayLimit was set to 101. This is less than the default 1000 and may result in inaccurate results for high fanout nets. To change the variable, run command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.15290 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Mode: 90nm
+# Analysis Mode: MMMC non-OCV
+# Extraction Mode: default
+# Delay Calculation Options: engine=default signOff=true SIAware=false(opt)
+# Switching Delay Calculation Engine to feDC
+#################################################################################
+Calculate delays in BcWc mode...
+Topological Sorting (CPU = 0:00:00.0, MEM = 384.4M, InitMEM = 384.4M)
+Start delay calculation (mem=384.438M)...
+**WARN: (ENCTS-403):	Delay calculation was forced to extrapolate table data outside of the characterized range. In some cases, extrapolation can reduce the accuracy of the delay calculation.  You can enable more detailed reporting of these cases by enabling the command 'setDelayCalMode -reportOutBound'.
+Delay calculation completed. (cpu=0:00:00.0 real=0:00:00.0 mem=388.762M 0)
+*** CDM Built up (cpu=0:00:00.0  real=0:00:00.0  mem= 388.7M) ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 46 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.0) ***
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+*** Starting "NanoPlace(TM) placement v#964 (mem=389.4M)" ...
+*** Build Buffered Sizing Timing Model
+(cpu=0:00:00.3 mem=394.4M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:00.4 mem=397.4M) ***
+Options: timingDriven clkGateAware ignoreScan ignoreSpare pinGuide gpeffort=medium 
+**WARN: (ENCSP-9042):	Scan chains were not defined, -ignoreScan option will be ignored. 
+Please first define the scan chains before using this option.
+***Info:set default view from current views (1 active views)****
+Mem message Memory info before deleting aae data base  (MEM=374.8M)
+Mem message Memory info after deleting aae data base  (MEM=374.8M)
+Initializing multi-corner RC extraction with 1 active RC Corners ...
+**WARN: (ENCEXT-2773):	Unable to find a via resistance from LEF technology file;
+**WARN: (ENCEXT-2775):	Via resistance between layer M0 and M1 is assigned 4. Ohms.
+**WARN: (ENCEXT-2777):	Via resistance between layer M1 and M2 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M2 and M3 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M3 and M4 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M4 and M5 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M5 and M6 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M6 and M7 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M7 and M8 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M8 and M9 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in cap table, LEF value 0.044 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M7 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M8 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M9 is not defined in cap table, LEF value 0.076 will be used.
+Summary of Active RC-Corners : 
+ Analysis View: my_analysis_view_setup
+    RC-Corner Name        : my_rc_corner_worst
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+ Analysis View: my_analysis_view_hold
+    RC-Corner Name        : my_rc_corner_worst
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+CTE reading timing constraint file '../sdcout/sensor.gate.sdc' ...
+**WARN: (TCLCMD-1014):	The SDC set_operating_conditions assertion is not supported. Please use the create_delay_corner command to specify the desired operating enviroment. Use the setAnalysisMode command to control single vs. bestCase/worstCase vs. on-chip variation timing analysis. (File ../sdcout/sensor.gate.sdc, Line 9).
+
+**ERROR: (TCLCMD-290):	Could not find technology library 'saed90nm_typ' (File ../sdcout/sensor.gate.sdc, Line 11).
+
+INFO (CTE): read_dc_script finished with  1 WARNING and 1 ERROR
+WARNING (CTE-25): Line: 8 of File ../sdcout/sensor.gate.sdc : Skipped unsupported command: set_units
+
+
+Total number of combinational cells: 149
+Total number of sequential cells: 78
+Total number of tristate cells: 6
+Total number of level shifter cells: 16
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: NBUFFX2 NBUFFX16 NBUFFX4 NBUFFX8
+Total number of usable buffers: 4
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: IBUFFX2 IBUFFX16 IBUFFX32 INVX0 IBUFFX4 IBUFFX8 INVX16 INVX2 INVX1 INVX32 INVX4 INVX8
+Total number of usable inverters: 12
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DELLN1X2 DELLN2X2 DELLN3X2 NBUFFX32
+Total number of identified usable delay cells: 4
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+#std cell=359 #block=0 (0 floating + 0 preplaced) #ioInst=0 #net=384 #term=1459 #term/net=3.80, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=7
+stdCell: 359 single + 0 double + 0 multi
+Total standard cell length = 1.9360 (mm), area = 0.0056 (mm^2)
+**WARN: (ENCSP-362):	Site 'unit' has ''std.Cell height, so ignoring its X-symmetry.
+**Info: (ENCSP-307): Design contains fractional 12 cells.
+Average module density = 0.862.
+Density for the design = 0.862.
+       = stdcell_area 6050 (5576 um^2) / alloc_area 7020 (6470 um^2).
+Pin Density = 0.241.
+            = total # of pins 1459 / total Instance area 6050.
+Checking spec file integrity...
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 1.319e+03 (7.14e+02 6.05e+02)
+              Est.  stn bbox = 1.319e+03 (7.14e+02 6.05e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 401.1M
+Iteration  2: Total net bbox = 1.319e+03 (7.14e+02 6.05e+02)
+              Est.  stn bbox = 1.319e+03 (7.14e+02 6.05e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 401.1M
+Iteration  3: Total net bbox = 1.143e+03 (6.56e+02 4.87e+02)
+              Est.  stn bbox = 1.143e+03 (6.56e+02 4.87e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 401.1M
+Iteration  4: Total net bbox = 3.630e+03 (1.96e+03 1.67e+03)
+              Est.  stn bbox = 3.630e+03 (1.96e+03 1.67e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 401.1M
+Iteration  5: Total net bbox = 4.539e+03 (2.55e+03 1.99e+03)
+              Est.  stn bbox = 4.539e+03 (2.55e+03 1.99e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 401.1M
+Iteration  6: Total net bbox = 6.618e+03 (4.54e+03 2.08e+03)
+              Est.  stn bbox = 7.995e+03 (5.35e+03 2.64e+03)
+              cpu = 0:00:00.2 real = 0:00:00.0 mem = 401.1M
+*** cost = 6.618e+03 (4.54e+03 2.08e+03) (cpu for global=0:00:00.2) real=0:00:00.0***
+Info: 0 clock gating cells identified, 0 (on average) moved
+Core Placement runtime cpu: 0:00:00.2 real: 0:00:00.0
+**Info: (ENCSP-307): Design contains fractional 12 cells.
+Starting refinePlace ...
+move report: placeLevelShifters moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+  Spread Effort: high, pre-route mode.
+Finished Phase I. CPU Time = 0:00:00.1, Real Time = 0:00:00.0
+move report: preRPlace moves 345 insts, mean move: 3.91 um, max move: 12.80 um
+	max move on inst (U263): (20.80, 16.00) --> (30.72, 18.88)
+wireLenOptFixPriorityInst 0 inst fixed
+Placement tweakage begins.
+wire length = 7.625e+03 = 4.915e+03 H + 2.710e+03 V
+wire length = 6.441e+03 = 3.781e+03 H + 2.660e+03 V
+Placement tweakage ends.
+move report: tweak moves 170 insts, mean move: 7.49 um, max move: 35.84 um
+	max move on inst (U42): (65.92, 44.80) --> (30.08, 44.80)
+move report: rPlace moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+move report: overall moves 349 insts, mean move: 5.68 um, max move: 34.88 um
+	max move on inst (U42): (62.08, 47.68) --> (30.08, 44.80)
+Statistics of distance of Instance movement in detailed placement:
+  maximum (X+Y) =        34.88 um
+  inst (U42) with max move: (62.08, 47.68) -> (30.08, 44.8)
+  mean    (X+Y) =         5.68 um
+Total instances flipped for WireLenOpt: 3
+Total instances flipped, including legalization: 7
+Total instances moved : 349
+*** cpu=0:00:00.1   mem=386.3M  mem(used)=0.1M***
+Total net length = 6.455e+03 (3.781e+03 2.674e+03) (ext = 5.838e+02)
+*** End of Placement (cpu=0:00:01.2, real=0:00:01.0, mem=386.3M) ***
+**Info: (ENCSP-307): Design contains fractional 12 cells.
+default core: bins with density >  0.75 =  100 % ( 9 / 9 )
+*** Free Virtual Timing Model ...(mem=380.3M)
+Mem message Memory info before deleting aae data base  (MEM=372.7M)
+Mem message Memory info after deleting aae data base  (MEM=372.7M)
+Initializing multi-corner RC extraction with 1 active RC Corners ...
+**WARN: (ENCEXT-2773):	Unable to find a via resistance from LEF technology file;
+**WARN: (ENCEXT-2775):	Via resistance between layer M0 and M1 is assigned 4. Ohms.
+**WARN: (ENCEXT-2777):	Via resistance between layer M1 and M2 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M2 and M3 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M3 and M4 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M4 and M5 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M5 and M6 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M6 and M7 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M7 and M8 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2777):	Via resistance between layer M8 and M9 is not defined in cap table, LEF value 1.6 Ohms will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in cap table, LEF value 0.044 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M7 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M8 is not defined in cap table, LEF value 0.076 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M9 is not defined in cap table, LEF value 0.076 will be used.
+Summary of Active RC-Corners : 
+ Analysis View: my_analysis_view_setup
+    RC-Corner Name        : my_rc_corner_worst
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+ Analysis View: my_analysis_view_hold
+    RC-Corner Name        : my_rc_corner_worst
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+CTE reading timing constraint file '../sdcout/sensor.gate.sdc' ...
+**WARN: (TCLCMD-1014):	The SDC set_operating_conditions assertion is not supported. Please use the create_delay_corner command to specify the desired operating enviroment. Use the setAnalysisMode command to control single vs. bestCase/worstCase vs. on-chip variation timing analysis. (File ../sdcout/sensor.gate.sdc, Line 9).
+
+**ERROR: (TCLCMD-290):	Could not find technology library 'saed90nm_typ' (File ../sdcout/sensor.gate.sdc, Line 11).
+
+INFO (CTE): read_dc_script finished with  1 WARNING and 1 ERROR
+WARNING (CTE-25): Line: 8 of File ../sdcout/sensor.gate.sdc : Skipped unsupported command: set_units
+
+
+Total number of combinational cells: 149
+Total number of sequential cells: 78
+Total number of tristate cells: 6
+Total number of level shifter cells: 16
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: NBUFFX2 NBUFFX16 NBUFFX4 NBUFFX8
+Total number of usable buffers: 4
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: IBUFFX2 IBUFFX16 IBUFFX32 INVX0 IBUFFX4 IBUFFX8 INVX16 INVX2 INVX1 INVX32 INVX4 INVX8
+Total number of usable inverters: 12
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DELLN1X2 DELLN2X2 DELLN3X2 NBUFFX32
+Total number of identified usable delay cells: 4
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+***Info:reseting back to current views is done ****
+**WARN: (ENCSP-9025):	No scan chain specified/traced.
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 0: 2, real = 0: 0: 2, mem = 380.6M **
+<CMD> createSpareModule -moduleName Spare -cell {NAND3X1 1 MUX21X1 1 INVX4 1 FADDX1 1 DFFARX1 1 AOINVX1 1 AND2X1 1}
+<CMD> placeSpareModule -moduleName Spare -numModules 1 -prefix myspare_
+**Info: (ENCSP-307): Design contains fractional 12 cells.
+**Info: (ENCSP-307): Design contains fractional 12 cells.
+ECO placed 7 instances (0 connected + 7 unconnected).
+**Info: (ENCSP-307): Design contains fractional 12 cells.
+
+**Info: (ENCSP-307): Design contains fractional 12 cells.
+
+Starting refinePlace ...
+move report: placeLevelShifters moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+  Spread Effort: high, pre-route mode.
+Finished Phase I. CPU Time = 0:00:00.1, Real Time = 0:00:00.0
+move report: preRPlace moves 203 insts, mean move: 1.16 um, max move: 11.84 um
+	max move on inst (U135): (77.12, 79.36) --> (68.16, 76.48)
+wireLenOptFixPriorityInst 359 inst fixed
+move report: rPlace moves 3 insts, mean move: 6.19 um, max move: 8.00 um
+	max move on inst (myspare__spr_1/spr_gate4): (85.12, 76.48) --> (90.24, 79.36)
+move report: overall moves 202 insts, mean move: 1.11 um, max move: 11.84 um
+	max move on inst (U135): (77.12, 79.36) --> (68.16, 76.48)
+Statistics of distance of Instance movement in detailed placement:
+  maximum (X+Y) =        11.84 um
+  inst (U135) with max move: (77.12, 79.36) -> (68.16, 76.48)
+  mean    (X+Y) =         1.11 um
+Total instances moved : 202
+*** cpu=0:00:00.1   mem=380.6M  mem(used)=0.0M***
+*INFO: Some spare modules modules might not contain all the provided spare cells.
+*INFO: Total number of spare module instances added: 1
+<CMD> setNanoRouteMode -quiet -drouteStartIteration default
+<CMD> setNanoRouteMode -quiet -routeTopRoutingLayer default
+<CMD> setNanoRouteMode -quiet -routeBottomRoutingLayer default
+<CMD> setNanoRouteMode -quiet -drouteEndIteration default
+<CMD> setNanoRouteMode -quiet -routeWithTimingDriven false
+<CMD> setNanoRouteMode -quiet -routeWithSiDriven false
+<CMD> routeDesign -globalDetail
+**Info: (ENCSP-307): Design contains fractional 12 cells.
+Begin checking placement ... (start mem=380.6M, init mem=380.6M)
+*info: Placed = 362
+*info: Unplaced = 0
+Placement Density:87.28%(5647/6470)
+Finished checkPlace (cpu: total=0:00:00.0, vio checks=0:00:00.0; mem=380.6M)
+
+changeUseClockNetStatus Option :  -noFixedNetWires 
+*** Changed status on (0) nets in Clock.
+*** End changeUseClockNetStatus (cpu=0:00:00.0, real=0:00:00.0, mem=380.6M) ***
+
+globalDetailRoute
+
+#Start globalDetailRoute on Sun Jun  9 22:29:18 2013
+#
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 380.00 (Mb)
+#WARNING (NRDB-729) PIN IN1 in CELL_VIEW AO222X2 does not have antenna gate area.
+#WARNING (NRDB-729) PIN IN2 in CELL_VIEW AO222X2 does not have antenna gate area.
+#WARNING (NRDB-729) PIN IN3 in CELL_VIEW AO222X2 does not have antenna gate area.
+#WARNING (NRDB-729) PIN IN4 in CELL_VIEW AO222X2 does not have antenna gate area.
+#WARNING (NRDB-729) PIN IN5 in CELL_VIEW AO222X2 does not have antenna gate area.
+#WARNING (NRDB-729) PIN IN6 in CELL_VIEW AO222X2 does not have antenna gate area.
+#WARNING (NRDB-728) PIN Q in CELL_VIEW AO222X2 does not have antenna diff area.
+#WARNING (NRDB-729) PIN IN1 in CELL_VIEW AO221X2 does not have antenna gate area.
+#WARNING (NRDB-729) PIN IN2 in CELL_VIEW AO221X2 does not have antenna gate area.
+#WARNING (NRDB-729) PIN IN3 in CELL_VIEW AO221X2 does not have antenna gate area.
+#WARNING (NRDB-729) PIN IN4 in CELL_VIEW AO221X2 does not have antenna gate area.
+#WARNING (NRDB-729) PIN IN5 in CELL_VIEW AO221X2 does not have antenna gate area.
+#WARNING (NRDB-728) PIN Q in CELL_VIEW AO221X2 does not have antenna diff area.
+#WARNING (NRDB-729) PIN IN1 in CELL_VIEW AO222X1 does not have antenna gate area.
+#WARNING (NRDB-729) PIN IN2 in CELL_VIEW AO222X1 does not have antenna gate area.
+#WARNING (NRDB-729) PIN IN3 in CELL_VIEW AO222X1 does not have antenna gate area.
+#WARNING (NRDB-729) PIN IN4 in CELL_VIEW AO222X1 does not have antenna gate area.
+#WARNING (NRDB-729) PIN IN5 in CELL_VIEW AO222X1 does not have antenna gate area.
+#WARNING (NRDB-729) PIN IN6 in CELL_VIEW AO222X1 does not have antenna gate area.
+#WARNING (NRDB-728) PIN Q in CELL_VIEW AO222X1 does not have antenna diff area.
+#WARNING (NRDB-729) PIN IN1 in CELL_VIEW AO221X1 does not have antenna gate area.
+#WARNING (NRDB-729) PIN IN2 in CELL_VIEW AO221X1 does not have antenna gate area.
+#WARNING (NRDB-729 Repeated 20 times. Will be suppressed.) PIN IN3 in CELL_VIEW AO221X1 does not have antenna gate area.
+#WARNING (EMS-27) Message (NRDB-729) has exceeded the current message display limit of 20.
+#To increase the message display limit, refer to the product command reference manual.
+#WARNING (NRDB-728) PIN Q in CELL_VIEW AO221X1 does not have antenna diff area.
+#WARNING (NRDB-728) PIN QN in CELL_VIEW INVX8 does not have antenna diff area.
+#WARNING (NRDB-728) PIN Q in CELL_VIEW LASX2 does not have antenna diff area.
+#WARNING (NRDB-728) PIN QN in CELL_VIEW LASX2 does not have antenna diff area.
+#WARNING (NRDB-728) PIN Q in CELL_VIEW LARX2 does not have antenna diff area.
+#WARNING (NRDB-728) PIN QN in CELL_VIEW LARX2 does not have antenna diff area.
+#WARNING (NRDB-728) PIN Q in CELL_VIEW LASX1 does not have antenna diff area.
+#WARNING (NRDB-728) PIN QN in CELL_VIEW LASX1 does not have antenna diff area.
+#WARNING (NRDB-728) PIN Q in CELL_VIEW LARX1 does not have antenna diff area.
+#WARNING (NRDB-728) PIN QN in CELL_VIEW LARX1 does not have antenna diff area.
+#WARNING (NRDB-728) PIN QN in CELL_VIEW INVX4 does not have antenna diff area.
+#WARNING (NRDB-728) PIN QN in CELL_VIEW INVX2 does not have antenna diff area.
+#WARNING (NRDB-728) PIN QN in CELL_VIEW INVX1 does not have antenna diff area.
+#WARNING (NRDB-728) PIN QN in CELL_VIEW INVX0 does not have antenna diff area.
+#WARNING (NRDB-728) PIN Q in CELL_VIEW AND4X4 does not have antenna diff area.
+#WARNING (NRDB-728) PIN Q in CELL_VIEW AND3X4 does not have antenna diff area.
+#WARNING (NRDB-728 Repeated 20 times. Will be suppressed.) PIN Q in CELL_VIEW AND4X2 does not have antenna diff area.
+#WARNING (EMS-27) Message (NRDB-728) has exceeded the current message display limit of 20.
+#To increase the message display limit, refer to the product command reference manual.
+#WARNING (NRDB-407) pitch for LAYER M9 is defined too small, reset to 320
+Initializing multi-corner resistance tables ...
+#WARNING (NRDB-2005) SPECIAL_NET VDD has special wires but no definition for instance-pin connection. This will cause routability problems later.
+#WARNING (NRDB-2005) SPECIAL_NET VSS has special wires but no definition for instance-pin connection. This will cause routability problems later.
+#WARNING (NRDB-976) The step 0.320000 for preferred direction tracks is smaller than the pitch 0.900000 for LAYER M9. This will cause routability problems for NanoRoute.
+#NanoRoute Version v11.10-p002 NR111104-0955/11_10_RTM-UB
+#WARNING (NREX-28) The height of the first routing layer M1 is 0.000000. It should be larger than 0.000000
+#WARNING (NREX-29) The metal thickness of routing layer M1 is 0.000000. It should be larger than 0.0. Add this to the technology information for better accuracy.
+#WARNING (NREX-30) Please also check the height and metal thickness values for the routing layers heigher than routing layer M1
+#WARNING (NREX-4) No Extended Cap Table was imported. Not enough process information was provided either and default Extended Cap Table database will be used.
+# M1           H   Track-Pitch = 0.320    Line-2-Via Pitch = 0.285
+# M2           V   Track-Pitch = 0.320    Line-2-Via Pitch = 0.360
+#WARNING (NRAG-44) Track pitch is too small compared with line-2-via pitch
+# M3           H   Track-Pitch = 0.320    Line-2-Via Pitch = 0.320
+# M4           V   Track-Pitch = 0.320    Line-2-Via Pitch = 0.360
+#WARNING (NRAG-44) Track pitch is too small compared with line-2-via pitch
+# M5           H   Track-Pitch = 0.320    Line-2-Via Pitch = 0.320
+# M6           V   Track-Pitch = 0.320    Line-2-Via Pitch = 0.360
+#WARNING (NRAG-44) Track pitch is too small compared with line-2-via pitch
+# M7           H   Track-Pitch = 0.320    Line-2-Via Pitch = 0.320
+# M8           V   Track-Pitch = 0.320    Line-2-Via Pitch = 0.360
+#WARNING (NRAG-44) Track pitch is too small compared with line-2-via pitch
+# M9           H   Track-Pitch = 0.320    Line-2-Via Pitch = 0.900
+#WARNING (NRAG-44) Track pitch is too small compared with line-2-via pitch
+#Merging special wires...
+#Number of eco nets is 0
+#
+#Start data preparation...
+#Force regenerating Ggrids.
+#Auto generating G-grids with size=15 tracks, using layer M2's pitch = 0.360.
+#Using automatically generated G-grids.
+#
+#Data preparation is done on Sun Jun  9 22:29:19 2013
+#
+#Analyzing routing resource...
+#Routing resource analysis is done on Sun Jun  9 22:29:19 2013
+#
+#  Resource Analysis:
+#
+#               Routing  #Avail      #Track     #Total     %Gcell
+#  Layer      Direction   Track     Blocked      Gcell    Blocked
+#  --------------------------------------------------------------
+#  Metal 1        H         263          43         342    61.40%
+#  Metal 2        V         249          39         342     0.00%
+#  Metal 3        H         306           0         342     0.00%
+#  Metal 4        V         288           0         342     0.00%
+#  Metal 5        H         306           0         342     0.00%
+#  Metal 6        V         288           0         342     0.00%
+#  Metal 7        H         306           0         342     0.00%
+#  Metal 8        V         288           0         342     0.00%
+#  Metal 9        H         109           0         342     0.00%
+#  --------------------------------------------------------------
+#  Total                   2403       3.07%  3078     6.82%
+#
+#
+#
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 405.00 (Mb)
+#
+#start global routing iteration 1...
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 406.00 (Mb)
+#
+#start global routing iteration 2...
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 406.00 (Mb)
+#
+#start global routing iteration 3...
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 406.00 (Mb)
+#
+#start global routing iteration 4...
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 406.00 (Mb)
+#
+#
+#  Congestion Analysis: (blocked Gcells are excluded)
+#
+#                 OverCon       OverCon       OverCon       OverCon          
+#                  #Gcell        #Gcell        #Gcell        #Gcell    %Gcell
+#     Layer         (1-3)         (4-6)         (7-9)       (10-13)   OverCon
+#  --------------------------------------------------------------------------
+#   Metal 1      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 2     64(18.7%)     23(6.73%)      9(2.63%)      3(0.88%)   (28.9%)
+#   Metal 3      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 4      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 5      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 6      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 7      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 8      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 9      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#  --------------------------------------------------------------------------
+#     Total     64(2.19%)     23(0.79%)      9(0.31%)      3(0.10%)   (3.39%)
+#
+#  The worst congested Gcell overcon (routing demand over resource in number of tracks) = 13
+#
+#Complete Global Routing.
+#Total wire length = 11330 um.
+#Total half perimeter of net bounding box = 6916 um.
+#Total wire length on LAYER M1 = 103 um.
+#Total wire length on LAYER M2 = 4039 um.
+#Total wire length on LAYER M3 = 5098 um.
+#Total wire length on LAYER M4 = 2030 um.
+#Total wire length on LAYER M5 = 60 um.
+#Total wire length on LAYER M6 = 0 um.
+#Total wire length on LAYER M7 = 0 um.
+#Total wire length on LAYER M8 = 0 um.
+#Total wire length on LAYER M9 = 0 um.
+#Total number of vias = 2488
+#Up-Via Summary (total 2488):
+#           
+#-----------------------
+#  Metal 1         1215
+#  Metal 2          936
+#  Metal 3          335
+#  Metal 4            2
+#-----------------------
+#                  2488 
+#
+#Max overcon = 13 tracks.
+#Total overcon = 3.39%.
+#Worst layer Gcell overcon rate = 0.00%.
+#Cpu time = 00:00:00
+#Elapsed time = 00:00:00
+#Increased memory = 3.00 (Mb)
+#Total memory = 406.00 (Mb)
+#Peak memory = 437.00 (Mb)
+#
+#Start Detail Routing...
+#start initial detail routing ...
+#    number of violations = 0
+#cpu time = 00:00:02, elapsed time = 00:00:03, memory = 414.00 (Mb)
+#start 1st optimization iteration ...
+#    number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 414.00 (Mb)
+#Complete Detail Routing.
+#Total wire length = 9098 um.
+#Total half perimeter of net bounding box = 6916 um.
+#Total wire length on LAYER M1 = 190 um.
+#Total wire length on LAYER M2 = 2605 um.
+#Total wire length on LAYER M3 = 4938 um.
+#Total wire length on LAYER M4 = 1311 um.
+#Total wire length on LAYER M5 = 53 um.
+#Total wire length on LAYER M6 = 0 um.
+#Total wire length on LAYER M7 = 0 um.
+#Total wire length on LAYER M8 = 0 um.
+#Total wire length on LAYER M9 = 0 um.
+#Total number of vias = 3311
+#Up-Via Summary (total 3311):
+#           
+#-----------------------
+#  Metal 1         1470
+#  Metal 2         1483
+#  Metal 3          356
+#  Metal 4            2
+#-----------------------
+#                  3311 
+#
+#Total number of DRC violations = 0
+#Total number of violations on LAYER M1 = 0
+#Total number of violations on LAYER M2 = 0
+#Total number of violations on LAYER M3 = 0
+#Total number of violations on LAYER M4 = 0
+#Total number of violations on LAYER M5 = 0
+#Total number of violations on LAYER M6 = 0
+#Total number of violations on LAYER M7 = 0
+#Total number of violations on LAYER M8 = 0
+#Total number of violations on LAYER M9 = 0
+#
+#start routing for process antenna violation fix ...
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 424.00 (Mb)
+#
+#Total wire length = 9098 um.
+#Total half perimeter of net bounding box = 6916 um.
+#Total wire length on LAYER M1 = 190 um.
+#Total wire length on LAYER M2 = 2605 um.
+#Total wire length on LAYER M3 = 4938 um.
+#Total wire length on LAYER M4 = 1311 um.
+#Total wire length on LAYER M5 = 53 um.
+#Total wire length on LAYER M6 = 0 um.
+#Total wire length on LAYER M7 = 0 um.
+#Total wire length on LAYER M8 = 0 um.
+#Total wire length on LAYER M9 = 0 um.
+#Total number of vias = 3311
+#Up-Via Summary (total 3311):
+#           
+#-----------------------
+#  Metal 1         1470
+#  Metal 2         1483
+#  Metal 3          356
+#  Metal 4            2
+#-----------------------
+#                  3311 
+#
+#Total number of DRC violations = 0
+#Total number of net violated process antenna rule = 0
+#Total number of violations on LAYER M1 = 0
+#Total number of violations on LAYER M2 = 0
+#Total number of violations on LAYER M3 = 0
+#Total number of violations on LAYER M4 = 0
+#Total number of violations on LAYER M5 = 0
+#Total number of violations on LAYER M6 = 0
+#Total number of violations on LAYER M7 = 0
+#Total number of violations on LAYER M8 = 0
+#Total number of violations on LAYER M9 = 0
+#
+#detailRoute Statistics:
+#Cpu time = 00:00:02
+#Elapsed time = 00:00:03
+#Increased memory = 16.00 (Mb)
+#Total memory = 422.00 (Mb)
+#Peak memory = 447.00 (Mb)
+#
+#globalDetailRoute statistics:
+#Cpu time = 00:00:04
+#Elapsed time = 00:00:04
+#Increased memory = 40.00 (Mb)
+#Total memory = 420.00 (Mb)
+#Peak memory = 447.00 (Mb)
+#Number of warnings = 55
+#Total number of warnings = 55
+#Number of fails = 0
+#Total number of fails = 0
+#Complete globalDetailRoute on Sun Jun  9 22:29:22 2013
+#
+<CMD> getFillerMode -quiet
+<CMD> addFiller -cell DCAP SHFILL2 -prefix FILLER
+**Info: (ENCSP-307): Design contains fractional 12 cells.
+*INFO: Adding fillers to top-module.
+*INFO:   Added 85 filler insts (cell DCAP / prefix FILLER).
+*INFO:   Added 136 filler insts (cell SHFILL2 / prefix FILLER).
+*INFO: Total 221 filler insts added - prefix FILLER (CPU: 0:00:00.0).
+For 221 new insts, *** Applied 0 GNC rules (cpu = 0:00:00.0)
+*INFO: Checking for DRC violations on added fillers.
+**WARN: (ENCVFG-47):	Pin of Cell U243 at (10.880, 13.040), (15.040, 13.200) on Layer M1 is not connected to any net. Use globalNetConnect or GUI Power->Connect Global Nets to specify global net connection rules properly.
+
+*INFO: Iteration 0-#1, Found 84 DRC violations (real: 0:00:00.0).
+For 63 new insts, *** Applied 0 GNC rules (cpu = 0:00:00.0)
+*INFO: Iteration 0-#2, Found 18 DRC violations (real: 0:00:00.0).
+For 0 new insts, *** Applied 0 GNC rules.
+*INFO: Iteration 0-#3, Found 0 DRC violation  (real: 0:00:01.0).
+*INFO: Adding fillers to top-module.
+*INFO:   Added 29 filler insts (cell SHFILL2 / prefix FILLER).
+For 29 new insts, *** Applied 0 GNC rules (cpu = 0:00:00.0)
+*INFO: Iteration 1-#1, Found 41 DRC violations (real: 0:00:00.0).
+For 0 new insts, *** Applied 0 GNC rules.
+*INFO: Iteration 1-#2, Found 0 DRC violation  (real: 0:00:00.0).
+*INFO: End DRC Checks. (real: 0:00:01.0 ).
+*INFO: Replaced 79 fillers which had DRC vio's, with 63 new fillers.
+<CMD> verifyProcessAntenna -reportfile ../reports/sensor.antenna.rpt -error 1000
+
+******* START VERIFY ANTENNA ********
+Report File: ../reports/sensor.antenna.rpt
+LEF Macro File: sensor.antenna.lef
+Verification Complete: 0 Violations
+******* DONE VERIFY ANTENNA ********
+(CPU Time: 0:00:00.1  MEM: 0.844M)
+
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix setup_time_ -outDir ../reports
+Extraction called for design 'sensor' of instances=596 and nets=399 using extraction engine 'postRoute' at effort level 'low' .
+PostRoute (effortLevel low) RC Extraction called for design sensor.
+RC Extraction called in multi-corner(1) mode.
+**WARN: (ENCEXT-6197):	Capacitance table file not specified. This would result in lower parasitic accuracy using preRoute extraction or postRoute extraction with effort level 'low'. It is recommended to generate the capacitance table file using 'generateCapTbl' command and specify it before extraction.
+**WARN: (ENCEXT-3032):	Since cap. table file was not provided, it will be created internally with the following process info:
+* Layer Id             : 1 - M1
+      Thickness        : 0.6
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 2 - M2
+      Thickness        : 0.6
+      Min Width        : 0.16
+      Layer Dielectric : 4.1
+* Layer Id             : 3 - M3
+      Thickness        : 0.6
+      Min Width        : 0.16
+      Layer Dielectric : 4.1
+* Layer Id             : 4 - M4
+      Thickness        : 0.6
+      Min Width        : 0.16
+      Layer Dielectric : 4.1
+* Layer Id             : 5 - M5
+      Thickness        : 0.6
+      Min Width        : 0.16
+      Layer Dielectric : 4.1
+* Layer Id             : 6 - M6
+      Thickness        : 0.6
+      Min Width        : 0.16
+      Layer Dielectric : 4.1
+* Layer Id             : 7 - M7
+      Thickness        : 0.6
+      Min Width        : 0.16
+      Layer Dielectric : 4.1
+* Layer Id             : 8 - M8
+      Thickness        : 0.6
+      Min Width        : 0.16
+      Layer Dielectric : 4.1
+* Layer Id             : 9 - M9
+      Thickness        : 1
+      Min Width        : 0.45
+      Layer Dielectric : 4.1
+extractDetailRC Option : -outfile ./sensor_9T2Ib0_15290.rcdb.d  -basic
+RC Mode: PostRoute effortLevel low [Basic CapTable, LEF Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 425.6M)
+Creating parasitic data file './sensor_9T2Ib0_15290.rcdb.d/header.da' in memory efficient access mode for storing RC.
+Extracted 10.0343% (CPU Time= 0:00:00.0  MEM= 435.3M)
+Extracted 20.0374% (CPU Time= 0:00:00.0  MEM= 435.4M)
+Extracted 30.0405% (CPU Time= 0:00:00.0  MEM= 435.4M)
+Extracted 40.0436% (CPU Time= 0:00:00.0  MEM= 435.4M)
+Extracted 50.0467% (CPU Time= 0:00:00.0  MEM= 435.4M)
+Extracted 60.0499% (CPU Time= 0:00:00.0  MEM= 435.4M)
+Extracted 70.053% (CPU Time= 0:00:00.0  MEM= 435.4M)
+Extracted 80.0561% (CPU Time= 0:00:00.0  MEM= 435.4M)
+Extracted 90.0592% (CPU Time= 0:00:00.0  MEM= 435.4M)
+Extracted 100% (CPU Time= 0:00:00.0  MEM= 435.4M)
+Nr. Extracted Resistors     : 6520
+Nr. Extracted Ground Cap.   : 6904
+Nr. Extracted Coupling Cap. : 0
+Opening parasitic data file './sensor_9T2Ib0_15290.rcdb.d/header.da' for reading.
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:00.0  Real Time: 0:00:01.0  MEM: 425.617M)
+Found active setup analysis view my_analysis_view_setup
+Found active hold analysis view my_analysis_view_hold
+
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
+
++--------------------+---------+---------+---------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | in2reg  | reg2out | in2out  | clkgate |
++--------------------+---------+---------+---------+---------+---------+---------+
+|           WNS (ns):|  8.855  |  9.138  |  9.095  |  8.855  |   N/A   |   N/A   |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |  0.000  |   N/A   |   N/A   |
+|    Violating Paths:|    0    |    0    |    0    |    0    |   N/A   |   N/A   |
+|          All Paths:|   165   |   118   |   121   |    1    |   N/A   |   N/A   |
++--------------------+---------+---------+---------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 97.593%
+------------------------------------------------------------
+Reported timing to dir ../reports
+Total CPU time: 0.29 sec
+Total Real time: 1.0 sec
+Total Memory Usage: 443.617188 Mbytes
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -prefix cadence_ -outDir ../reports
+Closing parasitic data file './sensor_9T2Ib0_15290.rcdb.d'. 384 times net's RC data read were performed.
+**WARN: (ENCEXT-3493):	Extraction mode changed by calling extraction setup command 'setExtractRCMode'. Therefore, parasitic data in the tool generated as per previous mode is deleted. Call of extractRC/spefIn will generate/bring parasitic data in the tool as per current mode.
+Extraction called for design 'sensor' of instances=596 and nets=399 using extraction engine 'postRoute' at effort level 'low' .
+PostRoute (effortLevel low) RC Extraction called for design sensor.
+RC Extraction called in multi-corner(1) mode.
+**WARN: (ENCEXT-6197):	Capacitance table file not specified. This would result in lower parasitic accuracy using preRoute extraction or postRoute extraction with effort level 'low'. It is recommended to generate the capacitance table file using 'generateCapTbl' command and specify it before extraction.
+**WARN: (ENCEXT-3032):	Since cap. table file was not provided, it will be created internally with the following process info:
+* Layer Id             : 1 - M1
+      Thickness        : 0.6
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 2 - M2
+      Thickness        : 0.6
+      Min Width        : 0.16
+      Layer Dielectric : 4.1
+* Layer Id             : 3 - M3
+      Thickness        : 0.6
+      Min Width        : 0.16
+      Layer Dielectric : 4.1
+* Layer Id             : 4 - M4
+      Thickness        : 0.6
+      Min Width        : 0.16
+      Layer Dielectric : 4.1
+* Layer Id             : 5 - M5
+      Thickness        : 0.6
+      Min Width        : 0.16
+      Layer Dielectric : 4.1
+* Layer Id             : 6 - M6
+      Thickness        : 0.6
+      Min Width        : 0.16
+      Layer Dielectric : 4.1
+* Layer Id             : 7 - M7
+      Thickness        : 0.6
+      Min Width        : 0.16
+      Layer Dielectric : 4.1
+* Layer Id             : 8 - M8
+      Thickness        : 0.6
+      Min Width        : 0.16
+      Layer Dielectric : 4.1
+* Layer Id             : 9 - M9
+      Thickness        : 1
+      Min Width        : 0.45
+      Layer Dielectric : 4.1
+extractDetailRC Option : -outfile ./sensor_9T2Ib0_15290.rcdb.d -maxResLength 200  -basic
+RC Mode: PostRoute effortLevel low [Basic CapTable, LEF Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 441.6M)
+Creating parasitic data file './sensor_9T2Ib0_15290.rcdb.d/header.da' in memory efficient access mode for storing RC.
+Extracted 10.0343% (CPU Time= 0:00:00.0  MEM= 451.3M)
+Extracted 20.0374% (CPU Time= 0:00:00.1  MEM= 451.3M)
+Extracted 30.0405% (CPU Time= 0:00:00.1  MEM= 451.3M)
+Extracted 40.0436% (CPU Time= 0:00:00.1  MEM= 451.3M)
+Extracted 50.0467% (CPU Time= 0:00:00.1  MEM= 451.3M)
+Extracted 60.0499% (CPU Time= 0:00:00.1  MEM= 451.3M)
+Extracted 70.053% (CPU Time= 0:00:00.1  MEM= 451.3M)
+Extracted 80.0561% (CPU Time= 0:00:00.1  MEM= 451.3M)
+Extracted 90.0592% (CPU Time= 0:00:00.1  MEM= 451.3M)
+Extracted 100% (CPU Time= 0:00:00.1  MEM= 451.3M)
+Nr. Extracted Resistors     : 6520
+Nr. Extracted Ground Cap.   : 6904
+Nr. Extracted Coupling Cap. : 0
+Opening parasitic data file './sensor_9T2Ib0_15290.rcdb.d/header.da' for reading.
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:00.1  Real Time: 0:00:00.0  MEM: 441.578M)
+Found active setup analysis view my_analysis_view_setup
+Found active hold analysis view my_analysis_view_hold
+
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
+
++--------------------+---------+---------+---------+---------+---------+---------+
+|     Hold mode      |   all   | reg2reg | in2reg  | reg2out | in2out  | clkgate |
++--------------------+---------+---------+---------+---------+---------+---------+
+|           WNS (ns):|  0.156  |  1.022  |  0.156  |   N/A   |   N/A   |   N/A   |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |   N/A   |   N/A   |   N/A   |
+|    Violating Paths:|    0    |    0    |    0    |   N/A   |   N/A   |   N/A   |
+|          All Paths:|   164   |   118   |   121   |   N/A   |   N/A   |   N/A   |
++--------------------+---------+---------+---------+---------+---------+---------+
+
+Density: 97.593%
+------------------------------------------------------------
+Reported timing to dir ../reports
+Total CPU time: 0.27 sec
+Total Real time: 0.0 sec
+Total Memory Usage: 434.050781 Mbytes
+<CMD> set_power_analysis_mode -reset
+<CMD> set_power_analysis_mode -method static -analysis_view my_analysis_view_setup -corner max -create_binary_db false -write_static_currents false -honor_negative_energy true -ignore_control_signals true
+<CMD> set_power_output_dir -reset
+<CMD> set_power_output_dir ../reports
+<CMD> set_default_switching_activity -input_activity 0.2 -period 10.0
+'set_default_switching_activity' finished successfully.
+<CMD> read_activity_file -reset
+<CMD> set_power -reset
+<CMD> set_powerup_analysis -reset
+<CMD> set_powerup_analysis -mode accurate -ultrasim_simulation_mode ms
+<CMD> set_dynamic_power_simulation -reset
+<CMD> report_power -rail_analysis_format VS -outfile ../reports/sensor.rpt
+CPE found ground net: VSS
+CPE found power net: VDD  voltage: 1.32V
+#################################################################################
+# Design Stage: PostRoute
+# Design Mode: 90nm
+# Analysis Mode: MMMC non-OCV
+# Extraction Mode: detail/spef
+# Delay Calculation Options: engine=feDC signOff=true SIAware=false(opt)
+# Switching Delay Calculation Engine to feDC
+#################################################################################
+Calculate delays in BcWc mode...
+Topological Sorting (CPU = 0:00:00.0, MEM = 443.6M, InitMEM = 443.5M)
+Start delay calculation (mem=443.574M)...
+*** Calculating scaling factor for my_max_library_set libraries using the default operating condition of each library.
+delayCal using detail RC...
+Delay calculation completed. (cpu=0:00:00.0 real=0:00:00.0 mem=443.898M 0)
+*** CDM Built up (cpu=0:00:00.1  real=0:00:00.0  mem= 443.8M) ***
+CPE found ground net: VSS
+CPE found power net: VDD  voltage: 1.32V
+
+Warning:
+  There are 2 power/gnd nets that are not connected
+VSS VDD ...
+Use 'globalNetConnect' to define rail connections.
+[PowermeterNetlistLib::InfoMergingRails]
+WARNING (POWER-2035): There are 2 power/gnd nets that are not connected
+VSS VDD ...
+Use 'globalNetConnect' to define rail connections.
+
+
+**WARN: (ENCCTE-291):	FILLER_1 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_3 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_4 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_10 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_11 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_12 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_13 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_14 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_15 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_16 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_19 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_20 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_21 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_22 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_23 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_24 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_25 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_26 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_27 is a physical only instance and is ignored.
+**WARN: (ENCCTE-291):	FILLER_28 is a physical only instance and is ignored.
+**WARN: (EMS-63):	Message <ENCCTE-291> has exceeded the default message display limit of 20.
+To avoid this warning, increase the display limit per unique message
+by using the setMessagLimit <number> command.
+The message limit can be removed by using the unsetMessageLimit command.
+Note that setting a very large number using the setMessageLimit command
+or removing the message limit using the unsetMessageLimit command can
+significantly increase the log file size.
+To suppress a message, use suppressMessage command.
+INFO (POWER-1606): Found clock 'clk' with frequency 100MHz from SDC file.
+
+INFO (POWER-1606): Found clock 'clk_mem' with frequency 25MHz from SDC file.
+
+
+Propagating signal activity...
+
+
+Starting Levelizing
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT)
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 5%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 10%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 15%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 20%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 25%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 30%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 35%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 40%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 45%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 50%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 55%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 60%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 65%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 70%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 75%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 80%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 85%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 90%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 95%
+
+Finished Levelizing
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT)
+
+Starting Activity Propagation
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT)
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 5%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 10%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 15%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 20%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 25%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 30%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 35%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 40%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 45%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 50%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 55%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 60%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 65%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 70%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 75%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 80%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 85%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 90%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 95%
+
+Finished Activity Propagation
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT)
+
+Starting Calculating power
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT)
+
+Calculating power dissipation...
+
+ ... Calculating switching power
+  instance mem_to_fifo_sm0/ROM_addr_reg[1] is not connected to any rail
+  instance mem_to_fifo_sm0/ROM_addr_reg[0] is not connected to any rail
+  instance shift_register0/out_reg is not connected to any rail
+  instance counter_sm0/restart_reg is not connected to any rail
+  instance shift_register_sm0/shift_sr_reg is not connected to any rail
+  only first five unconnected instances are listed...
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 5%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 10%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 15%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 20%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 25%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 30%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 35%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 40%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 45%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 50%
+ ... Calculating internal and leakage power
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 55%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 60%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 65%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 70%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 75%
+2013-Jun-09 22:29:24 (2013-Jun-10 05:29:24 GMT): 80%
+2013-Jun-09 22:29:25 (2013-Jun-10 05:29:25 GMT): 85%
+2013-Jun-09 22:29:25 (2013-Jun-10 05:29:25 GMT): 90%
+2013-Jun-09 22:29:25 (2013-Jun-10 05:29:25 GMT): 95%
+
+Finished Calculating power
+2013-Jun-09 22:29:25 (2013-Jun-10 05:29:25 GMT)
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:      0.3419       82.2%
+Total Switching Power:     0.04012      9.646%
+Total Leakage Power:     0.03392      8.156%
+Total Power:       0.416
+-----------------------------------------------------------------------------------------
+report_power consumed time (real time) 00:00:01 : peak memory (444.09M) 
+Output file is ../reports/sensor.rpt.
+<CMD> setVerifyGeometryMode -area { 0 0 0 0 } -minWidth false -minSpacing false -minArea false -sameNet false -short true -overlap true -offRGrid false -offMGrid true -mergedMGridCheck true -minHole true -implantCheck true -minimumCut true -minStep true -viaEnclosure true -antenna true -insuffMetalOverlap false -pinInBlkg false -diffCellViol true -sameCellViol false -padFillerCellsOverlap true -routingBlkgPinOverlap true -routingCellBlkgOverlap true -regRoutingOnly false -stackedViasOnRegNet false -wireExt true -useNonDefaultSpacing false -maxWidth true -maxNonPrefLength -1 -error 1000 -warning 50
+<CMD> verifyGeometry
+ *** Starting Verify Geometry (MEM: 444.1) ***
+
+  VERIFY GEOMETRY ...... Starting Verification
+  VERIFY GEOMETRY ...... Initializing
+  VERIFY GEOMETRY ...... Deleting Existing Violations
+  VERIFY GEOMETRY ...... Creating Sub-Areas
+                  ...... bin size: 3600
+  VERIFY GEOMETRY ...... SubArea : 1 of 1
+**WARN: (ENCVFG-47):	Pin of Cell U243 at (10.240, 13.040), (24.960, 13.200) on Layer M1 is not connected to any net. Use globalNetConnect or GUI Power->Connect Global Nets to specify global net connection rules properly.
+
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Sub-Area : 1 complete 0 Viols. 0 Wrngs.
+VG: elapsed time: 0.00
+Begin Summary ...
+  Cells       : 0
+  SameNet     : 0
+  Wiring      : 0
+  Antenna     : 0
+  Short       : 0
+  Overlap     : 0
+End Summary
+
+  Verification Complete : 0 Viols.  0 Wrngs.
+
+**********End: VERIFY GEOMETRY**********
+ *** verify geometry (CPU: 0:00:00.6  MEM: 9.1M)
+
+<CMD> verifyConnectivity -type all -noAntenna
+VERIFY_CONNECTIVITY use new engine.
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Sun Jun  9 22:29:25 2013
+
+Design Name: sensor
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (103.5450, 98.0000)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+
+Begin Summary 
+  Found no problems or warnings.
+End Summary
+
+End Time: Sun Jun  9 22:29:25 2013
+Time Elapsed: 0:00:00.0
+
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 0 Viols.  0 Wrngs.
+  (CPU Time: 0:00:00.0  MEM: 0.000M)
+
+<CMD> saveNetlist ../vlogout/final.v -excludeLeafCell -excludeCellInst {DCAP SHFILL2}
+Writing Netlist "../vlogout/final.v" ...
+<CMD> write_sdf ../sdfout/final.sdf
+#################################################################################
+# Design Stage: PostRoute
+# Design Mode: 90nm
+# Analysis Mode: MMMC non-OCV
+# Extraction Mode: detail/spef
+# Delay Calculation Options: engine=feDC signOff=true SIAware=false(opt)
+# Switching Delay Calculation Engine to feDC
+#################################################################################
+Topological Sorting (CPU = 0:00:00.0, MEM = 451.0M, InitMEM = 450.9M)
+Start delay calculation (mem=451.008M)...
+delayCal using detail RC...
+Delay calculation completed. (cpu=0:00:00.0 real=0:00:00.0 mem=452.148M 0)
+Topological Sorting (CPU = 0:00:00.0, MEM = 452.1M, InitMEM = 452.1M)
+Start delay calculation (mem=452.090M)...
+delayCal using detail RC...
+Delay calculation completed. (cpu=0:00:00.0 real=0:00:00.0 mem=452.148M 0)
+*** CDM Built up (cpu=0:00:00.1  real=0:00:00.0  mem= 452.1M) ***
+<CMD> saveDesign top.finished.enc
+**WARN: (ENCSYT-40418):	Current saveDesign session is used for 'non-OA' mode. Saving design with non-OA mode is obselete and will not be available in future releases.
+**WARN: (ENCSYT-3036):	Design directory top.finished.enc.dat exists, rename it to top.finished.enc.dat.tmp.
+If saveDesign succeeds, it will be deleted.
+Writing Netlist "top.finished.enc.dat/sensor.v.gz" ...
+Saving configuration ...
+Saving preference file top.finished.enc.dat/enc.pref.tcl ...
+Saving floorplan ...
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+Saving placement ...
+*** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=441.8M) ***
+Saving route ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=441.8M) ***
+Writing DEF file 'top.finished.enc.dat/sensor.def.gz', current time is Sun Jun  9 22:29:26 2013 ...
+unitPerMicron=1000, dbgMicronPerDBU=0.001000, unitPerDBU=1.000000
+DEF file 'top.finished.enc.dat/sensor.def.gz' is written, current time is Sun Jun  9 22:29:26 2013 ...
+*** Completed saveYieldMap (cpu=: 0:00:00.0 real=0:00:00.0 mem=: 0.000M) ***
+<CMD> win
+
+*** Memory Usage v#188 (Current mem = 441.926M, initial mem = 60.289M) ***
+--- Ending "Encounter" (totcpu=0:00:15.7, real=0:00:24.0, mem=441.9M) ---

@@ -1,0 +1,4973 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/nfs/stak/students/g/goynese/ECE474/hw1
+T_opt
+Z1 VkQ`@Wk3cQGZf6l5abh`B62
+Z2 04 6 4 work adder8 fast 0
+Z3 =1-24be050c59ee-51718d70-66435-746
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6a;45
+Z7 d/nfs/stak/students/g/goynese/ECE474/hw1
+T_opt1
+Z8 V=<X1dYnT]3BK4DCmGaoz:1
+R2
+Z9 =1-24be050c59ee-51718dcd-38a61-7d9
+R4
+Z10 n@_opt1
+R6
+R7
+vadder8
+Z11 Mx1 19 __model_tech/sv_std 3 std
+Z12 DXx19 __model_tech/sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z13 If89?5`YbE^E_V0kM`lS1S0
+Z14 V>JEm1;]lzPc_YQ1HCa<n21
+S1
+R7
+Z15 w1366394762
+Z16 8adder8.sv
+Z17 Fadder8.sv
+L0 1
+Z18 OE;L;6.6a;45
+r1
+31
+Z19 o-L mtiAvm -L mtiOvm -L mtiUPF
+Z20 !s100 =;EELYNOOh]4K0n0P:Ij?0
+Z21 !s105 adder8_sv_unit
+!s85 0
+vAND2X1
+Z22 IgWSEj@hQSBajS7E`Q_7P63
+Z23 V72GfgCEn7RkYVHdOCYHVD2
+R7
+Z24 w1213164907
+Z25 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND2X1.v
+Z26 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND2X1.v
+L0 27
+R18
+r1
+31
+Z27 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+Z28 n@a@n@d2@x1
+Z29 !s100 bEWJMONkn;=G9lD1P1:d83
+!s85 0
+vAND2X2
+Z30 IQGcU^CIEE>Sb^RMLTbd6]0
+Z31 VHUd;3XnFg?G8H71mD?A333
+R7
+Z32 w1213164908
+Z33 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND2X2.v
+Z34 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND2X2.v
+L0 27
+R18
+r1
+31
+R27
+Z35 n@a@n@d2@x2
+Z36 !s100 1iCaUdLzCcV1H>VC_nzZB2
+!s85 0
+vAND2X4
+Z37 IY7klJ>NnJZmEcjk;[`;4g3
+Z38 V412U908NkhdEiWXla0P=01
+R7
+Z39 w1213164909
+Z40 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND2X4.v
+Z41 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND2X4.v
+L0 27
+R18
+r1
+31
+R27
+Z42 n@a@n@d2@x4
+Z43 !s100 DBS25j?Uke_jS62LHW<Jf1
+!s85 0
+vAND3X1
+Z44 Im=B[WQTzbJ83YQ5e[1HzM2
+Z45 VS1QX9N^Z=BCD]om3Ja^jU3
+R7
+R39
+Z46 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND3X1.v
+Z47 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND3X1.v
+L0 27
+R18
+r1
+31
+R27
+Z48 n@a@n@d3@x1
+Z49 !s100 FB]4N7Z1d@[C`=RT9LbY61
+!s85 0
+vAND3X2
+Z50 IzV8bQzfIUJzP]iEiIz`R@2
+Z51 VYPPRUkClb@aTh?e577B^e3
+R7
+Z52 w1213164910
+Z53 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND3X2.v
+Z54 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND3X2.v
+L0 27
+R18
+r1
+31
+R27
+Z55 n@a@n@d3@x2
+Z56 !s100 m@G_oSaRmm0EYR<N`h7P;0
+!s85 0
+vAND3X4
+Z57 I=`n4XU2CiSf[A]O:V__Dm3
+Z58 VEJahna[N0LXM8m<i7adk30
+R7
+Z59 w1213164911
+Z60 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND3X4.v
+Z61 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND3X4.v
+L0 27
+R18
+r1
+31
+R27
+Z62 n@a@n@d3@x4
+Z63 !s100 Iccaak8TbncMG`AHfnLNM3
+!s85 0
+vAND4X1
+Z64 I]gGlVN5HCTk8mC_AMHhHG1
+Z65 VieCg9FjfJ5]7cj`k5YOB50
+R7
+Z66 w1213164912
+Z67 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND4X1.v
+Z68 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND4X1.v
+L0 27
+R18
+r1
+31
+R27
+Z69 n@a@n@d4@x1
+Z70 !s100 H8;7efJf?aF;X39Of>h?o3
+!s85 0
+vAND4X2
+Z71 Id8lY2oV:dlUWGddl99DS80
+Z72 VDcM=MZVZI?^NQZ4VCE92S1
+R7
+R66
+Z73 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND4X2.v
+Z74 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND4X2.v
+L0 27
+R18
+r1
+31
+R27
+Z75 n@a@n@d4@x2
+Z76 !s100 EJD=SELA?[7jz;=mCFRgP2
+!s85 0
+vAND4X4
+Z77 IK=BG?;B1ia92f2FA2mEfB2
+Z78 VRbkzfkM1B@nNQbFK2iEMC2
+R7
+Z79 w1213164913
+Z80 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND4X4.v
+Z81 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AND4X4.v
+L0 27
+R18
+r1
+31
+R27
+Z82 n@a@n@d4@x4
+Z83 !s100 >3>NO7C]agKjUDSS<4j[D3
+!s85 0
+vAO21X1
+Z84 IojkUB=Wn4ZoKC1<PkOAoc1
+Z85 V`:5Xl9SBgbE92Q_b<Xj?g2
+R7
+Z86 w1213164914
+Z87 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO21X1.v
+Z88 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO21X1.v
+L0 27
+R18
+r1
+31
+R27
+Z89 n@a@o21@x1
+Z90 !s100 IT6@HL2]INhekhbhKzgnb2
+!s85 0
+vAO21X2
+Z91 IJRFb:3M@[=Da0PIeKWU?@1
+Z92 V42Z:]C9b?H=9jFAVcP7;F0
+R7
+Z93 w1213164915
+Z94 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO21X2.v
+Z95 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO21X2.v
+L0 27
+R18
+r1
+31
+R27
+Z96 n@a@o21@x2
+Z97 !s100 aTFO8;9RP]SGP5h>M<DSl3
+!s85 0
+vAO221X1
+Z98 I1F4W>agkBAUW5aK17i3M[3
+Z99 V[GPffCk:0VhD]L46TZ6?c0
+R7
+R93
+Z100 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO221X1.v
+Z101 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO221X1.v
+L0 27
+R18
+r1
+31
+R27
+Z102 n@a@o221@x1
+Z103 !s100 :TDYb=jVgi;d1WK`AlEBN2
+!s85 0
+vAO221X2
+Z104 I1gCI1IkSGn`H89[ZmB8Fb0
+Z105 V_`Qo9Za<f<TBM:fh0O]4P3
+R7
+Z106 w1213164916
+Z107 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO221X2.v
+Z108 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO221X2.v
+L0 27
+R18
+r1
+31
+R27
+Z109 n@a@o221@x2
+Z110 !s100 FQOfnaaW3ahzTi[dB`YZJ1
+!s85 0
+vAO222X1
+Z111 IBCFL<e5lLMGBP3U21a>2j1
+Z112 V9mU9hAnSHBgJYbio<oTnd0
+R7
+Z113 w1213164917
+Z114 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO222X1.v
+Z115 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO222X1.v
+L0 27
+R18
+r1
+31
+R27
+Z116 n@a@o222@x1
+Z117 !s100 KWaCcZ:o>RnV<>zX3JQPk0
+!s85 0
+vAO222X2
+Z118 I2Y?LRFV;84mz;A<H=f]E]1
+Z119 VoFUDYk[]A5^OkRBKR[L[D3
+R7
+Z120 w1213164918
+Z121 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO222X2.v
+Z122 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO222X2.v
+L0 27
+R18
+r1
+31
+R27
+Z123 n@a@o222@x2
+Z124 !s100 NY_20WY7;hTFel0R[5m2m2
+!s85 0
+vAO22X1
+Z125 IzeX9V;<C=1nl=M<b?QQ>j0
+Z126 V=2YXQF`OJLJGU]F3OZ=d22
+R7
+R120
+Z127 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO22X1.v
+Z128 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO22X1.v
+L0 27
+R18
+r1
+31
+R27
+Z129 n@a@o22@x1
+Z130 !s100 hPGnYH:R=;<TeLY7J]m3;3
+!s85 0
+vAO22X2
+Z131 I2MHD]5]4PQn9z;L48;hAV3
+Z132 V@KcQ`499NFQf50MLC4g1?1
+R7
+Z133 w1213164919
+Z134 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO22X2.v
+Z135 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AO22X2.v
+L0 27
+R18
+r1
+31
+R27
+Z136 n@a@o22@x2
+Z137 !s100 Bn20=f@4K[jVLgo@SQ@D@2
+!s85 0
+vAOBUFX1
+Z138 Ie6j6kn7@:Y=iJd7aPOZD:1
+Z139 V0lPld>FI53WgQ0K9Ao1Ra3
+R7
+Z140 w1213164920
+Z141 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOBUFX1.v
+Z142 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOBUFX1.v
+L0 27
+R18
+r1
+31
+R27
+Z143 n@a@o@b@u@f@x1
+Z144 !s100 liKWM@zoDeknh>j2Gf]<E3
+!s85 0
+vAOBUFX2
+Z145 IfcgZTP1Ce>?1GhanD^SbT1
+Z146 VKg3JE2zP@DBibSN[XR61Y1
+R7
+Z147 w1213164921
+Z148 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOBUFX2.v
+Z149 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOBUFX2.v
+L0 27
+R18
+r1
+31
+R27
+Z150 n@a@o@b@u@f@x2
+Z151 !s100 V7Hc5c6oRQ9XX<H[Y8;gN0
+!s85 0
+vAOBUFX4
+Z152 I[C?<5blG;MEPo]F2V7[e`3
+Z153 VTId;V9V5lzfR]TE=E?zf90
+R7
+R147
+Z154 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOBUFX4.v
+Z155 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOBUFX4.v
+L0 27
+R18
+r1
+31
+R27
+Z156 n@a@o@b@u@f@x4
+Z157 !s100 9a]M:4b@8oo]F0HD2ld3o0
+!s85 0
+vAODFFARX1
+Z158 IF`NJi[X8SoB>W6h1m^=7B1
+Z159 VDleE4dgBon4VeO;Z=e=1F1
+R7
+Z160 w1213164922
+Z161 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AODFFARX1.v
+Z162 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AODFFARX1.v
+L0 27
+R18
+r1
+31
+R27
+Z163 n@a@o@d@f@f@a@r@x1
+Z164 !s100 3<>3DK16za:Qe[Tl?2F9>0
+!s85 0
+vAODFFARX2
+Z165 I8kJ@34h30^T[RAPN0YhAc1
+Z166 V<dDi;8SS3;__<3OHkQcAB0
+R7
+Z167 w1213164923
+Z168 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AODFFARX2.v
+Z169 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AODFFARX2.v
+L0 27
+R18
+r1
+31
+R27
+Z170 n@a@o@d@f@f@a@r@x2
+Z171 !s100 08B:eH::jfRlj^a@?SEmd3
+!s85 0
+vAODFFNARX1
+Z172 I]YIRNVL>Xdm5JfeU6[ed:3
+Z173 VNc9zQT1:GlSo5WiOI[:DR1
+R7
+R167
+Z174 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AODFFNARX1.v
+Z175 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AODFFNARX1.v
+L0 27
+R18
+r1
+31
+R27
+Z176 n@a@o@d@f@f@n@a@r@x1
+Z177 !s100 IT>AN8f:aR2efd]lNC2d@2
+!s85 0
+vAODFFNARX2
+Z178 Idb@8Ib^ndkBG[a;5@Y1L32
+Z179 V3b1<6<YlMdA:dF[3FE^3o3
+R7
+Z180 w1213164924
+Z181 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AODFFNARX2.v
+Z182 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AODFFNARX2.v
+L0 27
+R18
+r1
+31
+R27
+Z183 n@a@o@d@f@f@n@a@r@x2
+Z184 !s100 m3dm<HV7POi3fgGYASIo91
+!s85 0
+vAOI21X1
+Z185 I5HTiMc^>iFF0f_nkFOHfT0
+Z186 VIJVoRBKKn?R76g`?j]9X62
+R7
+Z187 w1213164925
+Z188 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI21X1.v
+Z189 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI21X1.v
+L0 27
+R18
+r1
+31
+R27
+Z190 n@a@o@i21@x1
+Z191 !s100 dE]TUMjWWLaoT3A<5cIL41
+!s85 0
+vAOI21X2
+Z192 IUFkUfKikj92bJbM3WTM<k0
+Z193 VFK9hYj^9kDH^aOMHM3:3R3
+R7
+Z194 w1213164926
+Z195 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI21X2.v
+Z196 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI21X2.v
+L0 27
+R18
+r1
+31
+R27
+Z197 n@a@o@i21@x2
+Z198 !s100 ;_MIF<YJZk0;>@NYizUNP3
+!s85 0
+vAOI221X1
+Z199 IVj7lJ[WzSN6ifDjSW>LK93
+Z200 VXZLF?:z470]eMdVhF9aS73
+R7
+R194
+Z201 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI221X1.v
+Z202 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI221X1.v
+L0 27
+R18
+r1
+31
+R27
+Z203 n@a@o@i221@x1
+Z204 !s100 Z^acM1Q8USba7j1NR`@iM3
+!s85 0
+vAOI221X2
+Z205 IaYc2:lKF?9CD8BfoGa03:3
+Z206 V7NVA`lM=Xj1^7nmc=^nM;0
+R7
+Z207 w1213164927
+Z208 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI221X2.v
+Z209 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI221X2.v
+L0 27
+R18
+r1
+31
+R27
+Z210 n@a@o@i221@x2
+Z211 !s100 2<R9OKdQ[>gSZ2nJ7=_fL1
+!s85 0
+vAOI222X1
+Z212 I25em^o>Vh[8<b:QC579Vk3
+Z213 V;iHKR>`I8j=MdX_S75;n=0
+R7
+Z214 w1213164928
+Z215 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI222X1.v
+Z216 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI222X1.v
+L0 27
+R18
+r1
+31
+R27
+Z217 n@a@o@i222@x1
+Z218 !s100 b`>:HoW=bzAFVncg1hlg12
+!s85 0
+vAOI222X2
+Z219 IFZP^FMdj5iMMJMMB51[Cf2
+Z220 VDJcZBYVNP<K>f6hBh:f^>1
+R7
+Z221 w1213164929
+Z222 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI222X2.v
+Z223 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI222X2.v
+L0 27
+R18
+r1
+31
+R27
+Z224 n@a@o@i222@x2
+Z225 !s100 CU8ZK_<R=UfI@?GQ1:ocQ2
+!s85 0
+vAOI22X1
+Z226 Ih;Hi3?B76QIiVlizJd@zP3
+Z227 V1dHT?SO3ORK_BfVE6oh5N3
+R7
+R221
+Z228 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI22X1.v
+Z229 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI22X1.v
+L0 27
+R18
+r1
+31
+R27
+Z230 n@a@o@i22@x1
+Z231 !s100 DX=]OKKa>8ATBdCnAmH]i2
+!s85 0
+vAOI22X2
+Z232 IejUEcHWZY0RZQ3=6G[UD20
+Z233 V0Y0X[QnfXE9zaJ>QKZ>GR3
+R7
+Z234 w1213164930
+Z235 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI22X2.v
+Z236 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOI22X2.v
+L0 27
+R18
+r1
+31
+R27
+Z237 n@a@o@i22@x2
+Z238 !s100 7=hcTQAU[=ZUQcBTWal920
+!s85 0
+vAOINVX1
+Z239 ITe:2n1jFNl]^z[zoV?Fng3
+Z240 VVEVJ06XRoj@00E>93^=OY0
+R7
+Z241 w1213164931
+Z242 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOINVX1.v
+Z243 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOINVX1.v
+L0 27
+R18
+r1
+31
+R27
+Z244 n@a@o@i@n@v@x1
+Z245 !s100 N3kPe1Pd;K=DlFYRZ[CN]1
+!s85 0
+vAOINVX2
+Z246 I72Y=l^h@OBjOZ9UeRM][;2
+Z247 VC5?UgElPcF9BSBRD?[JCA3
+R7
+R241
+Z248 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOINVX2.v
+Z249 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOINVX2.v
+L0 27
+R18
+r1
+31
+R27
+Z250 n@a@o@i@n@v@x2
+Z251 !s100 eSCP1cL7ZfXeiOnj3Kaz]0
+!s85 0
+vAOINVX4
+Z252 IPLCjWQoODD];CzMYcO6O11
+Z253 V3[8^Ed6cOJc354K`i8bU10
+R7
+Z254 w1213164932
+Z255 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOINVX4.v
+Z256 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/AOINVX4.v
+L0 27
+R18
+r1
+31
+R27
+Z257 n@a@o@i@n@v@x4
+Z258 !s100 cY6cb0Jda6KSa?SFng^6G0
+!s85 0
+vCGLNPRX2
+Z259 I1Wdh>;2F8Qfh>m9JM`j;j3
+Z260 VXN1nnQMY^<029nPW3CVHi3
+R7
+Z261 w1227255958
+Z262 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLNPRX2.v
+Z263 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLNPRX2.v
+L0 27
+R18
+r1
+31
+R27
+Z264 n@c@g@l@n@p@r@x2
+Z265 !s100 9`LUGkW0W74bLVkcS<NU82
+!s85 0
+vCGLNPRX8
+Z266 I4cY`chXI?^8g`ZOoJcZ3O1
+Z267 VdhD@?aeS9S60z77z_TI6m0
+R7
+Z268 w1227160717
+Z269 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLNPRX8.v
+Z270 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLNPRX8.v
+L0 27
+R18
+r1
+31
+R27
+Z271 n@c@g@l@n@p@r@x8
+Z272 !s100 8EHi1S<maYaEX?[Ie5T:o3
+!s85 0
+vCGLNPSX16
+Z273 IVHB_gUVRVLXR`2o8O4?=82
+Z274 VzVdnHS]boT<@2LfhDcgaB0
+R7
+Z275 w1227160719
+Z276 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLNPSX16.v
+Z277 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLNPSX16.v
+L0 27
+R18
+r1
+31
+R27
+Z278 n@c@g@l@n@p@s@x16
+Z279 !s100 XTizAMK]zY4ejcLLh?7i11
+!s85 0
+vCGLNPSX2
+Z280 IHl_QL54_Q1Dci_=DQ3iCi2
+Z281 VBO9`D;Xjm1WdiLCZLUl>n0
+R7
+Z282 w1227160716
+Z283 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLNPSX2.v
+Z284 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLNPSX2.v
+L0 27
+R18
+r1
+31
+R27
+Z285 n@c@g@l@n@p@s@x2
+Z286 !s100 VLI^6RZVhY31@QNf0?@zZ1
+!s85 0
+vCGLNPSX4
+Z287 ImfemgBI5g:PcY1^0ODAkV0
+Z288 Vl[^If1bHQMcQ]M6PV4UKj1
+R7
+R275
+Z289 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLNPSX4.v
+Z290 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLNPSX4.v
+L0 27
+R18
+r1
+31
+R27
+Z291 n@c@g@l@n@p@s@x4
+Z292 !s100 9:dDZYXE9]SbEUFiTeO4D2
+!s85 0
+vCGLNPSX8
+Z293 Ii?07NIzcOHBREKFXh4YOV0
+Z294 VVCJB=GlB8lPN<gYU>S6JX0
+R7
+Z295 w1227160715
+Z296 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLNPSX8.v
+Z297 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLNPSX8.v
+L0 27
+R18
+r1
+31
+R27
+Z298 n@c@g@l@n@p@s@x8
+Z299 !s100 F>3MQFOJ4@_[?>fjDgO2K0
+!s85 0
+vCGLPPRX2
+Z300 I2jRh>@bOnFagDKYBa2DNX3
+Z301 V@NHVIzLT7dY]SX8dF7PIz0
+R7
+Z302 w1227160718
+Z303 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLPPRX2.v
+Z304 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLPPRX2.v
+L0 27
+R18
+r1
+31
+R27
+Z305 n@c@g@l@p@p@r@x2
+Z306 !s100 0@jEYh?3;N?lYlmzPVn1o3
+!s85 0
+vCGLPPRX8
+Z307 IM00i?=e@6a7dV;S_ia00k3
+Z308 VMUn_o1>A2@^3Z^?GB^^>P0
+R7
+R295
+Z309 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLPPRX8.v
+Z310 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLPPRX8.v
+L0 27
+R18
+r1
+31
+R27
+Z311 n@c@g@l@p@p@r@x8
+Z312 !s100 iiC@fBXnK8;a_fX?0ePMJ2
+!s85 0
+vCGLPPSX16
+Z313 Ijb<?C6DY8?ABL6Z?l[]Az0
+Z314 V0<?0mfJG577>EO>`G[SId0
+R7
+R268
+Z315 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLPPSX16.v
+Z316 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLPPSX16.v
+L0 27
+R18
+r1
+31
+R27
+Z317 n@c@g@l@p@p@s@x16
+Z318 !s100 2d2DWN@aFZa9<aICM<6>T1
+!s85 0
+vCGLPPSX2
+Z319 I[AzOTb>@3ShB4VWMUQ@IQ2
+Z320 V>E=B@5YEG]IARG4>::`7:2
+R7
+Z321 w1227160711
+Z322 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLPPSX2.v
+Z323 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLPPSX2.v
+L0 27
+R18
+r1
+31
+R27
+Z324 n@c@g@l@p@p@s@x2
+Z325 !s100 m_mKG==7eePR[RHZE:[Y`2
+!s85 0
+vCGLPPSX4
+Z326 IGOb3BZl=;:J5TA2bR>oY`2
+Z327 VV`W]OZBh^G1MgRi1DbPWS2
+R7
+Z328 w1227160713
+Z329 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLPPSX4.v
+Z330 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLPPSX4.v
+L0 27
+R18
+r1
+31
+R27
+Z331 n@c@g@l@p@p@s@x4
+Z332 !s100 TTW8a8?QCDHkcA2iocjJh0
+!s85 0
+vCGLPPSX8
+Z333 IF7@Wza8EBUa[C^@>LQLD[1
+Z334 VIgAR=nO?;=zon`5>TElG>0
+R7
+Z335 w1227160750
+Z336 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLPPSX8.v
+Z337 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/CGLPPSX8.v
+L0 27
+R18
+r1
+31
+R27
+Z338 n@c@g@l@p@p@s@x8
+Z339 !s100 z0iIij^WMU_Pmzz2CG1_>3
+!s85 0
+vDEC24X1
+Z340 IZe=;82d3gVnio?S[PjJ6J3
+Z341 VX:_SmOzL7KPa]<ISAjlJ;1
+R7
+Z342 w1213164942
+Z343 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DEC24X1.v
+Z344 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DEC24X1.v
+L0 27
+R18
+r1
+31
+R27
+Z345 n@d@e@c24@x1
+Z346 !s100 h;?OAK438BgNmFd`ngCFZ0
+!s85 0
+vDEC24X2
+Z347 I350_zeY:fH_8RjkYC>cEd1
+Z348 VFWBTz]TMM2oK`ZNLfcP:73
+R7
+Z349 w1213164943
+Z350 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DEC24X2.v
+Z351 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DEC24X2.v
+L0 27
+R18
+r1
+31
+R27
+Z352 n@d@e@c24@x2
+Z353 !s100 4Blm^fTn_840S[f:h`CHX3
+!s85 0
+vDELLN1X2
+Z354 ImHU0>o:BmoQIM<cG=6kCR3
+Z355 VhLbhD4dV4jgUSAh?UjUGE0
+R7
+R349
+Z356 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DELLN1X2.v
+Z357 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DELLN1X2.v
+L0 27
+R18
+r1
+31
+R27
+Z358 n@d@e@l@l@n1@x2
+Z359 !s100 TQn>?mBhi;<<S:Q=M7NEZ1
+!s85 0
+vDELLN2X2
+Z360 I5N@lAn`K>N;e9<;;:J:IW1
+Z361 V3]<eO]oZ4njE8IFRX0Z6i1
+R7
+Z362 w1213164944
+Z363 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DELLN2X2.v
+Z364 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DELLN2X2.v
+L0 27
+R18
+r1
+31
+R27
+Z365 n@d@e@l@l@n2@x2
+Z366 !s100 ;95n3gTacA^9TUP0U2[NY3
+!s85 0
+vDELLN3X2
+Z367 I:<=Pn75SnRUU;m9jWTYH?3
+Z368 Vi[?clIF`44QT4Y`<?Jn2>0
+R7
+Z369 w1213164945
+Z370 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DELLN3X2.v
+Z371 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DELLN3X2.v
+L0 27
+R18
+r1
+31
+R27
+Z372 n@d@e@l@l@n3@x2
+Z373 !s100 GlV89fFOngc7W]PFE:<;T0
+!s85 0
+vDFFARX1
+Z374 IEF`XRLnC?2=lWSJIiRGB]1
+Z375 VlQ_;MXd6Zd@oi81n^DKnd2
+R7
+Z376 w1213164946
+Z377 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFARX1.v
+Z378 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFARX1.v
+L0 27
+R18
+r1
+31
+R27
+Z379 n@d@f@f@a@r@x1
+Z380 !s100 CNnO0`_;ickj4Jjc>h9Uc0
+!s85 0
+vDFFARX2
+Z381 IN;SQM[S<YSO3LQ1]R<K8;1
+Z382 V6]PLRZ5EAeT=XPVAiL^am1
+R7
+R376
+Z383 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFARX2.v
+Z384 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFARX2.v
+L0 27
+R18
+r1
+31
+R27
+Z385 n@d@f@f@a@r@x2
+Z386 !s100 @c9?69VkX36[>3ITL]RFE3
+!s85 0
+vDFFASRX1
+Z387 I3KQ3Kl5^TgiTEbhUGZ5g60
+Z388 VzJh:F?7RW0WljQRQBnFe20
+R7
+Z389 w1213164947
+Z390 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFASRX1.v
+Z391 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFASRX1.v
+L0 27
+R18
+r1
+31
+R27
+Z392 n@d@f@f@a@s@r@x1
+Z393 !s100 beaoRF6]KoXVk8DPmVcEP0
+!s85 0
+vDFFASRX2
+Z394 IU1I0BK13_@SWTL[g`N2:71
+Z395 Vd3aDnUkz1RIc<oQ;WjNP90
+R7
+Z396 w1213164948
+Z397 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFASRX2.v
+Z398 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFASRX2.v
+L0 27
+R18
+r1
+31
+R27
+Z399 n@d@f@f@a@s@r@x2
+Z400 !s100 _hamZOE1Q961DID1O]j]z3
+!s85 0
+vDFFASX1
+Z401 I80aP[<lhiBVCc^PBI_<]c0
+Z402 VeELnjl1Uajl]^TM:@8nC23
+R7
+Z403 w1213164949
+Z404 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFASX1.v
+Z405 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFASX1.v
+L0 27
+R18
+r1
+31
+R27
+Z406 n@d@f@f@a@s@x1
+Z407 !s100 V`ODagYRLA4eIzYE34VaF3
+!s85 0
+vDFFASX2
+Z408 I`oHQ>2b]WU1?XKm4?I7Cc1
+Z409 V_n4[8=5M:DG[NJ?QPZD_10
+R7
+Z410 w1213164950
+Z411 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFASX2.v
+Z412 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFASX2.v
+L0 27
+R18
+r1
+31
+R27
+Z413 n@d@f@f@a@s@x2
+Z414 !s100 oTL`5[aLd_m5OK52H?8[c2
+!s85 0
+vDFFNARX1
+Z415 I<g`h_oI?kOb>k4k_^7g^X2
+Z416 VfWIR0:S9AnGiK6iQEz[L52
+R7
+Z417 w1213164951
+Z418 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNARX1.v
+Z419 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNARX1.v
+L0 27
+R18
+r1
+31
+R27
+Z420 n@d@f@f@n@a@r@x1
+Z421 !s100 ARK6;SeP1eTeeF;0BZhEZ3
+!s85 0
+vDFFNARX2
+Z422 IjlXEZTF@C:]>2n?C2oa]Q0
+Z423 VHRZU0RdbK2zaYB6:4dk_32
+R7
+R417
+Z424 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNARX2.v
+Z425 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNARX2.v
+L0 27
+R18
+r1
+31
+R27
+Z426 n@d@f@f@n@a@r@x2
+Z427 !s100 K>okef]3z:RiEY8U;Go]C0
+!s85 0
+vDFFNASRNX1
+Z428 I`[?IHEYG;L6kND4DQOB1G2
+Z429 VS@IUj<QQ6]WBYAVTMCnlh2
+R7
+Z430 w1213164952
+Z431 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASRNX1.v
+Z432 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASRNX1.v
+L0 27
+R18
+r1
+31
+R27
+Z433 n@d@f@f@n@a@s@r@n@x1
+Z434 !s100 `l7J5GTMUWGdZC?T=4n^Z0
+!s85 0
+vDFFNASRNX2
+Z435 I2VAWjh_eJQ<EMAj^JRfW22
+Z436 VAFkVLP70]6aEi99Z8P2AI2
+R7
+Z437 w1213164953
+Z438 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASRNX2.v
+Z439 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASRNX2.v
+L0 27
+R18
+r1
+31
+R27
+Z440 n@d@f@f@n@a@s@r@n@x2
+Z441 !s100 O9NPTDRJRgl3dTcB=knM>0
+!s85 0
+vDFFNASRQX1
+Z442 IDn<=EeKH`fQi[bhhB2>Qd3
+Z443 V2kPfj=jeJGcklo:CmX3Mi1
+R7
+R437
+Z444 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASRQX1.v
+Z445 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASRQX1.v
+L0 27
+R18
+r1
+31
+R27
+Z446 n@d@f@f@n@a@s@r@q@x1
+Z447 !s100 V@n1eS@O=;G4l=DWFD;GO2
+!s85 0
+vDFFNASRQX2
+Z448 IJlGm=mON_G0hfQOCoG]`O3
+Z449 Vk7:E]I7AZh5j9E7D0k`I63
+R7
+Z450 w1213164954
+Z451 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASRQX2.v
+Z452 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASRQX2.v
+L0 27
+R18
+r1
+31
+R27
+Z453 n@d@f@f@n@a@s@r@q@x2
+Z454 !s100 W@7a[R5iHJ405?7Fh`_N43
+!s85 0
+vDFFNASRX1
+Z455 IQMKNaEL4Jal=aBbem>]Y_0
+Z456 V0S023QFaWJ2RgEL=9JkLS1
+R7
+Z457 w1213164955
+Z458 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASRX1.v
+Z459 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASRX1.v
+L0 27
+R18
+r1
+31
+R27
+Z460 n@d@f@f@n@a@s@r@x1
+Z461 !s100 IXehckG@1T<1Sj3CM:NE51
+!s85 0
+vDFFNASRX2
+Z462 IGeXiPJbH[Y0>Emno<JQ[M0
+Z463 VBMGM>g7hkdb`0PBkS5_Oo0
+R7
+R457
+Z464 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASRX2.v
+Z465 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASRX2.v
+L0 27
+R18
+r1
+31
+R27
+Z466 n@d@f@f@n@a@s@r@x2
+Z467 !s100 Bho0NY<7nI6??;4bbk;?>1
+!s85 0
+vDFFNASX1
+Z468 IzAo0I?8nGeWVQ<8z9Yh;g0
+Z469 VLKBY=^9U]fDlVGDFllPM53
+R7
+Z470 w1213164956
+Z471 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASX1.v
+Z472 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASX1.v
+L0 27
+R18
+r1
+31
+R27
+Z473 n@d@f@f@n@a@s@x1
+Z474 !s100 JTTbV5a`iDSPP2NXH[n5A0
+!s85 0
+vDFFNASX2
+Z475 I1YMRz9<1f>PXk2o_dnlBO2
+Z476 V]_Flm]z89nX`^8:gd[;HB0
+R7
+Z477 w1213164957
+Z478 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASX2.v
+Z479 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNASX2.v
+L0 27
+R18
+r1
+31
+R27
+Z480 n@d@f@f@n@a@s@x2
+Z481 !s100 X[NfT=ARzjng]PW?F:<gH3
+!s85 0
+vDFFNX1
+Z482 IG?z7:[W7X:;?zLWZazTHb1
+Z483 V[<c]@:O]dDI_N;jUin3l_0
+R7
+Z484 w1213164958
+Z485 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNX1.v
+Z486 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNX1.v
+L0 27
+R18
+r1
+31
+R27
+Z487 n@d@f@f@n@x1
+Z488 !s100 AY;^f:1d6mY=fHnl2JRmH2
+!s85 0
+vDFFNX2
+Z489 Iah=N6D2m9RW1]XFOTi:OC3
+Z490 VYbOI3YFAIFF98SGRe>VAL0
+R7
+Z491 w1213164959
+Z492 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNX2.v
+Z493 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFNX2.v
+L0 27
+R18
+r1
+31
+R27
+Z494 n@d@f@f@n@x2
+Z495 !s100 akN3WGHi^e^LM>=__BB=@3
+!s85 0
+vDFFSSRX1
+Z496 IaA3e?QCe>HbLE5I[Tc6oC1
+Z497 Vnh`BLmlEAR[=RBV=IT78O0
+R7
+R491
+Z498 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFSSRX1.v
+Z499 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFSSRX1.v
+L0 27
+R18
+r1
+31
+R27
+Z500 n@d@f@f@s@s@r@x1
+Z501 !s100 =l[nTUOL]n1R6O4QM<=Rm1
+!s85 0
+vDFFSSRX2
+Z502 IM7lBg`7A@Ij0]@6CNoiT83
+Z503 Vb3EZT?]Ud66bShN[l[Di]1
+R7
+Z504 w1213164961
+Z505 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFSSRX2.v
+Z506 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFSSRX2.v
+L0 27
+R18
+r1
+31
+R27
+Z507 n@d@f@f@s@s@r@x2
+Z508 !s100 UBoYIbK[86T_]?ehQ>z^j3
+!s85 0
+vDFFX1
+Z509 IoWQFGELz8CeDg]XY[Jh_N3
+Z510 Vl4Kkk163KjV4[5F<OP]@Q3
+R7
+R504
+Z511 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+Z512 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+L0 27
+R18
+r1
+31
+R27
+Z513 n@d@f@f@x1
+Z514 !s100 6I1NG5]hLEdV;Hcfjh9aI3
+!s85 0
+vDFFX2
+Z515 IS<c?i3mSHQje4IzX?c3dm3
+Z516 VmKRY5Si9FC^073@Iad=GX3
+R7
+Z517 w1213164962
+Z518 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX2.v
+Z519 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX2.v
+L0 27
+R18
+r1
+31
+R27
+Z520 n@d@f@f@x2
+Z521 !s100 :4HBimCY:E?M@l9WYUb8]3
+!s85 0
+vfadder
+R11
+R12
+Z522 Ih^]NK0fA5C6lEF>5_1oC62
+Z523 V0_=kX6L`>Za>BeYL`f>n]0
+S1
+R7
+Z524 w1366054882
+Z525 8fadder.sv
+Z526 Ffadder.sv
+L0 4
+R18
+r1
+31
+R19
+Z527 !s100 ;;4d1dY0DO:<957:DK?m@2
+Z528 !s105 fadder_sv_unit
+!s85 0
+vFADDX1
+Z529 IAgP8F7KkGj@z_f[AzKffF1
+Z530 VRQ`fmUcU8MiN2nzi<Y3`n0
+R7
+Z531 w1213164963
+Z532 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/FADDX1.v
+Z533 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/FADDX1.v
+L0 27
+R18
+r1
+31
+R27
+Z534 n@f@a@d@d@x1
+Z535 !s100 <OZn>`a>B6R8nFAm`_<;>0
+!s85 0
+vFADDX2
+Z536 IZ91CDOMQ1:D=cf7z0T=dn0
+Z537 VekINZE`eeHQKOeFeISUBm3
+R7
+Z538 w1213164964
+Z539 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/FADDX2.v
+Z540 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/FADDX2.v
+L0 27
+R18
+r1
+31
+R27
+Z541 n@f@a@d@d@x2
+Z542 !s100 ?b2o8UL3GAWJf]g@KI@8n1
+!s85 0
+vHADDX1
+Z543 I2XE`DTNSP4g17;hz5UNi:1
+Z544 VmagOZWdT]cDnJB2BQ@F1o1
+R7
+Z545 w1213164965
+Z546 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/HADDX1.v
+Z547 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/HADDX1.v
+L0 27
+R18
+r1
+31
+R27
+Z548 n@h@a@d@d@x1
+Z549 !s100 =4JkckjE1>kX:kAP[B[S33
+!s85 0
+vHADDX2
+Z550 ID]I6O7=oUQz1:76LbQH0;1
+Z551 Vn[QR0@Xa4Ud:C7ozQKN_i2
+R7
+Z552 w1213164966
+Z553 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/HADDX2.v
+Z554 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/HADDX2.v
+L0 27
+R18
+r1
+31
+R27
+Z555 n@h@a@d@d@x2
+Z556 !s100 P:S@?4?B17[_e^ib6F88h3
+!s85 0
+vIBUFFX16
+Z557 IKRE4U@QDXzOUHY;g@PcUN2
+Z558 Voi@Gm2i^[b^3nIeS6oT_W0
+R7
+Z559 w1213164967
+Z560 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/IBUFFX16.v
+Z561 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/IBUFFX16.v
+L0 27
+R18
+r1
+31
+R27
+Z562 n@i@b@u@f@f@x16
+Z563 !s100 Nc;FGmnk@Hk;dooRBoOVg0
+!s85 0
+vIBUFFX2
+Z564 I^W<Tk4_@U0ij0aI=RD>fU1
+Z565 VMz<]YJ=KQgO<j6oJOjezG0
+R7
+Z566 w1213164968
+Z567 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/IBUFFX2.v
+Z568 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/IBUFFX2.v
+L0 27
+R18
+r1
+31
+R27
+Z569 n@i@b@u@f@f@x2
+Z570 !s100 M=]BFicK2E0KU:OSinAEo3
+!s85 0
+vIBUFFX32
+Z571 IP^hhB[GZJPm3XjRZ@IWa00
+Z572 VGI8UgWo3mz_C8?RL2YW<L1
+R7
+R566
+Z573 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/IBUFFX32.v
+Z574 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/IBUFFX32.v
+L0 27
+R18
+r1
+31
+R27
+Z575 n@i@b@u@f@f@x32
+Z576 !s100 GX^Yg4FMJnQWf[hBF;gFn2
+!s85 0
+vIBUFFX4
+Z577 IOMSHdIj2QiUX?U]K_doiD0
+Z578 VOQM]ni`@n6AUlOXAa?LNA3
+R7
+Z579 w1213164970
+Z580 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/IBUFFX4.v
+Z581 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/IBUFFX4.v
+L0 27
+R18
+r1
+31
+R27
+Z582 n@i@b@u@f@f@x4
+Z583 !s100 jA`gFj8=iBh6emXoVnkKL0
+!s85 0
+vIBUFFX8
+Z584 I:c?9eKiZ2K3OegF:;mI<S1
+Z585 V5NG3SCQ8[a3^DZi]9@;>h1
+R7
+Z586 w1213164971
+Z587 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/IBUFFX8.v
+Z588 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/IBUFFX8.v
+L0 27
+R18
+r1
+31
+R27
+Z589 n@i@b@u@f@f@x8
+Z590 !s100 d_o1?5k33_;bP[a`T_IfS2
+!s85 0
+vINVX0
+Z591 IN=hZD?3P^T7661me;<?2d0
+Z592 Vb7kzEdGHnDeBTFKz1W=8b0
+R7
+Z593 w1213164972
+Z594 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/INVX0.v
+Z595 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/INVX0.v
+L0 27
+R18
+r1
+31
+R27
+Z596 n@i@n@v@x0
+Z597 !s100 h7NF<HJ:`dB1A:dC?0=IY0
+!s85 0
+vINVX1
+Z598 I[GHg<l;AXj]e<Z[ADomjG0
+Z599 V_XbTeb8aijei[YlakF;@Z0
+R7
+Z600 w1213164974
+Z601 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/INVX1.v
+Z602 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/INVX1.v
+L0 27
+R18
+r1
+31
+R27
+Z603 n@i@n@v@x1
+Z604 !s100 CnW[3>4feU^UDlb]CPX0Z2
+!s85 0
+vINVX16
+Z605 IZ^H=lELXz7>8GXAoEok0[3
+Z606 VYG[cSRI40`>oO[E5gNU180
+R7
+Z607 w1213164973
+Z608 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/INVX16.v
+Z609 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/INVX16.v
+L0 27
+R18
+r1
+31
+R27
+Z610 n@i@n@v@x16
+Z611 !s100 ZCX]_IZI50jgLGoTd8F8>2
+!s85 0
+vINVX2
+Z612 I6ICVj<8>]F=[mk6B`ZDb72
+Z613 V:?[A5IM>5d3kJ84dh8XTX0
+R7
+Z614 w1213164975
+Z615 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/INVX2.v
+Z616 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/INVX2.v
+L0 27
+R18
+r1
+31
+R27
+Z617 n@i@n@v@x2
+Z618 !s100 I]AX6^Al1c`lF>d==A9jF1
+!s85 0
+vINVX32
+Z619 IoHKYk70LMl^zQS??Af<4E3
+Z620 VI8LMLXaGJ509YiY_moiCZ3
+R7
+Z621 w1213164976
+Z622 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/INVX32.v
+Z623 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/INVX32.v
+L0 27
+R18
+r1
+31
+R27
+Z624 n@i@n@v@x32
+Z625 !s100 4[zj><W>kElRVS8QZR1mG3
+!s85 0
+vINVX4
+Z626 IQi=2idd7l2Tz7>l`dPPH@0
+Z627 VnL504BRbQ5mdgjLOc4GBm0
+R7
+Z628 w1213164977
+Z629 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/INVX4.v
+Z630 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/INVX4.v
+L0 27
+R18
+r1
+31
+R27
+Z631 n@i@n@v@x4
+Z632 !s100 zAlI9CoA>fKgWP0zK`;R80
+!s85 0
+vINVX8
+Z633 I440^WH1SI;M11NfWk?;m83
+Z634 VhOGLLIP52]4Z1S>ooQBbm3
+R7
+Z635 w1213164978
+Z636 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/INVX8.v
+Z637 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/INVX8.v
+L0 27
+R18
+r1
+31
+R27
+Z638 n@i@n@v@x8
+Z639 !s100 j^=D?=H`93CQLBPXDJdd^1
+!s85 0
+vISOLANDX1
+Z640 IU5CU4Ak[bfW_L;7z8c;n_0
+Z641 Vb[aa>UV2A9Te:Hg=0oOJ22
+R7
+Z642 w1213164979
+Z643 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLANDX1.v
+Z644 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLANDX1.v
+L0 27
+R18
+r1
+31
+R27
+Z645 n@i@s@o@l@a@n@d@x1
+Z646 !s100 iXJ5:]9Si@=^YNij[l8OE1
+!s85 0
+vISOLANDX2
+Z647 Iz0ce:n;48zTKKUd>bEiQh3
+Z648 VEDU:jdP^[BXQYf5VM4jm>2
+R7
+R642
+Z649 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLANDX2.v
+Z650 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLANDX2.v
+L0 27
+R18
+r1
+31
+R27
+Z651 n@i@s@o@l@a@n@d@x2
+Z652 !s100 f[NIejQR1a;hc6N7bPO>92
+!s85 0
+vISOLANDX4
+Z653 IlmP;ojoiK1AQ6d]>FCW683
+Z654 V0icD@LYR7HN2j;=nTY:8`0
+R7
+Z655 w1213164980
+Z656 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLANDX4.v
+Z657 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLANDX4.v
+L0 27
+R18
+r1
+31
+R27
+Z658 n@i@s@o@l@a@n@d@x4
+Z659 !s100 @ROn?02gA_mi2i_Ma;HYm3
+!s85 0
+vISOLANDX8
+Z660 I4fgFTYnYNzNak_SYMJMbM3
+Z661 VFT`CK60IHg61_DhKamhd<1
+R7
+Z662 w1213164981
+Z663 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLANDX8.v
+Z664 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLANDX8.v
+L0 27
+R18
+r1
+31
+R27
+Z665 n@i@s@o@l@a@n@d@x8
+Z666 !s100 6S@TL<[;VdVjm`Z_J`k@j1
+!s85 0
+vISOLORX1
+Z667 If?SO:DNTc?oU?HN>_ONQY1
+Z668 Vg2nhPFFYM`jZ87MURWi[D0
+R7
+Z669 w1213164982
+Z670 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLORX1.v
+Z671 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLORX1.v
+L0 27
+R18
+r1
+31
+R27
+Z672 n@i@s@o@l@o@r@x1
+Z673 !s100 Z0N8>1IjnXfYf36Aodcon1
+!s85 0
+vISOLORX2
+Z674 I7e?NcMGI6dFKNB5h9m7RH2
+Z675 V_Pl`^ASTEIRjKV;lTUhY`3
+R7
+Z676 w1213164983
+Z677 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLORX2.v
+Z678 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLORX2.v
+L0 27
+R18
+r1
+31
+R27
+Z679 n@i@s@o@l@o@r@x2
+Z680 !s100 obM];43hF2:Ckb5N5HEoI2
+!s85 0
+vISOLORX4
+Z681 IFHozanhjVP<6Y<WATj5jc1
+Z682 VX3Kn13kI>TGNO<=LdiMYj3
+R7
+Z683 w1213164984
+Z684 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLORX4.v
+Z685 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLORX4.v
+L0 27
+R18
+r1
+31
+R27
+Z686 n@i@s@o@l@o@r@x4
+Z687 !s100 b?`O[7kO[5XA:@UPN>e=_3
+!s85 0
+vISOLORX8
+Z688 I1Ye0I=U^dEYRmELRFSF@h3
+Z689 VN[gXAQBCC<LX`z9`GiFMB1
+R7
+Z690 w1213164985
+Z691 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLORX8.v
+Z692 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/ISOLORX8.v
+L0 27
+R18
+r1
+31
+R27
+Z693 n@i@s@o@l@o@r@x8
+Z694 !s100 5mXK8l>cRkB8S>EIZJKSR1
+!s85 0
+vLARX1
+Z695 IlcFa8KVhM2n[<K>hQXdjN0
+Z696 Vh3baI<G3h:ZUk^3Mfi2[O1
+R7
+R690
+Z697 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LARX1.v
+Z698 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LARX1.v
+L0 27
+R18
+r1
+31
+R27
+Z699 n@l@a@r@x1
+Z700 !s100 6[aKkF^WK>jaIc0]0flM83
+!s85 0
+vLARX2
+Z701 IMzkgi>TVm2]`QBW?ogPA70
+Z702 VmR?k]^lAW;O;:CFKXa^YD0
+R7
+Z703 w1213164986
+Z704 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LARX2.v
+Z705 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LARX2.v
+L0 27
+R18
+r1
+31
+R27
+Z706 n@l@a@r@x2
+Z707 !s100 6B58jm?gFNl1k@g^n4O[K0
+!s85 0
+vLASRNX1
+Z708 I8gNYBmWhdiPaDnT<a3de^0
+Z709 VCVj7IP31BAbjHSF8^i_1?0
+R7
+Z710 w1213164987
+Z711 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASRNX1.v
+Z712 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASRNX1.v
+L0 27
+R18
+r1
+31
+R27
+Z713 n@l@a@s@r@n@x1
+Z714 !s100 H?Gb=Wb17aj5R]F=dh:142
+!s85 0
+vLASRNX2
+Z715 IScia]2g0c<ViZo31:2OF`3
+Z716 VR]n_?F>IUZlV7Jh2JoeP^1
+R7
+Z717 w1213164988
+Z718 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASRNX2.v
+Z719 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASRNX2.v
+L0 27
+R18
+r1
+31
+R27
+Z720 n@l@a@s@r@n@x2
+Z721 !s100 `dd<0DT7D_4FA8>oSQLNn3
+!s85 0
+vLASRQX1
+Z722 IlR0cl`CRXj68R]Cn720a33
+Z723 V67oNR>AgAV_M<WRzN_IdL2
+R7
+Z724 w1213164989
+Z725 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASRQX1.v
+Z726 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASRQX1.v
+L0 27
+R18
+r1
+31
+R27
+Z727 n@l@a@s@r@q@x1
+Z728 !s100 QcTB3ai8OG8RaP[GlLaOh1
+!s85 0
+vLASRQX2
+Z729 I3ZQSR@4J<U[ej4:iM5cWc3
+Z730 Vh7<gYO3FPb1a[ma`kBBfD1
+R7
+Z731 w1213164990
+Z732 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASRQX2.v
+Z733 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASRQX2.v
+L0 27
+R18
+r1
+31
+R27
+Z734 n@l@a@s@r@q@x2
+Z735 !s100 :Z]:Mkd;=@51HPE;Flo6O3
+!s85 0
+vLASRX1
+Z736 IUKIQcSTUB@E1zz`4>R4LN0
+Z737 VkOEB57HMzDX0=G_J4S8:<3
+R7
+Z738 w1213164991
+Z739 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASRX1.v
+Z740 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASRX1.v
+L0 27
+R18
+r1
+31
+R27
+Z741 n@l@a@s@r@x1
+Z742 !s100 LM7<TRC==oOFIWkUk6S:D0
+!s85 0
+vLASRX2
+Z743 IE5Hf8;YS?<:n6Ao[PB6QS3
+Z744 VML0VJe4@i2ih]5=A2d^B>2
+R7
+Z745 w1213164992
+Z746 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASRX2.v
+Z747 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASRX2.v
+L0 27
+R18
+r1
+31
+R27
+Z748 n@l@a@s@r@x2
+Z749 !s100 Rn:8S1;?@Yee8C212kZMS0
+!s85 0
+vLASX1
+Z750 I2<CBIb8HIS[J7aY]`T2:;2
+Z751 VS=j@>U[h=z10XJI=I2Cg>2
+R7
+Z752 w1213164994
+Z753 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASX1.v
+Z754 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASX1.v
+L0 27
+R18
+r1
+31
+R27
+Z755 n@l@a@s@x1
+Z756 !s100 1fg4M=;LHWC;TKJEZN32P3
+!s85 0
+vLASX2
+Z757 I:9cEdbPQR]=;dgVG5@LDn3
+Z758 Vf5S3^B7TOFW2j7>;Y:T5_2
+R7
+Z759 w1213164996
+Z760 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASX2.v
+Z761 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LASX2.v
+L0 27
+R18
+r1
+31
+R27
+Z762 n@l@a@s@x2
+Z763 !s100 3z:GhcKH57SemecWoCC5e0
+!s85 0
+vLATCHX1
+Z764 IzSb4SGT`1=>CQk[fNUYIz2
+Z765 VDMVDXfRP21YAD_JaQihRk3
+R7
+Z766 w1213164998
+Z767 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LATCHX1.v
+Z768 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LATCHX1.v
+L0 27
+R18
+r1
+31
+R27
+Z769 n@l@a@t@c@h@x1
+Z770 !s100 n41[mHzG_Y:Ea?>Q3CK7e1
+!s85 0
+vLATCHX2
+Z771 ITmDkL>f:=V1WoMYlH47Tc0
+Z772 VoA;^Ua?GLP]YTEV?AGZB=2
+R7
+Z773 w1213165001
+Z774 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LATCHX2.v
+Z775 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LATCHX2.v
+L0 27
+R18
+r1
+31
+R27
+Z776 n@l@a@t@c@h@x2
+Z777 !s100 ]Xk@X8:dA8XS8Le?3RjXZ1
+!s85 0
+vLNANDX1
+Z778 I8l@zl491;amGPRD=h9@e63
+Z779 Vha_?a^>^8?JNiW>AIP9o31
+R7
+Z780 w1213165003
+Z781 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LNANDX1.v
+Z782 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LNANDX1.v
+L0 27
+R18
+r1
+31
+R27
+Z783 n@l@n@a@n@d@x1
+Z784 !s100 G6LlY`b?[XZ7<0iFA0_`H2
+!s85 0
+vLNANDX2
+Z785 IR]dOUe0OVC9YI7fUWjQ9E2
+Z786 Vb:A^ko5hEzSemCzL@Fm4[3
+R7
+Z787 w1213165005
+Z788 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LNANDX2.v
+Z789 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LNANDX2.v
+L0 27
+R18
+r1
+31
+R27
+Z790 n@l@n@a@n@d@x2
+Z791 !s100 9E5Fe@nC52S?@Bf@LT=NJ3
+!s85 0
+vLSDNENX1
+Z792 I:i4^544?eUGJ]QAO5485X1
+Z793 Vkb4Bj:zE66bi@=IjY1=h]1
+R7
+Z794 w1229010451
+Z795 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNENx1.v
+Z796 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNENx1.v
+L0 27
+R18
+r1
+31
+R27
+Z797 n@l@s@d@n@e@n@x1
+Z798 !s100 PN1853_9hd68`?m0<PGO10
+!s85 0
+vLSDNENX2
+Z799 IKH@LWH0U<WL]IIl]0Qn`:1
+Z800 VW>cl5P4joRe:^9hZ:;iVS0
+R7
+Z801 w1229010454
+Z802 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNENx2.v
+Z803 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNENx2.v
+L0 27
+R18
+r1
+31
+R27
+Z804 n@l@s@d@n@e@n@x2
+Z805 !s100 >FS5<f[oAUBbaDB=YlbLF0
+!s85 0
+vLSDNENX4
+Z806 I;^F?;WRgk6]C]6O9F`Vf81
+Z807 VEi`O?D4UOO3c2ncVYaCV11
+R7
+Z808 w1229010456
+Z809 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNENx4.v
+Z810 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNENx4.v
+L0 27
+R18
+r1
+31
+R27
+Z811 n@l@s@d@n@e@n@x4
+Z812 !s100 YGmWG`Mg`Jd0^VM@aZ8NL0
+!s85 0
+vLSDNENX8
+Z813 IliQg9Plc2hB8L6]N[W1DH0
+Z814 VM4:3R]:[o272PQA>9ZUGI0
+R7
+Z815 w1229010459
+Z816 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNENx8.v
+Z817 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNENx8.v
+L0 27
+R18
+r1
+31
+R27
+Z818 n@l@s@d@n@e@n@x8
+Z819 !s100 Y`_LO]fBEz8mn_1d6f<=X0
+!s85 0
+vLSDNX1
+Z820 I_Nm;MbY935U0l:m[=0T1d3
+Z821 V5?c9AnL>zcgbTSX[L7mki0
+R7
+Z822 w1213165008
+Z823 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNX1.v
+Z824 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNX1.v
+L0 27
+R18
+r1
+31
+R27
+Z825 n@l@s@d@n@x1
+Z826 !s100 =_Jlb_oUJLcjTTIC`;X9^3
+!s85 0
+vLSDNX2
+Z827 IRM4JcekGBTb:Qg`3g67T70
+Z828 Vc6[7cI>Zj5FGaC?JF33nN2
+R7
+Z829 w1213165010
+Z830 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNX2.v
+Z831 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNX2.v
+L0 27
+R18
+r1
+31
+R27
+Z832 n@l@s@d@n@x2
+Z833 !s100 X>Y3XX?7>mh:J?=?DT1NS3
+!s85 0
+vLSDNX4
+Z834 IMNB6AYz_8=:<HBE9`0k_O3
+Z835 V5UCZWa6mgJBGSI1NFGS6[2
+R7
+Z836 w1213165013
+Z837 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNX4.v
+Z838 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNX4.v
+L0 27
+R18
+r1
+31
+R27
+Z839 n@l@s@d@n@x4
+Z840 !s100 =d91Zoe896F_RB0ze1>2<2
+!s85 0
+vLSDNX8
+Z841 IQWFW2MDe]W;c6_5ddOjJb2
+Z842 Vk01b3gbKZcEi4EAJgjaTY2
+R7
+Z843 w1213165015
+Z844 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNX8.v
+Z845 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSDNX8.v
+L0 27
+R18
+r1
+31
+R27
+Z846 n@l@s@d@n@x8
+Z847 !s100 AghW=IjJ<cb7C>3BK351k0
+!s85 0
+vLSUPENX1
+Z848 I<9z=G92>KRmZdLg?9[eV`0
+Z849 Vlj4dngEX2]0YWl:aZA2F63
+R7
+Z850 w1229010462
+Z851 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPENx1.v
+Z852 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPENx1.v
+L0 27
+R18
+r1
+31
+R27
+Z853 n@l@s@u@p@e@n@x1
+Z854 !s100 031XBnak]Ae0mdiTK^2Ia2
+!s85 0
+vLSUPENX2
+Z855 IiH;B0=kjI16eI7BKj^?ln2
+Z856 V;Og5mM>39F[=hYdFiD[2O1
+R7
+Z857 w1229010466
+Z858 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPENx2.v
+Z859 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPENx2.v
+L0 27
+R18
+r1
+31
+R27
+Z860 n@l@s@u@p@e@n@x2
+Z861 !s100 znWEJb`C5;3BMC<z]CIS40
+!s85 0
+vLSUPENX4
+Z862 I?d4_OADP[^`b6ILjQ]8`Q0
+Z863 VZCibnmW]kcoJEN?7E=B7^3
+R7
+Z864 w1229010469
+Z865 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPENx4.v
+Z866 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPENx4.v
+L0 27
+R18
+r1
+31
+R27
+Z867 n@l@s@u@p@e@n@x4
+Z868 !s100 27XknANbbD200DUWX=?Pz0
+!s85 0
+vLSUPENX8
+Z869 IQXQiESm;FKSFCEGV4<Mk>2
+Z870 VQZVSbQ=PQCJYQj=@WPSzf1
+R7
+Z871 w1229010472
+Z872 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPENx8.v
+Z873 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPENx8.v
+L0 27
+R18
+r1
+31
+R27
+Z874 n@l@s@u@p@e@n@x8
+Z875 !s100 5L[IlS6UC18Bmi0kF<WjS1
+!s85 0
+vLSUPX1
+Z876 I`0WRPe5aC4OcJE34GjWdb2
+Z877 V5^1UnYUi1FYCG90BhB@422
+R7
+Z878 w1213165017
+Z879 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPX1.v
+Z880 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPX1.v
+L0 27
+R18
+r1
+31
+R27
+Z881 n@l@s@u@p@x1
+Z882 !s100 :FVe3UXoLRRzNBk6h6oj<2
+!s85 0
+vLSUPX2
+Z883 ITS;7>4D2ZY;R;cA3[@>6H2
+Z884 V1b[85LNFlm2ON:C=IQ8QO1
+R7
+Z885 w1213165018
+Z886 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPX2.v
+Z887 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPX2.v
+L0 27
+R18
+r1
+31
+R27
+Z888 n@l@s@u@p@x2
+Z889 !s100 MXCmi]N8VzgnjSl[6ci0j3
+!s85 0
+vLSUPX4
+Z890 IFMg]=0bl63Jg6][3KIl3G0
+Z891 VM[]MJXZgME9FPQm]?OFcW0
+R7
+Z892 w1213165020
+Z893 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPX4.v
+Z894 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPX4.v
+L0 27
+R18
+r1
+31
+R27
+Z895 n@l@s@u@p@x4
+Z896 !s100 n1Ana09b5T[aeB5_NVIHI0
+!s85 0
+vLSUPX8
+Z897 I]=ZV9FJ?H1]ea`Lk`W_jO0
+Z898 Vhd@IY2E=W^`[A?TBdB_M^2
+R7
+Z899 w1213165022
+Z900 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPX8.v
+Z901 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/LSUPX8.v
+L0 27
+R18
+r1
+31
+R27
+Z902 n@l@s@u@p@x8
+Z903 !s100 `NU00@QBRlm`hP3e<_G8V0
+!s85 0
+vMUX21X1
+Z904 Ij0iY165;eVS_9SIffa98P0
+Z905 VccBYl;Nj7^AVI8^ob4@io2
+R7
+Z906 w1213165023
+Z907 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/MUX21X1.v
+Z908 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/MUX21X1.v
+L0 27
+R18
+r1
+31
+R27
+Z909 n@m@u@x21@x1
+Z910 !s100 gQfRP_ENSC;?In=nD2:_c3
+!s85 0
+vMUX21X2
+Z911 I5L8a3DeMl`_`GLER?=4XC0
+Z912 VZ_D7L:i`1dXoP0_0`Bl[C0
+R7
+Z913 w1213165025
+Z914 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/MUX21X2.v
+Z915 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/MUX21X2.v
+L0 27
+R18
+r1
+31
+R27
+Z916 n@m@u@x21@x2
+Z917 !s100 ofe2[VmKG=_R_<PNO]@C^3
+!s85 0
+vMUX41X1
+Z918 IQAPHnGL<CSSEhFhkG2U`H3
+Z919 Vcb:M`j3mKAPj<liM;W7Tk2
+R7
+Z920 w1213165028
+Z921 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/MUX41X1.v
+Z922 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/MUX41X1.v
+L0 27
+R18
+r1
+31
+R27
+Z923 n@m@u@x41@x1
+Z924 !s100 >1RP_i2GW;_W=Ik_`cVki1
+!s85 0
+vMUX41X2
+Z925 Ih;SNbHK0ndSHWHZ=cF?461
+Z926 Vb12Gl_b3BPMoied`0lz[K1
+R7
+Z927 w1213165030
+Z928 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/MUX41X2.v
+Z929 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/MUX41X2.v
+L0 27
+R18
+r1
+31
+R27
+Z930 n@m@u@x41@x2
+Z931 !s100 TQe0f=MzYQ86o^^ZGYS]_1
+!s85 0
+vNAND2X0
+Z932 IBA1L1WVVofSG<mB1S_2E41
+Z933 VFl:3CL=TRbi?1<2mNWj502
+R7
+Z934 w1213165031
+Z935 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND2X0.v
+Z936 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND2X0.v
+L0 27
+R18
+r1
+31
+R27
+Z937 n@n@a@n@d2@x0
+Z938 !s100 jPK`T_48c_>_Hii8k2eLm2
+!s85 0
+vNAND2X1
+Z939 IVg6cMACUE:zUTbYWOc`_Q0
+Z940 V0Mk4^@I_:<>lo74SD6Pm02
+R7
+Z941 w1213165032
+Z942 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND2X1.v
+Z943 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND2X1.v
+L0 27
+R18
+r1
+31
+R27
+Z944 n@n@a@n@d2@x1
+Z945 !s100 _WYV@UbPbzfOi]X4kFH7T1
+!s85 0
+vNAND2X2
+Z946 IPUM4FY4R_96:>:hCG;W7V1
+Z947 V>:f5AjMLYRaTLI=5imnN92
+R7
+Z948 w1213165035
+Z949 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND2X2.v
+Z950 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND2X2.v
+L0 27
+R18
+r1
+31
+R27
+Z951 n@n@a@n@d2@x2
+Z952 !s100 c376U43LZ]cWKkUOb0hO02
+!s85 0
+vNAND2X4
+Z953 IUzN5c@P<oj7X9m9H7bU9n3
+Z954 VTKEF6oY?IbT43a`CD?Yd?1
+R7
+Z955 w1213165037
+Z956 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND2X4.v
+Z957 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND2X4.v
+L0 27
+R18
+r1
+31
+R27
+Z958 n@n@a@n@d2@x4
+Z959 !s100 aQ2N5T7DnQ5T>K`KBUjP?3
+!s85 0
+vNAND3X0
+Z960 IfE1^5=]AOVaY1]4_]:mbG2
+Z961 V@JF0YlT;OBzj2CS;n^VkB0
+R7
+Z962 w1213165040
+Z963 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND3X0.v
+Z964 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND3X0.v
+L0 27
+R18
+r1
+31
+R27
+Z965 n@n@a@n@d3@x0
+Z966 !s100 >Y02J6JkSQZB1HY:lZXOG1
+!s85 0
+vNAND3X1
+Z967 I[9QWTi`Og4CDUKA?`?:_z1
+Z968 V7052`baoaGQUN<m6d`i9M0
+R7
+Z969 w1213165042
+Z970 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND3X1.v
+Z971 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND3X1.v
+L0 27
+R18
+r1
+31
+R27
+Z972 n@n@a@n@d3@x1
+Z973 !s100 XLPAe00zKVH4k^3a1G7j72
+!s85 0
+vNAND3X2
+Z974 IRZ^z7I^g[CbDLb3Hm<beV0
+Z975 V:PdTL6DejzoYC>dmj?j1e3
+R7
+Z976 w1213165044
+Z977 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND3X2.v
+Z978 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND3X2.v
+L0 27
+R18
+r1
+31
+R27
+Z979 n@n@a@n@d3@x2
+Z980 !s100 PzzScK0NZN<m@KHI3_Cm=0
+!s85 0
+vNAND3X4
+Z981 I=K67mYL]fL=C3LKWR?N=M1
+Z982 V`7LFGHaVR^NU9KdK8_f_M3
+R7
+Z983 w1213165046
+Z984 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND3X4.v
+Z985 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND3X4.v
+L0 27
+R18
+r1
+31
+R27
+Z986 n@n@a@n@d3@x4
+Z987 !s100 0_JMFG5o?0[Xg0[h5icEY2
+!s85 0
+vNAND4X0
+Z988 Id=]7m84R9Y3QX;bjaY[QJ1
+Z989 Vc@J4b[?7Wl:cf3`c4iIea0
+R7
+Z990 w1213165049
+Z991 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND4X0.v
+Z992 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND4X0.v
+L0 27
+R18
+r1
+31
+R27
+Z993 n@n@a@n@d4@x0
+Z994 !s100 A`z3JBhQ4HbCM9b5Wo:1M0
+!s85 0
+vNAND4X1
+Z995 I;fKd^gnoQY]5I==13n<N=2
+Z996 VkcPMf>>CIKlhN`LhZ9cna2
+R7
+Z997 w1213165051
+Z998 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND4X1.v
+Z999 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NAND4X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1000 n@n@a@n@d4@x1
+Z1001 !s100 70TWg50BESQ9UoOoIY<1c0
+!s85 0
+vNBUFFX16
+Z1002 IO;^6OP252PQ9Wm0n]7k^Y2
+Z1003 VTAaNX[=ZX2UTONhEDZCQ`1
+R7
+Z1004 w1213165053
+Z1005 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NBUFFX16.v
+Z1006 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NBUFFX16.v
+L0 27
+R18
+r1
+31
+R27
+Z1007 n@n@b@u@f@f@x16
+Z1008 !s100 aYnH85Tde0mDYLJCj=1ol0
+!s85 0
+vNBUFFX2
+Z1009 IL@nBRoT[]0YhRKbonKcZ]1
+Z1010 V7O;c?BD8D@W5CI>Mi4diY0
+R7
+Z1011 w1213165054
+Z1012 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NBUFFX2.v
+Z1013 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NBUFFX2.v
+L0 27
+R18
+r1
+31
+R27
+Z1014 n@n@b@u@f@f@x2
+Z1015 !s100 hE]9LzZI>M4>i19=Bh^mO3
+!s85 0
+vNBUFFX32
+Z1016 IUcg8<T?3HJ?`MinFjjFnV2
+Z1017 VUh79m[oZP[e`C`X3@zDgK2
+R7
+Z1018 w1213165055
+Z1019 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NBUFFX32.v
+Z1020 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NBUFFX32.v
+L0 27
+R18
+r1
+31
+R27
+Z1021 n@n@b@u@f@f@x32
+Z1022 !s100 Gl2ah72TM8eGJ<[ZFh5^O2
+!s85 0
+vNBUFFX4
+Z1023 I6UPEeVmYKT?4R3MLW4^d:1
+Z1024 VSVoP0i[_`_R2hRh3fRCfS0
+R7
+Z1025 w1213165056
+Z1026 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NBUFFX4.v
+Z1027 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NBUFFX4.v
+L0 27
+R18
+r1
+31
+R27
+Z1028 n@n@b@u@f@f@x4
+Z1029 !s100 ROgS?BZJWd6M:CFA7N?kz1
+!s85 0
+vNBUFFX8
+Z1030 I2ZF^b1IWLc;RzIY:on`681
+Z1031 Voo;CJa^IiW>@QSeFchO031
+R7
+Z1032 w1213165057
+Z1033 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NBUFFX8.v
+Z1034 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NBUFFX8.v
+L0 27
+R18
+r1
+31
+R27
+Z1035 n@n@b@u@f@f@x8
+Z1036 !s100 lRKdRFBG6hR8ObSkLz<[j1
+!s85 0
+vNOR2X0
+Z1037 IC>8I7nbNK:M`YbYc^[_j_1
+Z1038 VDGPnlS_@CQ7^fWiI6Fc<c0
+R7
+Z1039 w1213165059
+Z1040 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR2X0.v
+Z1041 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR2X0.v
+L0 27
+R18
+r1
+31
+R27
+Z1042 n@n@o@r2@x0
+Z1043 !s100 Y;FQ;zZPk8m:HBOJm7c0c3
+!s85 0
+vNOR2X1
+Z1044 Ie7_A@l_FkKFj>;`DHQ18m2
+Z1045 VkJ96AC]3MB;C3I:`zVec;2
+R7
+Z1046 w1213165060
+Z1047 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR2X1.v
+Z1048 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR2X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1049 n@n@o@r2@x1
+Z1050 !s100 BHO8HU4iEXbWm>V]z^]J01
+!s85 0
+vNOR2X2
+Z1051 I_1NJjE9YO6PGWV0oQWkK70
+Z1052 V]BfI_l302@U[XoA@RWUSa3
+R7
+Z1053 w1213165062
+Z1054 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR2X2.v
+Z1055 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR2X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1056 n@n@o@r2@x2
+Z1057 !s100 `E>zQidjSmGU;?RFHz3a02
+!s85 0
+vNOR2X4
+Z1058 Iihf3]FllRJFFdcUPE2hRM2
+Z1059 V0[NLZ_laXWT2R4;MNaNnS2
+R7
+Z1060 w1213165063
+Z1061 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR2X4.v
+Z1062 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR2X4.v
+L0 27
+R18
+r1
+31
+R27
+Z1063 n@n@o@r2@x4
+Z1064 !s100 LFm1OO;RGI4aCJjb]YVVN0
+!s85 0
+vNOR3X0
+Z1065 I<Nhiz99S6<L:ah?=BU4C_2
+Z1066 V3Adahgm>L1dSC8ZlK;mYL2
+R7
+Z1067 w1213165064
+Z1068 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR3X0.v
+Z1069 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR3X0.v
+L0 27
+R18
+r1
+31
+R27
+Z1070 n@n@o@r3@x0
+Z1071 !s100 dk^66NZH_NWleUOlP5^Eh1
+!s85 0
+vNOR3X1
+Z1072 I^a]5QWEEb_ON3N32<VG[;1
+Z1073 VBJP>ai6@Q:zVB8X:eE_m;0
+R7
+Z1074 w1213165066
+Z1075 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR3X1.v
+Z1076 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR3X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1077 n@n@o@r3@x1
+Z1078 !s100 ;1UJLUA_TlbhRO4MOZA_73
+!s85 0
+vNOR3X2
+Z1079 I9AJLJBj?>N;;W3Dm==Mng2
+Z1080 VB:YIEo9LL6hfBXEaKXlZ53
+R7
+Z1081 w1213165067
+Z1082 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR3X2.v
+Z1083 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR3X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1084 n@n@o@r3@x2
+Z1085 !s100 ?]Il0SPOkY;^g^A:[EF?O3
+!s85 0
+vNOR3X4
+Z1086 IGfL8fFWFzm]ZKo7L<3_SW3
+Z1087 VEAQk83n2d`>^MEdV4<?L[2
+R7
+Z1088 w1213165068
+Z1089 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR3X4.v
+Z1090 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR3X4.v
+L0 27
+R18
+r1
+31
+R27
+Z1091 n@n@o@r3@x4
+Z1092 !s100 LF2UUd65D_f4@d^Zh3_5c1
+!s85 0
+vNOR4X0
+Z1093 IhXjPM@PkXhH1SM0DfFbBN2
+Z1094 VG?hhN3_iRT4m46iYgBHhZ0
+R7
+Z1095 w1213165070
+Z1096 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR4X0.v
+Z1097 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR4X0.v
+L0 27
+R18
+r1
+31
+R27
+Z1098 n@n@o@r4@x0
+Z1099 !s100 2^LNcc3C20aGWJh?0Pfhn0
+!s85 0
+vNOR4X1
+Z1100 IT>7L]WWA;7LFcE8ifdg803
+Z1101 VjL:Hmm_MJ=L^HkE7<co3f2
+R7
+Z1102 w1213165071
+Z1103 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR4X1.v
+Z1104 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/NOR4X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1105 n@n@o@r4@x1
+Z1106 !s100 f;e?n>8bfkSDCABGC`k[j1
+!s85 0
+vOA21X1
+Z1107 Ie15E6bG@l_JOhYXMO:B[z3
+Z1108 VU4aiHm<9IB9[NE^:<ES5b2
+R7
+R1102
+Z1109 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA21X1.v
+Z1110 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA21X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1111 n@o@a21@x1
+Z1112 !s100 M<EjW<NilRjg:MaRi@jz20
+!s85 0
+vOA21X2
+Z1113 I^J;DoF]kkl[eCHNL^@hC>3
+Z1114 V30VKIL?Tio9czzi^GaSM[0
+R7
+Z1115 w1213165072
+Z1116 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA21X2.v
+Z1117 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA21X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1118 n@o@a21@x2
+Z1119 !s100 7f>o8BJg]JDOO5mZGabBi0
+!s85 0
+vOA221X1
+Z1120 IDLhTZTX?ASaU_<h=j51Y<3
+Z1121 Vo<`E6eB];XV;VdD=6?UQ?3
+R7
+Z1122 w1213165073
+Z1123 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA221X1.v
+Z1124 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA221X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1125 n@o@a221@x1
+Z1126 !s100 FeBJGKJLD@J<d]VAz_^lb3
+!s85 0
+vOA221X2
+Z1127 I2ARO>0HUOidE[_k@<WVVz0
+Z1128 V6Y9z>U5@Y_XmimXAL>eEI3
+R7
+Z1129 w1213165074
+Z1130 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA221X2.v
+Z1131 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA221X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1132 n@o@a221@x2
+Z1133 !s100 Rn7I0Unz4gN5BI[3NWQQb0
+!s85 0
+vOA222X1
+Z1134 IQH^zY@Td_KZU8mC1LGk3i1
+Z1135 ValC>aGiPR5?7OR@9<8Lc>2
+R7
+R1129
+Z1136 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA222X1.v
+Z1137 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA222X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1138 n@o@a222@x1
+Z1139 !s100 ]Mc:UF3E_3Q[b_4]^hkVk3
+!s85 0
+vOA222X2
+Z1140 I_X2ji8c:K?A5@V4=kU^Ol0
+Z1141 V<hE^Q>XEKEMIl?^>Pc3We0
+R7
+Z1142 w1213165076
+Z1143 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA222X2.v
+Z1144 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA222X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1145 n@o@a222@x2
+Z1146 !s100 QVRP>O33J_T_<O@f;29450
+!s85 0
+vOA22X1
+Z1147 Iz<?iFR=R6U?ci4EBUSW6U3
+Z1148 V[Km]mHYkE9HWiIiHLnaY:2
+R7
+Z1149 w1213165077
+Z1150 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA22X1.v
+Z1151 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA22X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1152 n@o@a22@x1
+Z1153 !s100 GYMFgnJdVEf55[C`U[NoQ1
+!s85 0
+vOA22X2
+Z1154 I<AkBOm=P`I7c1WOAl;OcS0
+Z1155 V=m3Ii;6bPa=87CCEFF3RI3
+R7
+R1149
+Z1156 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA22X2.v
+Z1157 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OA22X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1158 n@o@a22@x2
+Z1159 !s100 hONaR[44f^=`dFV:f23^^1
+!s85 0
+vOAI21X1
+Z1160 I;fQ18Uj>GBD`K9Yh9zDOf3
+Z1161 V16PDgFUj57KYG`iL3Pn5k3
+R7
+Z1162 w1213165078
+Z1163 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI21X1.v
+Z1164 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI21X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1165 n@o@a@i21@x1
+Z1166 !s100 ?d5aOfYB66V778ULakIM:1
+!s85 0
+vOAI21X2
+Z1167 IWD0ShOB>@Ljb8VkQhY=RS2
+Z1168 VgGd5?DWj@Ko1aR3[Bifle1
+R7
+Z1169 w1213165079
+Z1170 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI21X2.v
+Z1171 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI21X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1172 n@o@a@i21@x2
+Z1173 !s100 mT`Kh=K35JJ_>=ZbABz>=1
+!s85 0
+vOAI221X1
+Z1174 IGSSA;FS8=[bUMh8UJVb0K0
+Z1175 V2>I2Q?:9=3[omfM^EMBFl1
+R7
+Z1176 w1213165080
+Z1177 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI221X1.v
+Z1178 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI221X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1179 n@o@a@i221@x1
+Z1180 !s100 IVCX`NzX?hWLnUe1mfY9O0
+!s85 0
+vOAI221X2
+Z1181 IfFj83GdllTgX5lj8P2TUe2
+Z1182 VSdeEBNIR6S?HjYL6CkAf]3
+R7
+R1176
+Z1183 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI221X2.v
+Z1184 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI221X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1185 n@o@a@i221@x2
+Z1186 !s100 ?PX78z:cj3:d9V:D8oCE90
+!s85 0
+vOAI222X1
+Z1187 Ij0JlXhni82F23bVP^13ah3
+Z1188 V3PJe_Gi^`m^4f?jkN9ha60
+R7
+Z1189 w1213165081
+Z1190 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI222X1.v
+Z1191 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI222X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1192 n@o@a@i222@x1
+Z1193 !s100 nORlEiEcgYLT]zk3JYE3E2
+!s85 0
+vOAI222X2
+Z1194 I4nB:dH>j`TZ3<?^1kzlaD3
+Z1195 V[X[53U0SeMQXg0IVmc>:92
+R7
+Z1196 w1213165082
+Z1197 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI222X2.v
+Z1198 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI222X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1199 n@o@a@i222@x2
+Z1200 !s100 :8i=27>E]>MDl<hbA`<hL2
+!s85 0
+vOAI22X1
+Z1201 Iz4R<2bRnoBPmK<7MlO@U;0
+Z1202 VSogWbzgK12]JmzSSlb_nS1
+R7
+Z1203 w1213165083
+Z1204 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI22X1.v
+Z1205 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI22X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1206 n@o@a@i22@x1
+Z1207 !s100 BO`iJ26C[LCGHfdR]8J;G1
+!s85 0
+vOAI22X2
+Z1208 IN;7jC0ncd?Sa>ddlORkd03
+Z1209 VmGk?0DA0mfam7ZLC:OZ]03
+R7
+Z1210 w1213165084
+Z1211 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI22X2.v
+Z1212 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OAI22X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1213 n@o@a@i22@x2
+Z1214 !s100 `z9fJXPSLl:Fd[e___Q683
+!s85 0
+vOR2X1
+Z1215 IYBm;3a[hh:U3So;CMYkKj1
+Z1216 VR:G2:V6T7oYlPBlMBb^lF1
+R7
+Z1217 w1213165085
+Z1218 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR2X1.v
+Z1219 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR2X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1220 n@o@r2@x1
+Z1221 !s100 Wf4mV=>gGNGRTkO4VhJc21
+!s85 0
+vOR2X2
+Z1222 IQ=5B98D`hzzd?X?eDI2el2
+Z1223 Vf0G;Nd9kk>ODmNHeAQg4?3
+R7
+R1217
+Z1224 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR2X2.v
+Z1225 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR2X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1226 n@o@r2@x2
+Z1227 !s100 ?mJogj^Ci6XNd<hhW=ajL0
+!s85 0
+vOR2X4
+Z1228 IIJD6kRBDkNb_oDLE7T`=]1
+Z1229 Vd[TQDTKG77@Vgbh1[BA4@1
+R7
+Z1230 w1213165086
+Z1231 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR2X4.v
+Z1232 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR2X4.v
+L0 27
+R18
+r1
+31
+R27
+Z1233 n@o@r2@x4
+Z1234 !s100 36P:8@g]z;fcfjK[z7S9c2
+!s85 0
+vOR3X1
+Z1235 I?_0:F0Nocne8mie42V66C1
+Z1236 VR`?miBm=W3A7f3C2GM>ZT0
+R7
+Z1237 w1213165087
+Z1238 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR3X1.v
+Z1239 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR3X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1240 n@o@r3@x1
+Z1241 !s100 Kbcbj^zlJkR0jG>FY5>oc3
+!s85 0
+vOR3X2
+Z1242 Ige41MH45J?@1mV^YH2j073
+Z1243 Vd2H39Xam`RBF1dmPCKaUh0
+R7
+R1237
+Z1244 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR3X2.v
+Z1245 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR3X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1246 n@o@r3@x2
+Z1247 !s100 M8?biDHzj3MmiXc66`V7Z0
+!s85 0
+vOR3X4
+Z1248 Io2c5[3ZI2FFVKT8ZSb52M1
+Z1249 VK`1jGcA?CnhNlWSOR^Dma1
+R7
+Z1250 w1213165088
+Z1251 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR3X4.v
+Z1252 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR3X4.v
+L0 27
+R18
+r1
+31
+R27
+Z1253 n@o@r3@x4
+Z1254 !s100 ;Rk<27kXRN4S?`ZY1FQ_e3
+!s85 0
+vOR4X1
+Z1255 IT?EVJDh2>0>og:C7T@DUh3
+Z1256 VJ_Ok4@dV115GL=6GI7;1R0
+R7
+R1250
+Z1257 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR4X1.v
+Z1258 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR4X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1259 n@o@r4@x1
+Z1260 !s100 M74j0Gz3i5GEQK6TDl9L21
+!s85 0
+vOR4X2
+Z1261 I_azlV3Bk@@hYTV^X^N0?K1
+Z1262 VZCTlH[^l7dgQ2n8f_Vo;_0
+R7
+Z1263 w1213165089
+Z1264 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR4X2.v
+Z1265 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR4X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1266 n@o@r4@x2
+Z1267 !s100 Q`A^lP>;T69LE=94;QcnH1
+!s85 0
+vOR4X4
+Z1268 I4]EDn`@F12S>zPAU3eFZ_0
+Z1269 V5[d[oo?4JSl]izSgB@3WD0
+R7
+Z1270 w1213165090
+Z1271 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR4X4.v
+Z1272 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/OR4X4.v
+L0 27
+R18
+r1
+31
+R27
+Z1273 n@o@r4@x4
+Z1274 !s100 D1am2INGGeRmN:[N44BEM2
+!s85 0
+vRDFFNX1
+Z1275 IF8Yd0HUDl4FLU>dTokA]H0
+Z1276 VYdmV[VP`7Acco]Yg<;dZS1
+R7
+Z1277 w1227176298
+Z1278 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RDFFNX1.v
+Z1279 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RDFFNX1.v
+L0 27
+R18
+r1
+31
+R27
+Z1280 n@r@d@f@f@n@x1
+Z1281 !s100 ?hjbAU=`kbj]Dj7IYbEPl3
+!s85 0
+vRDFFNX2
+Z1282 I06]doHQD:ZXR8a[JBVNI[0
+Z1283 VJd1:mgjD5T_ElUKi:S[eZ2
+R7
+Z1284 w1227176310
+Z1285 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RDFFNX2.v
+Z1286 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RDFFNX2.v
+L0 27
+R18
+r1
+31
+R27
+Z1287 n@r@d@f@f@n@x2
+Z1288 !s100 f:LAd17Wagj;T@?mIm7bP1
+!s85 0
+vRDFFX1
+Z1289 I`IB6^kWYcG2zYKb:g6h;i2
+Z1290 VEEUbg3O@I;dDETm?B4>4Z0
+R7
+Z1291 w1227171586
+Z1292 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RDFFX1.v
+Z1293 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RDFFX1.v
+L0 27
+R18
+r1
+31
+R27
+Z1294 n@r@d@f@f@x1
+Z1295 !s100 LEA:mzk?Y]E[9YfEXUi7b3
+!s85 0
+vRDFFX2
+Z1296 IfmM5TChG5]IZ3L:Fe7QC72
+Z1297 VEUFB5JheB6k:^@8Lz`E8f2
+R7
+Z1298 w1227171602
+Z1299 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RDFFX2.v
+Z1300 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RDFFX2.v
+L0 27
+R18
+r1
+31
+R27
+Z1301 n@r@d@f@f@x2
+Z1302 !s100 CUjTnM:mkz`Z45^MMd;]F1
+!s85 0
+vrsdffnx1
+Z1303 I?1e4<]]7I5=f;`j=Mb:PD1
+Z1304 V96hE>W_KJfO^a[]GD@1O;3
+R7
+Z1305 w1227176750
+Z1306 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RSDFFNX1.v
+Z1307 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RSDFFNX1.v
+L0 27
+R18
+r1
+31
+R27
+Z1308 !s100 <0W1I`j@Z1S?m5@F0^W0:3
+!s85 0
+vrsdffnx2
+Z1309 I5IdIIhTd2VozcnaQLT1H<1
+Z1310 V[a]UBOOoBG0obZiZ0L=V^3
+R7
+Z1311 w1227176744
+Z1312 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RSDFFNX2.v
+Z1313 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RSDFFNX2.v
+L0 27
+R18
+r1
+31
+R27
+Z1314 !s100 =kH0Z4a_k50iOC84Hf@HG1
+!s85 0
+vRSDFFX1
+Z1315 I?ndM1n8d6UTl[>kn?C>az1
+Z1316 VP34B7EE]X`U49?68CR1TP2
+R7
+Z1317 w1227176674
+Z1318 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RSDFFX1.v
+Z1319 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RSDFFX1.v
+L0 27
+R18
+r1
+31
+R27
+Z1320 n@r@s@d@f@f@x1
+Z1321 !s100 5:4[;o=1bH`]>CfdiLm@E0
+!s85 0
+vRSDFFX2
+Z1322 IS;8>O0GQYJGdmNY@XRFD01
+Z1323 V=LMCKGm7agzQON[DW;nJR0
+R7
+Z1324 w1227175490
+Z1325 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RSDFFX2.v
+Z1326 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/RSDFFX2.v
+L0 27
+R18
+r1
+31
+R27
+Z1327 n@r@s@d@f@f@x2
+Z1328 !s100 5FN44an]i9ZSjb[7P]><g1
+!s85 0
+Us_aodffarx1_Q
+Z1329 IRcT<g6B2GaHz>fQE]FkoK0
+Z1330 V2efX:g2]z8cjo?^<Ub7S31
+R7
+R160
+R161
+R162
+L0 96
+R18
+r1
+31
+R27
+Z1331 ns_aodffarx1_@q
+Z1332 !s100 HjMGlQV:9H4Vo[iIcT7^A2
+!s85 0
+Us_aodffarx2_Q
+Z1333 IzbPODM9R]5LEz84Fhlc>S0
+Z1334 V?<Uz2>fnd7<TOe6KOD>Yo1
+R7
+R167
+R168
+R169
+L0 96
+R18
+r1
+31
+R27
+Z1335 ns_aodffarx2_@q
+Z1336 !s100 PGXabk?83N18nCSAl9@D`2
+!s85 0
+Us_aodffnarx1_Q
+Z1337 I=LdY[]3[3VSZz0Km`9>aO3
+Z1338 V52>LJL[EaJm=SM7RX[6Yl3
+R7
+R167
+R174
+R175
+L0 96
+R18
+r1
+31
+R27
+Z1339 ns_aodffnarx1_@q
+Z1340 !s100 T[;44L9GVO9BL[P=M2oGA3
+!s85 0
+Us_aodffnarx2_Q
+Z1341 IzSLXbCUHdlFF>Y7BHoKh=1
+Z1342 VC_I`9VRYZ_N36l9RLm^n;3
+R7
+R180
+R181
+R182
+L0 96
+R18
+r1
+31
+R27
+Z1343 ns_aodffnarx2_@q
+Z1344 !s100 <:HMGTJ2g8ekk_88DTM^11
+!s85 0
+vs_cglnprx2
+Z1345 IOT8DX@j19?o7bTZ5E4V892
+Z1346 V5ZHkEJZIgN;S`F3aP>i`M2
+R7
+R261
+R262
+R263
+L0 79
+R18
+r1
+31
+R27
+Z1347 !s100 KSfEVz;eNaH2FQ4[cE?Gj3
+!s85 0
+vs_cglnprx8
+Z1348 ITG6O89MOz>UBA:dHYU^Bl1
+Z1349 Vl@1Oe[_HHh>4K?GOncbhd0
+R7
+R268
+R269
+R270
+L0 79
+R18
+r1
+31
+R27
+Z1350 !s100 CShB]8a=DmRO>n<U3QF?<1
+!s85 0
+vs_cglnpsx16
+Z1351 Ih^?UQmR@kM1<1aVJ^_P<>1
+Z1352 VNMgU8=_KYdEF^9g1k:Yn>1
+R7
+R275
+R276
+R277
+L0 81
+R18
+r1
+31
+R27
+Z1353 !s100 6kZ5Li[S0P5L@:cfG3ZDH0
+!s85 0
+vs_cglnpsx2
+Z1354 In::hFzDlQafN003gYg_BN1
+Z1355 V`mQ;P=Dio@1R:4NKIbCdI3
+R7
+R282
+R283
+R284
+L0 81
+R18
+r1
+31
+R27
+Z1356 !s100 ?mFlfl3mj]_WR6VcEQC2e2
+!s85 0
+vs_cglnpsx4
+Z1357 I<E9dWSFH`^o@ha4@1VON_0
+Z1358 VdTETUZ5Jo0f3bBlKa:N>S0
+R7
+R275
+R289
+R290
+L0 81
+R18
+r1
+31
+R27
+Z1359 !s100 NMSK1e4fRiE;<0PE]l_^S0
+!s85 0
+vs_cglnpsx8
+Z1360 Il0l3AbQ@5GOB3VNgAKKbG1
+Z1361 VHeE5m>iVULU1VUVLB6I6a2
+R7
+R295
+R296
+R297
+L0 81
+R18
+r1
+31
+R27
+Z1362 !s100 Ahcza`?Z_WFG]_DMJCYaj2
+!s85 0
+vs_cglpprx2
+Z1363 IDzi9TiWZP:F6bMgmFf^8T0
+Z1364 VJcB:=Yhe5BA1al5Gmd2ig2
+R7
+R302
+R303
+R304
+L0 79
+R18
+r1
+31
+R27
+Z1365 !s100 eD5NRBhKXU_De9;ZXB6zH2
+!s85 0
+vs_cglpprx8
+Z1366 I?1?b4CTIC:^E:843E^2hT1
+Z1367 VZ?gJl6hdB2C9M[X3Bz`3G1
+R7
+R295
+R309
+R310
+L0 79
+R18
+r1
+31
+R27
+Z1368 !s100 IBJJzP_PQRWm@bf3MHilX2
+!s85 0
+vs_cglppsx16
+Z1369 I[TlOFSNd<ZEMhO4]0CFBf2
+Z1370 VmKoKe]_Q46MRidilIR>0P1
+R7
+R268
+R315
+R316
+L0 81
+R18
+r1
+31
+R27
+Z1371 !s100 fGlEF]?B4j?4?[SZPA35F2
+!s85 0
+vs_cglppsx2
+Z1372 IabO:;SI`gE^lc[J^S1LdO1
+Z1373 VUYZkoL1Agh<TIjQTiPR1:2
+R7
+R321
+R322
+R323
+L0 81
+R18
+r1
+31
+R27
+Z1374 !s100 0NA3mL`?HPST=VO3M^Jc33
+!s85 0
+vs_cglppsx4
+Z1375 I6=kNTO8mWM@YV<_oFKUHV0
+Z1376 VmHDkJ4JnFMG`VoP8PfIbQ2
+R7
+R328
+R329
+R330
+L0 81
+R18
+r1
+31
+R27
+Z1377 !s100 =]^kml[N_[4@A289HJbL^2
+!s85 0
+vs_cglppsx8
+Z1378 INefVYc0mlg8f9eDiR<6ke3
+Z1379 VN=nDCZ99ODBNm7hXL0b;@1
+R7
+R335
+R336
+R337
+L0 81
+R18
+r1
+31
+R27
+Z1380 !s100 F:hmR<5X6Q:OEjD`fU_=@2
+!s85 0
+Us_dec24x1_Q0
+Z1381 I8Elf3JMYzc`bLWKU`?PY:1
+Z1382 VY;59Bic3G2kaZVSaAA`UA0
+R7
+R342
+R343
+R344
+Z1383 L0 124
+R18
+r1
+31
+R27
+Z1384 ns_dec24x1_@q0
+Z1385 !s100 HRVV7H9M@gZLD7cgfVOND2
+!s85 0
+Us_dec24x1_Q1
+Z1386 I?nzZFZKOgIFmQ?k0IJX9R2
+Z1387 V5E[bjXW2VWgdjCaUHbc^l2
+R7
+R342
+R343
+R344
+Z1388 L0 109
+R18
+r1
+31
+R27
+Z1389 ns_dec24x1_@q1
+Z1390 !s100 oGS@^GHd=GQ`Zg2NGPkL@2
+!s85 0
+Us_dec24x1_Q2
+Z1391 IdND@74ah7l8nX^dfCgJ380
+Z1392 V_j8@gP@`5IU_^@BA[;jD02
+R7
+R342
+R343
+R344
+L0 94
+R18
+r1
+31
+R27
+Z1393 ns_dec24x1_@q2
+Z1394 !s100 W:FBn5ZXT2;z8J2EX_SAK0
+!s85 0
+Us_dec24x1_Q3
+Z1395 IhWXKP=EFGihb5EcB6<O2f2
+Z1396 VcOVkJJK];NF3ji>AQ]kNc3
+R7
+R342
+R343
+R344
+L0 79
+R18
+r1
+31
+R27
+Z1397 ns_dec24x1_@q3
+Z1398 !s100 :hd07_@_VKVZ:oFLdWkdc2
+!s85 0
+Us_dec24x2_Q0
+Z1399 IMf>2Uf@MhN2D;W^04R6VT1
+Z1400 VTCV`E`43EII:UNi0c`5e=3
+R7
+R349
+R350
+R351
+R1383
+R18
+r1
+31
+R27
+Z1401 ns_dec24x2_@q0
+Z1402 !s100 0Z12TZnTC]aPCOg<5<g>N3
+!s85 0
+Us_dec24x2_Q1
+Z1403 IKOzaYZ[m?2VIbi9fS>;8_1
+Z1404 VP9h5l5a<9i]dILm>FQSP11
+R7
+R349
+R350
+R351
+R1388
+R18
+r1
+31
+R27
+Z1405 ns_dec24x2_@q1
+Z1406 !s100 =7AU1MezfKa4No8ED2^U`3
+!s85 0
+Us_dec24x2_Q2
+Z1407 IU;6d[S3L2L;^I20XXb`B40
+Z1408 VHggN4WVF=MBo2@J6N@_9H2
+R7
+R349
+R350
+R351
+L0 94
+R18
+r1
+31
+R27
+Z1409 ns_dec24x2_@q2
+Z1410 !s100 b^K[`N>Eh6@;O5fDjTNTc0
+!s85 0
+Us_dec24x2_Q3
+Z1411 I3Ao7<IB4_dCSgAjiTDUe?0
+Z1412 VJngPG[5GJfA:kezo;>2c50
+R7
+R349
+R350
+R351
+L0 79
+R18
+r1
+31
+R27
+Z1413 ns_dec24x2_@q3
+Z1414 !s100 mUMZ;WnfEgXdU`?<bT?3l2
+!s85 0
+Us_dffarx1_Q
+Z1415 IcQn2f0MRonoENHKdEiNW:0
+Z1416 VL@`FffE<8co8DEE[>zHo82
+R7
+R376
+R377
+R378
+L0 96
+R18
+r1
+31
+R27
+Z1417 ns_dffarx1_@q
+Z1418 !s100 BZz<fMZHSlJjiTWh>Gh:n3
+!s85 0
+Us_dffarx2_Q
+Z1419 IPdkDW4b<]k[Sg@zIB;Sgj1
+Z1420 Vn=]zfl3PTeD>2^_jNY6gT1
+R7
+R376
+R383
+R384
+L0 96
+R18
+r1
+31
+R27
+Z1421 ns_dffarx2_@q
+Z1422 !s100 IiOU>C4kZnZb;_b]9ka:V1
+!s85 0
+Us_dffasrx1_Q
+Z1423 I8fXM4>kKzWoC_amNoXBKB1
+Z1424 VCm=O<J[QEJd@8d1lEkU^81
+R7
+R389
+R390
+R391
+Z1425 L0 163
+R18
+r1
+31
+R27
+Z1426 ns_dffasrx1_@q
+Z1427 !s100 mUj>A27:8@9>DGY9h^oEW0
+!s85 0
+Us_dffasrx1_QN
+Z1428 IDgiOnZMJ0Rz4dR93^a@o^0
+Z1429 V9Q6=PgRdAIa8JT`F_KaWG3
+R7
+R389
+R390
+R391
+Z1430 L0 141
+R18
+r1
+31
+R27
+Z1431 ns_dffasrx1_@q@n
+Z1432 !s100 ZaT1;X:1L;o@n8c4PcfAS1
+!s85 0
+Us_dffasrx2_Q
+Z1433 I5nEo1UC?W5gK0_ni5L_?N0
+Z1434 VcR5Ok>RDlj5dc5P>X?ac83
+R7
+R396
+R397
+R398
+R1425
+R18
+r1
+31
+R27
+Z1435 ns_dffasrx2_@q
+Z1436 !s100 A84>cFe30dKP`2T>SKVf43
+!s85 0
+Us_dffasrx2_QN
+Z1437 Ie`[n;kkm7SHG^5LLe4A3:0
+Z1438 VE:D^EhFRXKOWjdM7HjSdA0
+R7
+R396
+R397
+R398
+R1430
+R18
+r1
+31
+R27
+Z1439 ns_dffasrx2_@q@n
+Z1440 !s100 <8YXkVbH3bTdDm@B1_@Mg2
+!s85 0
+Us_dffasx1_Q
+Z1441 I3GbY<=GXh2CM9WPNWgEgU1
+Z1442 Vz2b5H`o_;JchTV]0eYZFo2
+R7
+R403
+R404
+R405
+L0 96
+R18
+r1
+31
+R27
+Z1443 ns_dffasx1_@q
+Z1444 !s100 dWEUlaCSXSc2FCla?c3oR0
+!s85 0
+Us_dffasx2_Q
+Z1445 Ie`[6>0M6N_AJCHEFzgBC90
+Z1446 VM3=Nlc7CSN7l5hFBnKmPR3
+R7
+R410
+R411
+R412
+L0 96
+R18
+r1
+31
+R27
+Z1447 ns_dffasx2_@q
+Z1448 !s100 zQLfTd6TdFAznM4O_nIhA3
+!s85 0
+Us_dffnarx1_Q
+Z1449 Ilnd?_Bc14R091;6X;Gi[^2
+Z1450 VbWALmQ4jl5GKQPmjLM9NG0
+R7
+R417
+R418
+R419
+L0 96
+R18
+r1
+31
+R27
+Z1451 ns_dffnarx1_@q
+Z1452 !s100 I0E_Zaa_eX]OZ[Lac@5M:3
+!s85 0
+Us_dffnarx2_Q
+Z1453 I0hVP@VmmezC>4K^OM>D1C0
+Z1454 V_UDF>KWR5N`gU1<kB7Lzj3
+R7
+R417
+R424
+R425
+L0 96
+R18
+r1
+31
+R27
+Z1455 ns_dffnarx2_@q
+Z1456 !s100 DEU@zY2a_>kL:H99mNGe83
+!s85 0
+Us_dffnasrnx1
+Z1457 I]M5noTA9kG?6E14Z6hce[3
+Z1458 VkGVQM6;b2BXHYaLX1lTcz1
+R7
+R430
+R431
+R432
+Z1459 L0 107
+R18
+r1
+31
+R27
+Z1460 !s100 Ng_=Eh[aYg[WRo07>Un;L3
+!s85 0
+Us_dffnasrnx2
+Z1461 I@@?zFXBnc4KWEa3O=`d2D3
+Z1462 V@6_ODOg1Q0]5SX_m=H2U[3
+R7
+R437
+R438
+R439
+R1459
+R18
+r1
+31
+R27
+Z1463 !s100 @@oR_d3]9n_Nd<[DOYZ6U3
+!s85 0
+Us_dffnasrqx1
+Z1464 I6LXUIF]`JYX8JGH<mICLD0
+Z1465 V^e179ci894i7g0e7P0fcz1
+R7
+R437
+R444
+R445
+Z1466 L0 106
+R18
+r1
+31
+R27
+Z1467 !s100 KV3NcaZ^d:cMSdAjiSN>Q0
+!s85 0
+Us_dffnasrqx2
+Z1468 IB@iUIo`H`UB8NbK<[J[EC1
+Z1469 V6bTGo==13LH]PN[6K16]d0
+R7
+R450
+R451
+R452
+R1466
+R18
+r1
+31
+R27
+Z1470 !s100 eSV7`e3lMlSP^LXjPWNnV3
+!s85 0
+Us_dffnasrx1_Q
+Z1471 I>n4XH@nd>UCQ<:m4oa7]f3
+Z1472 VacaZi<nHRb3dMGe9INGAY1
+R7
+R457
+R458
+R459
+Z1473 L0 162
+R18
+r1
+31
+R27
+Z1474 ns_dffnasrx1_@q
+Z1475 !s100 5lkZ3OD?Jn@l6QbP]@WV93
+!s85 0
+Us_dffnasrx1_QN
+Z1476 IF<8ANOSz7G<CLZaNo6d1?3
+Z1477 VAFZ13DNHdeT7;U]e;HZg41
+R7
+R457
+R458
+R459
+Z1478 L0 140
+R18
+r1
+31
+R27
+Z1479 ns_dffnasrx1_@q@n
+Z1480 !s100 CmQ1VLYAP@T^4TVMYSeMS1
+!s85 0
+Us_dffnasrx2_Q
+Z1481 Ik2L4^IANU7<X79`n@6]WQ1
+Z1482 VUko87DVW5JXiO<KFfGD8T3
+R7
+R457
+R464
+R465
+R1425
+R18
+r1
+31
+R27
+Z1483 ns_dffnasrx2_@q
+Z1484 !s100 `>BO1f3ZlNMCEP9Pj9kMn3
+!s85 0
+Us_dffnasrx2_QN
+Z1485 INPZzF39k]gbI^AE@<eXdZ1
+Z1486 VgF>@TEA?^Gjh]@gTz6HKo1
+R7
+R457
+R464
+R465
+R1430
+R18
+r1
+31
+R27
+Z1487 ns_dffnasrx2_@q@n
+Z1488 !s100 P]PKC:JB^jl@Jzn<Pf^c03
+!s85 0
+Us_dffnasx1_Q
+Z1489 IdBAme6[JYE<Sbj:mIaO=k2
+Z1490 V4`POK795S37RNJ4znW97g2
+R7
+R470
+R471
+R472
+L0 96
+R18
+r1
+31
+R27
+Z1491 ns_dffnasx1_@q
+Z1492 !s100 g=LJ@nN1JLhlfaH_6>L=[0
+!s85 0
+Us_dffnasx2_Q
+Z1493 I9P<5EC4J3_Rbjm;^][4cQ0
+Z1494 VLHIQN@AN?RLjR0zO0m1iK1
+R7
+R477
+R478
+R479
+L0 96
+R18
+r1
+31
+R27
+Z1495 ns_dffnasx2_@q
+Z1496 !s100 R@i_fEC@0hXVCSYn??bJ53
+!s85 0
+Us_dffnx1_Q
+Z1497 IDAa0e8>I:gEUHO`cUMBED2
+Z1498 VQ7m]o4A2W?V?n_zaCnel10
+R7
+R484
+R485
+R486
+L0 73
+R18
+r1
+31
+R27
+Z1499 ns_dffnx1_@q
+Z1500 !s100 B6IWPTQc^4dS81^C<bM][1
+!s85 0
+Us_dffnx2_Q
+Z1501 ISTEVnF=H3Td@7M>MN43WR3
+Z1502 VbMJ1W[DPnI9:Yz@nnLhZQ3
+R7
+R491
+R492
+R493
+L0 73
+R18
+r1
+31
+R27
+Z1503 ns_dffnx2_@q
+Z1504 !s100 AEWj@<L@nP8891Jn;R6Dn1
+!s85 0
+Us_dffssrx1_Q
+Z1505 IVVN75VSVWWf9T2Fzm]:2]3
+Z1506 V9blYHY0OjcbzPfnNP1Vl63
+R7
+R491
+R498
+R499
+L0 96
+R18
+r1
+31
+R27
+Z1507 ns_dffssrx1_@q
+Z1508 !s100 >4mI>8?@c0WUaBi`>o`iS0
+!s85 0
+Us_dffssrx2_Q
+Z1509 IR::D4N`c>4jM5agz:Q4Ca2
+Z1510 V21[hM<aklgcR8Yz?QU>@^1
+R7
+R504
+R505
+R506
+L0 96
+R18
+r1
+31
+R27
+Z1511 ns_dffssrx2_@q
+Z1512 !s100 DFC>f2>31dXVEhk;NN_D^3
+!s85 0
+Us_dffx1_Q
+Z1513 IRdia:1KdD6kC_P:Q=EA6c2
+Z1514 VZ=;TfCRP_h`UoP8bg@5[H2
+R7
+R504
+R511
+R512
+L0 73
+R18
+r1
+31
+R27
+Z1515 ns_dffx1_@q
+Z1516 !s100 SAe9k>OPf_FS:?kj[RK_:1
+!s85 0
+Us_dffx2_Q
+Z1517 I0kVI>`Un>i<K^T:GCm][`0
+Z1518 VB@FAN6JmdBbQ4MN87M10L1
+R7
+R517
+R518
+R519
+L0 73
+R18
+r1
+31
+R27
+Z1519 ns_dffx2_@q
+Z1520 !s100 SOS]ni1hKTBNml_dO5XT?0
+!s85 0
+Us_faddx1_CO
+Z1521 I<EOR]<=l[GNR3X7=I9PKz0
+Z1522 VQSO6ZNVBTa]1SNP>o@=ae0
+R7
+R531
+R532
+R533
+Z1523 L0 120
+R18
+r1
+31
+R27
+Z1524 ns_faddx1_@c@o
+Z1525 !s100 m_6H7@ehzczAo4RkGjW0g2
+!s85 0
+Us_faddx1_S
+Z1526 I<zL0^Sz16cO^jm2k>7VV81
+Z1527 V32Sm_@FN>8dPbhnAjM]bR1
+R7
+R531
+R532
+R533
+Z1528 L0 101
+R18
+r1
+31
+R27
+Z1529 ns_faddx1_@s
+Z1530 !s100 KHXHndJGG6GG7Xa?`AiI90
+!s85 0
+Us_faddx2_CO
+Z1531 IzmTAYKlU3>nIB<?fEj?nH1
+Z1532 VL6:CafL`R]o9@e?JNoBf53
+R7
+R538
+R539
+R540
+Z1533 L0 121
+R18
+r1
+31
+R27
+Z1534 ns_faddx2_@c@o
+Z1535 !s100 1`YBmb2H9?ga7g1cG07ig2
+!s85 0
+Us_faddx2_S
+Z1536 IHFRK:8lcj6ZRoTkO1Ib[:2
+Z1537 VhkV09:_k>Vd>geRcX[fMn0
+R7
+R538
+R539
+R540
+Z1538 L0 102
+R18
+r1
+31
+R27
+Z1539 ns_faddx2_@s
+Z1540 !s100 :]AKJncZ9L5=1Oin_<=Ic1
+!s85 0
+vs_larx1
+Z1541 I0^4U]3;BXn@b;Z:O_09@@3
+Z1542 V;B?mMj`YzJYKjge3YMjL<3
+R7
+R690
+R697
+R698
+L0 99
+R18
+r1
+31
+R27
+Z1543 !s100 [A7jK@anB4oMi:EzR^1eP3
+!s85 0
+vs_larx2
+Z1544 I7XW1lK?T8Mb0>d6e21Hhz3
+Z1545 VM=ETlEL@iWzE1UdSCzQ;N3
+R7
+R703
+R704
+R705
+L0 99
+R18
+r1
+31
+R27
+Z1546 !s100 @e?XREa@=Y=MB[IeoEV1F3
+!s85 0
+vs_lasrnx1
+Z1547 I@gW8HhU[3K:]UY6_>FLda1
+Z1548 V0l^izDW<UeQ9zgCGYkGYY2
+R7
+R710
+R711
+R712
+Z1549 L0 113
+R18
+r1
+31
+R27
+Z1550 !s100 X7d=^SFZzFlSgLZ3K5X4M0
+!s85 0
+vs_lasrnx2
+Z1551 IcM6o9P?zD9P@MW7>36c8k3
+Z1552 ViJ93BJRS]kTP:UL1FLoCR1
+R7
+R717
+R718
+R719
+R1549
+R18
+r1
+31
+R27
+Z1553 !s100 WV0f7d5DG4hgX7;lbOVkD2
+!s85 0
+vs_lasrqx1
+Z1554 I`7X1Bj?3Z0<KHkBOb`mZ11
+Z1555 VSb<gcJ5N?Y4HXJcCM;F780
+R7
+R724
+R725
+R726
+Z1556 L0 112
+R18
+r1
+31
+R27
+Z1557 !s100 V9`^lK7ZNC?IiHj>CXbeN3
+!s85 0
+vs_lasrqx2
+Z1558 I3j_T]EzX`R<`h?=h4<Q;k1
+Z1559 V=C5W^93U?a7fPW4;9f6]]2
+R7
+R731
+R732
+R733
+R1556
+R18
+r1
+31
+R27
+Z1560 !s100 GoJzoCnHBlM`^GSGkgRGz0
+!s85 0
+vs_lasrx1
+Z1561 IaE6gcEllnB1mH;NCjIjXT2
+Z1562 VfN`1`N@79jA9^@fMZTc`41
+R7
+R738
+R739
+R740
+Z1563 L0 143
+R18
+r1
+31
+R27
+Z1564 !s100 YDN3QMONPiVk24emh>2mJ3
+!s85 0
+vs_lasrx2
+Z1565 IT;QRnaCaSzjVahEnA0lH]2
+Z1566 V53_XO;1I5SdkMkoz_D8KD0
+R7
+R745
+R746
+R747
+R1563
+R18
+r1
+31
+R27
+Z1567 !s100 Z=G?F`Te=2bI]F[65=K^Q1
+!s85 0
+vs_lasx1
+Z1568 I^>5TI9QH`3VL@=W`Sm_?03
+Z1569 VL9:j?FmZCaj<aQ5[=J_4h1
+R7
+R752
+R753
+R754
+L0 99
+R18
+r1
+31
+R27
+Z1570 !s100 3OA]1UmZ3dUz7MQRRcfJH3
+!s85 0
+vs_lasx2
+Z1571 IO=UTK0Ih2loEncUk:i4AV2
+Z1572 VgigjQ>neLHH9:lzlI0n^B3
+R7
+R759
+R760
+R761
+L0 99
+R18
+r1
+31
+R27
+Z1573 !s100 [KMK;fX]TPPl0J46R9Dzc3
+!s85 0
+vs_latchx1
+Z1574 IB;h`5_oiIE0?YR3Xd5=^V0
+Z1575 V[I8BMfE9`2>YW`:JB>1=g3
+R7
+R766
+R767
+R768
+L0 77
+R18
+r1
+31
+R27
+Z1576 !s100 32JZn8i?fZkZKNi@BLQRB1
+!s85 0
+vs_latchx2
+Z1577 Ib0]mEC?ol4<kCjS:ej1_D0
+Z1578 V7j94ElR:<jH:VfA<03XD>3
+R7
+R773
+R774
+R775
+L0 78
+R18
+r1
+31
+R27
+Z1579 !s100 _OlDYYGY`ckR7>CWJ]?i43
+!s85 0
+Us_mux21x1
+Z1580 I^S_E8Yo_Dnh9D6oTP6N7d3
+Z1581 VaCiRJYcjk5?RG=T:;5l=A2
+R7
+R906
+R907
+R908
+L0 70
+R18
+r1
+31
+R27
+Z1582 !s100 _3<fi<e0j^Ih3zQeV0MAB2
+!s85 0
+Us_mux21x2
+Z1583 ID4hVY1Lo0z1Ggb[mYg^6T2
+Z1584 VUj[3BBi6dl:<=l4cf:m;Y2
+R7
+R913
+R914
+R915
+L0 70
+R18
+r1
+31
+R27
+Z1585 !s100 WTX43hM[U9:id]^RYibBK2
+!s85 0
+Us_mux41x1
+Z1586 IK@Q<;R>7`KZLI_Ce^6PS`0
+Z1587 VgG3bial:XAU^5MM3W^N970
+R7
+R920
+R921
+R922
+Z1588 L0 216
+R18
+r1
+31
+R27
+Z1589 !s100 SEiRzXDAD=C=[VcfK<M>D2
+!s85 0
+Us_mux41x2
+Z1590 I_>h2V`j3LZc[48e3Y[HGE2
+Z1591 VNhXMz^][BgDiZ15HG@^8P3
+R7
+R927
+R928
+R929
+R1588
+R18
+r1
+31
+R27
+Z1592 !s100 ?MHZXifLid^Y^@Gdl7W?C0
+!s85 0
+Us_rdffnx1_Q
+Z1593 IUF_cD`i9=bXe>n]33l]zA2
+Z1594 VVT9Q^`dj=AihhJ@Z[8]o32
+R7
+R1277
+R1278
+R1279
+L0 82
+R18
+r1
+31
+R27
+Z1595 ns_rdffnx1_@q
+Z1596 !s100 J=0Sj7a]Jo;6aQ0aFG1n@0
+!s85 0
+Us_rdffnx2_Q
+Z1597 IzXU_TJQ9;OVlZn7]99G:n2
+Z1598 VnTOIW5Na1zHG2?Fk?5i9h3
+R7
+R1284
+R1285
+R1286
+L0 82
+R18
+r1
+31
+R27
+Z1599 ns_rdffnx2_@q
+Z1600 !s100 @KZN4[TdO?2BH9b]72_BP3
+!s85 0
+Us_rdffx1_Q
+Z1601 IW`Zo1oB_zFjM3GT9>bbPF1
+Z1602 VF]]HBY?S2?fYefEECUaX_0
+R7
+R1291
+R1292
+R1293
+L0 87
+R18
+r1
+31
+R27
+Z1603 ns_rdffx1_@q
+Z1604 !s100 ;Qba<Kb9iCI]?k^bQDV:X2
+!s85 0
+Us_RDFFX2_Q
+Z1605 IUlMD5565=]VaeRAV>SLDn3
+Z1606 Va`eXV`^V3gCFzU`YJ^WLd2
+R7
+R1298
+R1299
+R1300
+L0 87
+R18
+r1
+31
+R27
+Z1607 ns_@r@d@f@f@x2_@q
+Z1608 !s100 MN^XCX6hHjShm92S=6iLb1
+!s85 0
+Us_rsdffnx1_Q
+Z1609 IPo;CU:^UH4iz2WHIRNX<R2
+Z1610 VbalbHMhj4bOJ3lN<58N3z2
+R7
+R1305
+R1306
+R1307
+Z1611 L0 138
+R18
+r1
+31
+R27
+Z1612 ns_rsdffnx1_@q
+Z1613 !s100 `[mZcem:6f0Yke:Do9=^m2
+!s85 0
+Us_rsdffnx2_Q
+Z1614 IK66Lc_GPh046zzYIP`4Bi1
+Z1615 VJZZ@1C46>:A>RB7If[J]<3
+R7
+R1311
+R1312
+R1313
+R1611
+R18
+r1
+31
+R27
+Z1616 ns_rsdffnx2_@q
+Z1617 !s100 lIMVYWm2XV;M7aeocTS3L1
+!s85 0
+Us_rsdffx1_Q
+Z1618 INX>F]>hIHz2CH61^@hgDX0
+Z1619 V6SkjFW4MTG:VmTi7h08jg2
+R7
+R1317
+R1318
+R1319
+Z1620 L0 158
+R18
+r1
+31
+R27
+Z1621 ns_rsdffx1_@q
+Z1622 !s100 [1OELJ?f4AMlCjDZ[>KFR1
+!s85 0
+Us_rsdffx2_Q
+Z1623 IZaRlY0UmD?W0;`2[_lHgV1
+Z1624 Va3ODWXR0`GH1K3^N`SR:Z2
+R7
+R1324
+R1325
+R1326
+R1620
+R18
+r1
+31
+R27
+Z1625 ns_rsdffx2_@q
+Z1626 !s100 <XEZH6HGe4V[EL?`:?6Jl3
+!s85 0
+Us_sdffarx1_Q
+Z1627 IZNLUgTaAHVV<JWd@Elo_h3
+Z1628 VDa9iDKYmzTWO0mEZR`MHe3
+R7
+Z1629 w1227177990
+Z1630 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFARX1.v
+Z1631 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFARX1.v
+Z1632 L0 176
+R18
+r1
+31
+R27
+Z1633 ns_sdffarx1_@q
+Z1634 !s100 dGFG_=DEckYH2[3=fR8L52
+!s85 0
+Us_sdffarx2_Q
+Z1635 IoVW2dz:jb10Pz@[3^3A?Y3
+Z1636 VcklQzYFI7>aanL5EGbW_f3
+R7
+Z1637 w1227177938
+Z1638 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFARX2.v
+Z1639 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFARX2.v
+R1632
+R18
+r1
+31
+R27
+Z1640 ns_sdffarx2_@q
+Z1641 !s100 kA[XOL:h12Yf9D>VMeg?N3
+!s85 0
+Us_sdffasrsx1_Q
+Z1642 Im4Zc1RLhD?E3hX4a;_F`22
+Z1643 V4:086=O77m;Pn^9gd8RRe0
+R7
+Z1644 w1227212776
+Z1645 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFASRSX1.v
+Z1646 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFASRSX1.v
+Z1647 L0 521
+R18
+r1
+31
+R27
+Z1648 ns_sdffasrsx1_@q
+Z1649 !s100 SIQ?G1QiAAHd=1_Sf?Vj51
+!s85 0
+Us_sdffasrsx1_QN
+Z1650 I[>>b6?zGH=3ER3PNLKzWW3
+Z1651 VB2dUR69fT1kTzSd[f:9M32
+R7
+R1644
+R1645
+R1646
+Z1652 L0 495
+R18
+r1
+31
+R27
+Z1653 ns_sdffasrsx1_@q@n
+Z1654 !s100 agQbReUDoAEcN<BhRQ;9Q1
+!s85 0
+Us_sdffasrsx1_S0
+Z1655 I2OBDnZGL:6g`3KG4S<77:0
+Z1656 VQ?W@:c<]Q>B>KTM2OW=CG0
+R7
+R1644
+R1645
+R1646
+Z1657 L0 469
+R18
+r1
+31
+R27
+Z1658 ns_sdffasrsx1_@s0
+Z1659 !s100 L_Lh?eOJ?WeZK@k;Eg70^2
+!s85 0
+Us_sdffasrsx2_Q
+Z1660 I]KzO:dUZ]aG=nd3M[P[`>0
+Z1661 V8G7X4@bhMSS0GkoEcGhYG2
+R7
+Z1662 w1227212808
+Z1663 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFASRSX2.v
+Z1664 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFASRSX2.v
+R1647
+R18
+r1
+31
+R27
+Z1665 ns_sdffasrsx2_@q
+Z1666 !s100 V98[059bI3eJRkM_S6nYL3
+!s85 0
+Us_sdffasrsx2_QN
+Z1667 I598gX<d5KcJXYXdOL_CP93
+Z1668 V6LnGYR0N1ZF=hMRb`;1L^0
+R7
+R1662
+R1663
+R1664
+R1652
+R18
+r1
+31
+R27
+Z1669 ns_sdffasrsx2_@q@n
+Z1670 !s100 O;FbIT3lLkCdM]^U7`SRG2
+!s85 0
+Us_sdffasrsx2_S0
+Z1671 I?_in2`CcXc6ZcL?NUa2o41
+Z1672 VN]KWe@OKmI<`_mM^g[X]E2
+R7
+R1662
+R1663
+R1664
+R1657
+R18
+r1
+31
+R27
+Z1673 ns_sdffasrsx2_@s0
+Z1674 !s100 >7k[Ecm_TUQj32OhU=59i3
+!s85 0
+Us_sdffasrx1_Q
+Z1675 IaGIQJ49Q?5Nam<kFXDG3:2
+Z1676 V5V_FYJOhPa:5h`oA9QKER3
+R7
+Z1677 w1227212636
+Z1678 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFASRX1.v
+Z1679 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFASRX1.v
+Z1680 L0 365
+R18
+r1
+31
+R27
+Z1681 ns_sdffasrx1_@q
+Z1682 !s100 fmkCLR:OaE@^OX:FbAfh]3
+!s85 0
+Us_sdffasrx1_QN
+Z1683 IJSOFlR><c?]hXY=`FZ@T?0
+Z1684 VR=SlMJ[XMG@8hUa9oRnf?0
+R7
+R1677
+R1678
+R1679
+Z1685 L0 338
+R18
+r1
+31
+R27
+Z1686 ns_sdffasrx1_@q@n
+Z1687 !s100 oV`PPAC3gmn>@W9N]XDWU3
+!s85 0
+Us_sdffasrx2_Q
+Z1688 IzX<KS8SmBkLLWW1UMfe[i1
+Z1689 VR?I`j<493_[DOH^R<z?X31
+R7
+Z1690 w1227212662
+Z1691 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFASRX2.v
+Z1692 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFASRX2.v
+Z1693 L0 364
+R18
+r1
+31
+R27
+Z1694 ns_sdffasrx2_@q
+Z1695 !s100 L21>H]Ujjlo47zZ0T=WXf3
+!s85 0
+Us_sdffasrx2_QN
+Z1696 Id=0LJ^ACMg1]lQmnC07oj2
+Z1697 V:jG<G:VNbYMbAKYQSl7Fa0
+R7
+R1690
+R1691
+R1692
+R1685
+R18
+r1
+31
+R27
+Z1698 ns_sdffasrx2_@q@n
+Z1699 !s100 c0EA8hPRe:;]cz<J09Po^2
+!s85 0
+Us_sdffasx1_Q
+Z1700 Ib:WCmeGnS]1^^L:<gDi:n1
+Z1701 Vg;k=el?Z5l=jGFROWzf?i0
+R7
+Z1702 w1227212040
+Z1703 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFASX1.v
+Z1704 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFASX1.v
+R1632
+R18
+r1
+31
+R27
+Z1705 ns_sdffasx1_@q
+Z1706 !s100 ?I1DmhdTaB7k[fE`]8n@h1
+!s85 0
+Us_sdffasx2_Q
+Z1707 IPOER5ioUkW7;?3K[_DfWM0
+Z1708 V3@V`2]ET[?3>AO=K];^[n3
+R7
+Z1709 w1227212038
+Z1710 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFASX2.v
+Z1711 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFASX2.v
+R1632
+R18
+r1
+31
+R27
+Z1712 ns_sdffasx2_@q
+Z1713 !s100 GZNDjR7jgNG4PlgzY>A]V2
+!s85 0
+Us_sdffnarx1_Q
+Z1714 I_g;H0a883E^^M^BTPEFf@1
+Z1715 V0MY3Ch`0[iAeQ4>9Z;jh91
+R7
+Z1716 w1227212478
+Z1717 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNARX1.v
+Z1718 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNARX1.v
+R1632
+R18
+r1
+31
+R27
+Z1719 ns_sdffnarx1_@q
+Z1720 !s100 IMK9TLZfbn47UM=JW@ZX02
+!s85 0
+Us_sdffnarx2_Q
+Z1721 I;O8PoZ>]h08?9ZEz2OSN<0
+Z1722 VPgcc3cP0nD>GJni?bZ5iW1
+R7
+Z1723 w1227212476
+Z1724 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNARX2.v
+Z1725 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNARX2.v
+R1632
+R18
+r1
+31
+R27
+Z1726 ns_sdffnarx2_@q
+Z1727 !s100 Y4=T0JPbUPGE4M:Y]iNQP0
+!s85 0
+Us_sdffnasrx1_Q
+Z1728 I1cI0D`O:G:fZ0Kz4gzZ>H1
+Z1729 V:=W=>JHT_D_j^QQEVN3b[0
+R7
+Z1730 w1227212318
+Z1731 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNASRX1.v
+Z1732 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNASRX1.v
+R1693
+R18
+r1
+31
+R27
+Z1733 ns_sdffnasrx1_@q
+Z1734 !s100 ij2DE?[d6Q@Q59eZlk=341
+!s85 0
+Us_sdffnasrx1_QN
+Z1735 IFPN@iFa0N=aFV3GIHiJNd3
+Z1736 V50`>c?E2DNd[[::CS^^;>3
+R7
+R1730
+R1731
+R1732
+R1685
+R18
+r1
+31
+R27
+Z1737 ns_sdffnasrx1_@q@n
+Z1738 !s100 O<SQ6QE=jII2S0>5;In>D2
+!s85 0
+Us_sdffnasrx2_Q
+Z1739 IIIIZ4V`_>BXfEHY>CTcSP1
+Z1740 V5Xm<UkQMb`NIX4cn_T^m`3
+R7
+Z1741 w1227212348
+Z1742 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNASRX2.v
+Z1743 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNASRX2.v
+R1693
+R18
+r1
+31
+R27
+Z1744 ns_sdffnasrx2_@q
+Z1745 !s100 gXz:nU[:0zC:G_MYhz6SO0
+!s85 0
+Us_sdffnasrx2_QN
+Z1746 I8fH^Pi8>W7D71LXHc_iS^0
+Z1747 V;h0=XYNO^SEBhC@fBdAMZ2
+R7
+R1741
+R1742
+R1743
+R1685
+R18
+r1
+31
+R27
+Z1748 ns_sdffnasrx2_@q@n
+Z1749 !s100 dB>6TZAc8Wo2]`H2_24CA1
+!s85 0
+Us_sdffnasx1_Q
+Z1750 I_Lzmd2CRCJ08VA4iz4M[10
+Z1751 V:0kSMN@?BKadEPL3::nA42
+R7
+Z1752 w1227212128
+Z1753 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNASX1.v
+Z1754 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNASX1.v
+R1632
+R18
+r1
+31
+R27
+Z1755 ns_sdffnasx1_@q
+Z1756 !s100 R>5378^WlE<:OC?_@@lle2
+!s85 0
+Us_sdffnasx2_Q
+Z1757 IZhd8o763G7`837RKbzAaK0
+Z1758 V_kR5;QX>VXcD=RZZRdeST3
+R7
+Z1759 w1227212126
+Z1760 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNASX2.v
+Z1761 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNASX2.v
+R1632
+R18
+r1
+31
+R27
+Z1762 ns_sdffnasx2_@q
+Z1763 !s100 C`KF0YE;Sjch`enMG2OU@3
+!s85 0
+Us_sdffnx1_Q
+Z1764 IPAL`Gc9@^2d5hR2zS2J@32
+Z1765 VH>5c:UMIOL[@6l0cWbkoH1
+R7
+Z1766 w1227211560
+Z1767 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNX1.v
+Z1768 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNX1.v
+L0 97
+R18
+r1
+31
+R27
+Z1769 ns_sdffnx1_@q
+Z1770 !s100 nH8jZd`UHJbARKAQM1I8V0
+!s85 0
+Us_sdffnx2_Q
+Z1771 I]UFbG03A:8UBe7LOZ]MJR3
+Z1772 VFS^KYbR;=PPmZlH?D`djg2
+R7
+Z1773 w1227211558
+Z1774 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNX2.v
+Z1775 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFNX2.v
+L0 97
+R18
+r1
+31
+R27
+Z1776 ns_sdffnx2_@q
+Z1777 !s100 bB>T;CnY1Lc<zPF9<CAc>1
+!s85 0
+Us_sdffssrx1_Q
+Z1778 I4FKIRS<5N`dUL;O^n7J:c2
+Z1779 V><?Oljl0HcJHAlOmI;<Md2
+R7
+Z1780 w1227211768
+Z1781 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFSSRX1.v
+Z1782 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFSSRX1.v
+Z1783 L0 185
+R18
+r1
+31
+R27
+Z1784 ns_sdffssrx1_@q
+Z1785 !s100 R2P`U<h5ZDhoOZ]lzdjkc2
+!s85 0
+Us_sdffssrx2_Q
+Z1786 IlLZkCGLd[fG:S_5RgW[f31
+Z1787 V=:0Q_K4cGh4dz=U4oN:h[2
+R7
+Z1788 w1227211766
+Z1789 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFSSRX2.v
+Z1790 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFSSRX2.v
+R1783
+R18
+r1
+31
+R27
+Z1791 ns_sdffssrx2_@q
+Z1792 !s100 AWL@WKT]1R;:5c?JNfiHd2
+!s85 0
+Us_sdffx1_Q
+Z1793 IQ7Ue3DCS7U5CH52OZE4[S2
+Z1794 VL708oPeDjM>fiAoJ?@Ik[0
+R7
+Z1795 w1227211052
+Z1796 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFX1.v
+Z1797 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFX1.v
+L0 97
+R18
+r1
+31
+R27
+Z1798 ns_sdffx1_@q
+Z1799 !s100 GFThjlC[9X<GCMCDA30IQ2
+!s85 0
+Us_sdffx2_Q
+Z1800 I[2BnioeNmG6kgEG9H]FA^3
+Z1801 VN?mdh]=>l<N7^D^_ZFack0
+R7
+Z1802 w1227211058
+Z1803 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFX2.v
+Z1804 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/SDFFX2.v
+L0 97
+R18
+r1
+31
+R27
+Z1805 ns_sdffx2_@q
+Z1806 !s100 NSS3gg>cT<mO[>G>LhE;>3
+!s85 0
+vSDFFARX1
+Z1807 IZ]0hUO?dLC=1HBa3@]k@73
+Z1808 VeK6J9;_`FkD;j`?ihh;^G3
+R7
+R1629
+R1630
+R1631
+L0 27
+R18
+r1
+31
+R27
+Z1809 n@s@d@f@f@a@r@x1
+Z1810 !s100 ok[ShzGAb]ZX]MYKHR_F83
+!s85 0
+vSDFFARX2
+Z1811 I1HCkXoXe@1<84IER7z^aL0
+Z1812 VbCcGhXFeV]nlY0C]mMzK;1
+R7
+R1637
+R1638
+R1639
+L0 27
+R18
+r1
+31
+R27
+Z1813 n@s@d@f@f@a@r@x2
+Z1814 !s100 ^@N7JoV0V?PgcIV`[RIXS2
+!s85 0
+vSDFFASRSX1
+Z1815 I8g@U;FHYzUL3hGEAn`KLb1
+Z1816 Va@`ei@aozo8Kcb^QIfG@N1
+R7
+R1644
+R1645
+R1646
+L0 27
+R18
+r1
+31
+R27
+Z1817 n@s@d@f@f@a@s@r@s@x1
+Z1818 !s100 31j4_=?l`oDfRFQgIIQN>3
+!s85 0
+vSDFFASRSX2
+Z1819 IB3Re=3TU3QlHU?TfiIm`01
+Z1820 V>E]9ek7QNVMTjABV6GIDT2
+R7
+R1662
+R1663
+R1664
+L0 27
+R18
+r1
+31
+R27
+Z1821 n@s@d@f@f@a@s@r@s@x2
+Z1822 !s100 ?:=_UdZdD;YhJV?DV[HdP1
+!s85 0
+vSDFFASRX1
+Z1823 IA9hzd<_H]WhQLJ^4<;H6E0
+Z1824 Vm:OfXJ1bjnFD:bOM^T:T=0
+R7
+R1677
+R1678
+R1679
+L0 27
+R18
+r1
+31
+R27
+Z1825 n@s@d@f@f@a@s@r@x1
+Z1826 !s100 :MHDhI?jZ5nHhPS8cU1_52
+!s85 0
+vSDFFASRX2
+Z1827 Ic]0OaaBaabYT[?zhV;VD21
+Z1828 V[hKc7@fBN4k2Lo=OfhoaO1
+R7
+R1690
+R1691
+R1692
+L0 27
+R18
+r1
+31
+R27
+Z1829 n@s@d@f@f@a@s@r@x2
+Z1830 !s100 S^=aWaRWIFDzO]UjOO13g0
+!s85 0
+vSDFFASX1
+Z1831 INR;;>6G8a_AA[7idM5X^92
+Z1832 VIf@]i@OZ;`E1oNCg;;Hg=0
+R7
+R1702
+R1703
+R1704
+L0 27
+R18
+r1
+31
+R27
+Z1833 n@s@d@f@f@a@s@x1
+Z1834 !s100 ^X?MdDD0za@>n[OC[`0z[3
+!s85 0
+vSDFFASX2
+Z1835 I8IRiAoHDkn4HjkPL9]afK0
+Z1836 VQCM[c029EfSXBE:C_XzQD3
+R7
+R1709
+R1710
+R1711
+L0 27
+R18
+r1
+31
+R27
+Z1837 n@s@d@f@f@a@s@x2
+Z1838 !s100 zK84@IW2>K7L?3SQl8FLC1
+!s85 0
+vSDFFNARX1
+Z1839 I5dRiQKEz?UjQFfc?6:JH@0
+Z1840 VQYT3:=G?=?J0z^GPInoWA0
+R7
+R1716
+R1717
+R1718
+L0 27
+R18
+r1
+31
+R27
+Z1841 n@s@d@f@f@n@a@r@x1
+Z1842 !s100 YfbYL5j@lBXXZ8gm;6F2Q2
+!s85 0
+vSDFFNARX2
+Z1843 IPzLYezKUf_^Gf<OJgo]?j3
+Z1844 V>N0Y[ejLi3S<jg?C47CW03
+R7
+R1723
+R1724
+R1725
+L0 27
+R18
+r1
+31
+R27
+Z1845 n@s@d@f@f@n@a@r@x2
+Z1846 !s100 kgz5cYST]QMQjaFJ1]89Y3
+!s85 0
+vSDFFNASRX1
+Z1847 IRMGzzK=CG>]^Wd855UhiF3
+Z1848 VVflzbkD9kkVB=N199VRz`1
+R7
+R1730
+R1731
+R1732
+L0 27
+R18
+r1
+31
+R27
+Z1849 n@s@d@f@f@n@a@s@r@x1
+Z1850 !s100 MW2oCI>L66jekSAV1jaNT0
+!s85 0
+vSDFFNASRX2
+Z1851 IRz3[6WOLIafWS`BGBL=9J1
+Z1852 VEU0R?BL=GgANz=9DAc[GU2
+R7
+R1741
+R1742
+R1743
+L0 27
+R18
+r1
+31
+R27
+Z1853 n@s@d@f@f@n@a@s@r@x2
+Z1854 !s100 >PGOo2V0:c6Dz?FT=n]0K1
+!s85 0
+vSDFFNASX1
+Z1855 I3<Y<@9>LN1oV27NoP_F2F1
+Z1856 V3mSe3zgBbFNOHllQ2edTA3
+R7
+R1752
+R1753
+R1754
+L0 27
+R18
+r1
+31
+R27
+Z1857 n@s@d@f@f@n@a@s@x1
+Z1858 !s100 SnzjUaVnMo3;3E9n_4_dH0
+!s85 0
+vSDFFNASX2
+Z1859 I^no21cdZzWh10?Y@B[Y?11
+Z1860 V1jOn]XDQOf=?1`NY3XM:B3
+R7
+R1759
+R1760
+R1761
+L0 27
+R18
+r1
+31
+R27
+Z1861 n@s@d@f@f@n@a@s@x2
+Z1862 !s100 8]R<ST@A]2HGHLHd<nGVX3
+!s85 0
+vSDFFNX1
+Z1863 IYP@8:TJbh^_6Dm9A_8<k`1
+Z1864 VFZC:Dc;K^oMB<3kV==Mii1
+R7
+R1766
+R1767
+R1768
+L0 27
+R18
+r1
+31
+R27
+Z1865 n@s@d@f@f@n@x1
+Z1866 !s100 KUNBPn]75K>1_48hzC[iX3
+!s85 0
+vSDFFNX2
+Z1867 I?65?CFH<K`DCM?7?AmQ:O3
+Z1868 VJ<6<9M;oBBGT^K@Y8aEG70
+R7
+R1773
+R1774
+R1775
+L0 27
+R18
+r1
+31
+R27
+Z1869 n@s@d@f@f@n@x2
+Z1870 !s100 UV14T;4=XCM>mRk`e6^Zn1
+!s85 0
+vSDFFSSRX1
+Z1871 IJDD`[ejcP;d5Cgo^kZU>C3
+Z1872 V?G1d9@`=X=XSTFM[UdU<i2
+R7
+R1780
+R1781
+R1782
+L0 27
+R18
+r1
+31
+R27
+Z1873 n@s@d@f@f@s@s@r@x1
+Z1874 !s100 eCUSQ?KB:XVSgfScOUj_P3
+!s85 0
+vSDFFSSRX2
+Z1875 I8U;Zg;ha:MJBljm=?o>0<2
+Z1876 V]5]UDVDP6cNBh`OU8VR2T0
+R7
+R1788
+R1789
+R1790
+L0 27
+R18
+r1
+31
+R27
+Z1877 n@s@d@f@f@s@s@r@x2
+Z1878 !s100 L4mg5IkbGY?kgaMR;5hPS3
+!s85 0
+vSDFFX1
+Z1879 IdnU:gS=KAk;49RWU9^o<O2
+Z1880 V:eNc_@J1]bA2do:@OIA`M3
+R7
+R1795
+R1796
+R1797
+L0 27
+R18
+r1
+31
+R27
+Z1881 n@s@d@f@f@x1
+Z1882 !s100 J2bcn5kbFY:;zCoBGjP7M3
+!s85 0
+vSDFFX2
+Z1883 Ih;gCWKFOc=TT>Jg@1:n1?2
+Z1884 V=2Q2?oV_M7TCN9oToGMSH1
+R7
+R1802
+R1803
+R1804
+L0 27
+R18
+r1
+31
+R27
+Z1885 n@s@d@f@f@x2
+Z1886 !s100 96^_[A27NVh>VQbka9GY]3
+!s85 0
+vTNBUFFHX1
+Z1887 Iao_<47hoJ9h=_UFD^m[z<1
+Z1888 VBo]cZ7eOlh@5961O;TSkj0
+R7
+Z1889 w1213165115
+Z1890 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/TNBUFFHX1.v
+Z1891 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/TNBUFFHX1.v
+L0 27
+R18
+r1
+31
+R27
+Z1892 n@t@n@b@u@f@f@h@x1
+Z1893 !s100 SeU><6L6m`1cbN4UfMJD:3
+!s85 0
+vTNBUFFHX16
+Z1894 IcDDfdEz@U?F`PB>bAjgM00
+Z1895 VOb[AMVTeM?Mi0P72SlCX00
+R7
+Z1896 w1213165114
+Z1897 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/TNBUFFHX16.v
+Z1898 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/TNBUFFHX16.v
+L0 27
+R18
+r1
+31
+R27
+Z1899 n@t@n@b@u@f@f@h@x16
+Z1900 !s100 `DQ^bkmHbE1nzU4i3Fnf82
+!s85 0
+vTNBUFFHX2
+Z1901 I@gCTm]2jaf8z2BD6LOmVi2
+Z1902 Vb;GkO2cX:4EHCM]oZQjSz1
+R7
+R1889
+Z1903 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/TNBUFFHX2.v
+Z1904 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/TNBUFFHX2.v
+L0 27
+R18
+r1
+31
+R27
+Z1905 n@t@n@b@u@f@f@h@x2
+Z1906 !s100 0?jh<TdY1l`R?Z9^NTXPm1
+!s85 0
+vTNBUFFHX32
+Z1907 I6MoQMKH]a5B0dOUeLdfLD2
+Z1908 V1NRY8NWziP:W:SMU`MIce1
+R7
+Z1909 w1213165116
+Z1910 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/TNBUFFHX32.v
+Z1911 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/TNBUFFHX32.v
+L0 27
+R18
+r1
+31
+R27
+Z1912 n@t@n@b@u@f@f@h@x32
+Z1913 !s100 n]d?`7DzdLCF77in=cLfX0
+!s85 0
+vTNBUFFHX4
+Z1914 IUQ7EW;1LJ1Mh?7i^L9bP43
+Z1915 V2`3ZRFef3gSX9o]oBXKzl2
+R7
+R1909
+Z1916 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/TNBUFFHX4.v
+Z1917 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/TNBUFFHX4.v
+L0 27
+R18
+r1
+31
+R27
+Z1918 n@t@n@b@u@f@f@h@x4
+Z1919 !s100 XND]dB1lUBL6mHD07W74T1
+!s85 0
+vTNBUFFHX8
+Z1920 Ij<K1TO[70HBQl5O=0CXP:3
+Z1921 VB`YP1KShMBSRYQBoDgJD50
+R7
+Z1922 w1213165117
+Z1923 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/TNBUFFHX8.v
+Z1924 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/TNBUFFHX8.v
+L0 27
+R18
+r1
+31
+R27
+Z1925 n@t@n@b@u@f@f@h@x8
+Z1926 !s100 1FK9mYMQ1DEfmO8EP_VF[2
+!s85 0
+vXNOR2X1
+Z1927 IJzE=A1koET9WjO8]TT]YR1
+Z1928 VZM4:@K<7^;0<Ej5GiJb_V0
+R7
+R1922
+Z1929 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XNOR2X1.v
+Z1930 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XNOR2X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1931 n@x@n@o@r2@x1
+Z1932 !s100 8]39zEg2;zBT[]TTK`mB82
+!s85 0
+vXNOR2X2
+Z1933 I]ZM5dCjCdX1G:fXdad_eG1
+Z1934 VSJQUdkNnlAGWSaQA[h2hj0
+R7
+Z1935 w1213165118
+Z1936 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XNOR2X2.v
+Z1937 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XNOR2X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1938 n@x@n@o@r2@x2
+Z1939 !s100 2o=<9]U`m]2?^zRDQU95>0
+!s85 0
+vXNOR3X1
+Z1940 IkH=GnbN=SHDNFjo5Bm7GL1
+Z1941 VIN34NBIV^4W7S4NkE:bSm1
+R7
+Z1942 w1213165119
+Z1943 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XNOR3X1.v
+Z1944 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XNOR3X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1945 n@x@n@o@r3@x1
+Z1946 !s100 @A<NEAj0gdSk6E3kLQ32V3
+!s85 0
+vXNOR3X2
+Z1947 IFKB1R:e28gVLSR?f_K6`[2
+Z1948 V=DiPoO:U4_0n=9oSY<K?;1
+R7
+R1942
+Z1949 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XNOR3X2.v
+Z1950 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XNOR3X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1951 n@x@n@o@r3@x2
+Z1952 !s100 b[9I6`WJa@3`>PWT?IRBJ2
+!s85 0
+vXOR2X1
+Z1953 IY`Wi_KYF4E47_[kB`b9Z63
+Z1954 VB9Z:CMT]gWd<f5[HnEZKJ2
+R7
+Z1955 w1213165120
+Z1956 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XOR2X1.v
+Z1957 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XOR2X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1958 n@x@o@r2@x1
+Z1959 !s100 @`eW<_iH]CfH=ff6]SYOU3
+!s85 0
+vXOR2X2
+Z1960 I;;Z;<4bE[nIEK9lJA7`Ez1
+Z1961 V999P0P>W7FV;oK<^UJ?XH0
+R7
+R1955
+Z1962 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XOR2X2.v
+Z1963 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XOR2X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1964 n@x@o@r2@x2
+Z1965 !s100 bQ?F<]klKOJRzCY90VVKg0
+!s85 0
+vXOR3X1
+Z1966 I`A`P47T;MT4_27dijdXFg2
+Z1967 V1e]hKoGl2PkmgE>AhQ55j3
+R7
+Z1968 w1213165121
+Z1969 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XOR3X1.v
+Z1970 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XOR3X1.v
+L0 27
+R18
+r1
+31
+R27
+Z1971 n@x@o@r3@x1
+Z1972 !s100 Z[=cgCIMHXdbl:]QQn[mM2
+!s85 0
+vXOR3X2
+Z1973 IeBz?3`cS72Jce:]FiPn;C1
+Z1974 VNGDh6G?QRhZ8l57FU]TAT3
+R7
+R1968
+Z1975 8/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XOR3X2.v
+Z1976 F/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/XOR3X2.v
+L0 27
+R18
+r1
+31
+R27
+Z1977 n@x@o@r3@x2
+Z1978 !s100 Vib[D:EhaIf0Ok?b]XK=@1
+!s85 0

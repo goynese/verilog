@@ -1,0 +1,19 @@
+# vsim -do tb.do -novopt tb 
+# //  ModelSim SE 6.6a Mar 19 2010 Linux 2.6.32-358.2.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw3/untitled folder/work.tb
+# Loading work.tb
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw3/untitled folder/work.divider_even
+# Loading work.divider_even
+# do tb.do 
+# 
+# <EOF> 

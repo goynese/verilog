@@ -1,0 +1,42 @@
+# //  ModelSim SE 6.6a Mar 19 2010 Linux 2.6.32-358.2.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -do fadder.do -novopt fadder 
+# Loading sv_std.std
+# Loading work.fadder
+# do fadder.do 
+# .main_pane.objects.interior.cs.body.tree
+date
+# Fri Apr  5 11:28:04 PDT 2013
+date
+# Fri Apr  5 11:28:22 PDT 2013
+pwd
+# /nfs/stak/students/g/goynese/ECE474/inclass1
+etc
+# invalid command name "etc"
+is
+# ambiguous command name "is": isCompareSignalSelected isDividerSelected isGroupSelected isHide isHierObject isNameAssertion isNumber isPSLAssertionPresent isPSLCoverPresent isPackOption isSigVirtual isSignalSelected is_bp_src_file_c_lang is_legal_dataset_name is_ref_value isinteger
+Is
+# ambiguous command name "Is": IsAnyAssertions IsAnyFCovers IsAssertionBrowseable IsAssertionDebug IsAssertionPresent IsCdbgNeeded IsCdbgVersionOkForSystemC IsCoverDirectivePresent IsEndpointObjInSim IsFCObjectInContext IsFCoverObjInSim IsFileInTable IsIndexLabel IsLibrary IsNativityEnabled IsPathSepInsideEscId IsQuesta IsSignalsSelectedSystemC IsStructSelectedSystemC IsSystemCHeaderFile IsSystemCPlatform IsSystemCPresent IsSystemVerilogDPIPresent IsUcdbDatasetModified IsWaveSelectedSystemC IsWlfInViewMode
+1s
+# invalid command name "1s"
+ls
+# comp_lib.sh
+# doit.sh
+# fadder.do
+# fadder.sv
+# transcript
+# vsim.wlf
+# work
+clear
+# [H[2J
+cls
+# invalid command name "cls"
+quit -f

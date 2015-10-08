@@ -1,0 +1,55 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/nfs/stak/students/g/goynese/ECE474/hw2/rtl_src
+T_opt
+Z1 VZakh_Q4M`nd=3TLZ2KRRz0
+Z2 04 3 4 work alu fast 0
+Z3 =1-24be050c5941-5178664e-5f63c-6afc
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6a;45
+Z7 d/nfs/stak/students/g/goynese/ECE474/hw2/rtl_src
+T_opt1
+Z8 VYcFRhO0kOfD17RPBckNaF1
+R2
+Z9 =1-24be050c59ee-517ac4ff-85cb3-7a91
+R4
+Z10 n@_opt1
+R6
+R7
+T_opt2
+Z11 VD4AddI?^8djA;`AK4hUON3
+R2
+Z12 =1-24be050c594e-517b0f56-6ccee-2fdc
+R4
+Z13 n@_opt2
+R6
+R7
+T_opt3
+Z14 Va7M`g:z<V8e]o85nH_0o61
+R2
+Z15 =1-001e68378ddc-517add08-7ada4-ed4
+R4
+Z16 n@_opt3
+R6
+R7
+valu
+Mx1 19 __model_tech/sv_std 3 std
+DXx19 __model_tech/sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z17 IRFE6_QT1E6cQcC^kh=OJS2
+Z18 VL^2?JFXc@;eDXFViHAi1=2
+S1
+R7
+Z19 w1367019329
+Z20 8alu.sv
+Z21 Falu.sv
+L0 1
+Z22 OE;L;6.6a;45
+r1
+31
+Z23 o-L mtiAvm -L mtiOvm -L mtiUPF
+Z24 !s100 Mo_kX:oDcONLQASmXZo7=1
+Z25 !s105 alu_sv_unit
+!s85 0

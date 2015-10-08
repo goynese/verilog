@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "Bash script starting"
+
+if [ ! -d "work" ]; then
+	vlib work
+fi
+
+if [ -s "fadder.sv" & -s "adder8.sv" ]; then
+	vlog fadder.sv
+	vlog adder8.sv
+fi
+
+if [ -s "adder.do" ]; then
+	vsim adder.do
+	
+

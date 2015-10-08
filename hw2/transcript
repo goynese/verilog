@@ -1,0 +1,14 @@
+# vsim -do rtl_src/aludofile.do -c -quiet -t 1ps -novopt alu 
+# //  ModelSim SE 6.6a Mar 19 2010 Linux 2.6.32-358.2.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw2/work.alu
+# do rtl_src/aludofile.do 
+# Missing signal name or pattern

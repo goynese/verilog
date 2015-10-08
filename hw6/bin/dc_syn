@@ -1,0 +1,104 @@
+#synopsys synthesis skeleton script
+
+#boilerplate
+set hdlin_auto_save_templates true
+set hdlin_check_no_latch      true
+
+#read in all the modules
+read_sverilog rtl_src/counter.sv
+read_sverilog rtl_src/counter_sm.sv
+read_sverilog rtl_src/divider_even.sv
+read_sverilog rtl_src/fifo.sv
+read_sverilog rtl_src/mem_to_fifo_sm.sv
+read_sverilog rtl_src/shift_register.sv
+read_sverilog rtl_src/shift_register_sm.sv
+read_sverilog rtl_src/sensor.sv
+
+
+current_design sensor
+link
+
+##### constraints are below #####
+
+#erase all attributes and constrains from the current design
+reset_design
+
+#set the environmental conditons to TYPICAL
+set_operating_conditions -max TYPICAL
+
+#set wire loading model to "8000"
+set_wire_load_model -name 8000
+
+#set wire loading mode to top  
+set_wire_load_mode top
+
+# Define the clock period and clock port with a 10ns clock period
+create_clock -period 10 -name clk [get_ports clk]
+
+# Define the clock period and clock port with a 40ns clock period
+create_clock -period 40 -name clk_mem [get_ports clk_mem]
+
+# Set the clock uncertainty for setup and hold to +/- 20pS
+set_clock_uncertainty -setup 0.02 [get_clocks {clk clk_mem}]
+set_clock_uncertainty -hold 0.02 [get_clocks {clk clk_mem}]
+
+# set the "input valid" delay of ROM_data to 1.0nS as measured from clk_mem
+
+set_input_delay -min 1.0 -clock clk_mem [get_ports ROM_data]
+
+# set the setup time requirements for the next block to 1nS
+set_output_delay -max 1.0 -clock clk [all_outputs]
+
+
+#set the fastest input data arrival time of ROM_data to check for hold time changes to 100pS
+#(referenced to clk_mem)
+##set_input_delay......set_clock_uncertainty -setup 0.01..
+
+set_input_delay 1.0 -max -clock clk [get_ports ROM_data]
+
+set_clock_uncertainty -setup 0.01 [get_clocks clk]
+
+
+# set the hold time requirements for the ROM to 150pS (referenced to clk_mem)
+
+set_output_delay -max 0.15 -clock clk_mem [get_ports {ROM_re ROM_ce ROM_addr}]
+
+# Indicate the drive characteristics of what drives all inputs:
+# let the driving cell be a SDFFARX1
+
+set_driving_cell -lib_cell SDFFARX1 [remove_from_collection [all_inputs] [get_ports {clk clk_mem}]]
+
+# Indicate the capacitive loading on all outputs are equal to 5 AND2X1 inputs
+# >>This command can pull a pin capacitance value from a library by giving it
+# >> saed90nm_typ/AND2X1/IN1 instead of an explicit value
+
+set_load [expr 5 * [load_of saed90nm_typ/AND2X1/IN1]] [all_outputs]
+
+# Compile with completely disolved design
+compile  -ungroup_all
+
+# Make sure we are at the top level
+set current_design  sensor
+
+# Generate area and constraints reports on the optimized design
+report_area > reports/area.txt
+
+# Generate timing report for worst case path
+report_timing -delay max -nworst 2 > reports/delay.txt
+
+# Generate timing report for hold time
+report_timing -delay min -nworst 2 > reports/hold.txt
+
+# Find what cells were used to check for latches
+report_hierarchy > reports/hierarchy_to_search_for_latches.txt
+# REMEMBER TO SEARCH THIS FILE IN THE DOIT SCRIPT!!!
+
+#run a design check
+check_design > reports/check_deisgn.txt
+
+# Save the optimized design in verilog format
+write -format verilog -hierarchy -output  vlogout/sensor.gate.v
+write_sdf sdfout/sensor.gate.sdf -context verilog
+write_sdc sdcout/sensor.gate.sdc
+
+quit

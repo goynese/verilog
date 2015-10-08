@@ -1,0 +1,11 @@
+read_sverilog alu.sv
+compile
+
+report_area
+report_hierarchy 
+report_timing
+
+write -format verilog -hierarchy -output adder8.gate.v
+
+#exit
+

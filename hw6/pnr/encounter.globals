@@ -1,0 +1,28 @@
+################################################
+# Encounter Global Configuration File
+#
+# Made for Encounter Version 11.1
+# Author: Joe Crop cropj@eecs.oregonstate.edu
+#
+################################################
+
+global env
+set my_toplevel sensor
+
+set init_verilog ../vlogout/sensor.gate.v
+set init_design_netlisttype {Verilog}
+
+set init_top_cell sensor
+set init_design_settop {0}
+
+# no longer done in encounter.tcl
+set init_lef_file {/nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/lef/saed90nm_tech.lef /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/lef/saed90nm.lef }
+
+# initialize power and ground nets.
+set init_pwr_net {VDD}
+set init_gnd_net {VSS}
+
+
+# Files used to set timing constraints etc.
+set init_mmmc_file {viewDefinition.tcl}
+

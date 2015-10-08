@@ -1,0 +1,40 @@
+
+module rom (
+	input  [3:0] address , // Address Input
+	output [7:0] data    , // Data Output
+	input        re , // Read Enable 
+	input        ce      , // Chip Enable
+	input        clk       // Memory Clock
+);
+
+reg [7:0] data_a ;
+       
+assign #25 data = ce ? data_a : 8'hzz;
+
+always @ (posedge clk)
+begin
+	if(re)
+	begin
+		case (address)
+    		0 : #25 data_a = 8'b01010101;
+    		1 : #25 data_a = 8'b01010101;
+    		2 : #25 data_a = 8'b01010101;
+    		3 : #25 data_a = 8'b01010101;
+    		4 : #25 data_a = 8'h00;
+    		5 : #25 data_a = 8'hff;
+    		6 : #25 data_a = 8'h11;
+    		7 : #25 data_a = 8'h10;
+    		8 : #25 data_a = 8'h10;
+    		9 : #25 data_a = 8'h00;
+    		10 : #25 data_a = 8'h10;
+    		11 : #25 data_a = 8'h15;
+    		12 : #25 data_a = 8'h60;
+    		13 : #25 data_a = 8'h90;
+    		14 : #25 data_a = 8'h70;
+    		15 : #25 data_a = 8'h90;
+			default: #25 data_a = 8'hxx;
+		endcase
+	end
+end
+
+endmodule

@@ -1,0 +1,171 @@
+Warning: Design 'sensor' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 2
+        -max_paths 2
+Design : sensor
+Version: E-2010.12-SP2
+Date   : Sun Jun  9 22:28:27 2013
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: top
+
+  Startpoint: shift_register_sm0/state_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: shift_register_sm0/data_out_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sensor             8000                  saed90nm_typ
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  shift_register_sm0/state_reg[2]/CLK (DFFARX1)           0.00       0.00 r
+  shift_register_sm0/state_reg[2]/Q (DFFARX1)             0.37       0.37 f
+  U103/QN (NOR2X0)                                        0.16       0.53 r
+  U104/Q (AND3X1)                                         0.16       0.69 r
+  U68/QN (NAND2X0)                                        0.55       1.24 f
+  U45/QN (INVX0)                                          0.15       1.39 r
+  U20/QN (INVX0)                                          0.10       1.48 f
+  U15/QN (INVX0)                                          0.09       1.58 r
+  U181/Q (AO22X1)                                         0.12       1.70 r
+  shift_register_sm0/data_out_reg[0]/D (DFFX1)            0.00       1.70 r
+  data arrival time                                                  1.70
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.01       9.99
+  shift_register_sm0/data_out_reg[0]/CLK (DFFX1)          0.00       9.99 r
+  library setup time                                     -0.08       9.91
+  data required time                                                 9.91
+  --------------------------------------------------------------------------
+  data required time                                                 9.91
+  data arrival time                                                 -1.70
+  --------------------------------------------------------------------------
+  slack (MET)                                                        8.22
+
+
+  Startpoint: shift_register_sm0/state_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: shift_register_sm0/data_out_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sensor             8000                  saed90nm_typ
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  shift_register_sm0/state_reg[2]/CLK (DFFARX1)           0.00       0.00 r
+  shift_register_sm0/state_reg[2]/Q (DFFARX1)             0.37       0.37 f
+  U103/QN (NOR2X0)                                        0.16       0.53 r
+  U104/Q (AND3X1)                                         0.16       0.69 r
+  U68/QN (NAND2X0)                                        0.55       1.24 f
+  U45/QN (INVX0)                                          0.15       1.39 r
+  U20/QN (INVX0)                                          0.10       1.48 f
+  U15/QN (INVX0)                                          0.09       1.58 r
+  U180/Q (AO22X1)                                         0.12       1.70 r
+  shift_register_sm0/data_out_reg[1]/D (DFFX1)            0.00       1.70 r
+  data arrival time                                                  1.70
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.01       9.99
+  shift_register_sm0/data_out_reg[1]/CLK (DFFX1)          0.00       9.99 r
+  library setup time                                     -0.08       9.91
+  data required time                                                 9.91
+  --------------------------------------------------------------------------
+  data required time                                                 9.91
+  data arrival time                                                 -1.70
+  --------------------------------------------------------------------------
+  slack (MET)                                                        8.22
+
+
+  Startpoint: counter_sm0/restart_mem_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mem_to_fifo_sm0/ROM_addr_reg[0]
+            (rising edge-triggered flip-flop clocked by clk_mem)
+  Path Group: clk_mem
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sensor             8000                  saed90nm_typ
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                  30.00      30.00
+  clock network delay (ideal)                             0.00      30.00
+  counter_sm0/restart_mem_reg/CLK (DFFX1)                 0.00      30.00 r
+  counter_sm0/restart_mem_reg/Q (DFFX1)                   0.25      30.25 f
+  U271/QN (INVX0)                                         0.17      30.42 r
+  U238/QN (NAND3X0)                                       0.12      30.55 f
+  U85/QN (INVX0)                                          0.13      30.68 r
+  U243/Q (AO22X1)                                         0.12      30.80 r
+  mem_to_fifo_sm0/ROM_addr_reg[0]/D (DFFX1)               0.00      30.80 r
+  data arrival time                                                 30.80
+
+  clock clk_mem (rise edge)                              40.00      40.00
+  clock network delay (ideal)                             0.00      40.00
+  clock uncertainty                                      -0.02      39.98
+  mem_to_fifo_sm0/ROM_addr_reg[0]/CLK (DFFX1)             0.00      39.98 r
+  library setup time                                     -0.08      39.90
+  data required time                                                39.90
+  --------------------------------------------------------------------------
+  data required time                                                39.90
+  data arrival time                                                -30.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                        9.10
+
+
+  Startpoint: counter_sm0/restart_mem_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mem_to_fifo_sm0/ROM_addr_reg[1]
+            (rising edge-triggered flip-flop clocked by clk_mem)
+  Path Group: clk_mem
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sensor             8000                  saed90nm_typ
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                  30.00      30.00
+  clock network delay (ideal)                             0.00      30.00
+  counter_sm0/restart_mem_reg/CLK (DFFX1)                 0.00      30.00 r
+  counter_sm0/restart_mem_reg/Q (DFFX1)                   0.25      30.25 f
+  U271/QN (INVX0)                                         0.17      30.42 r
+  U238/QN (NAND3X0)                                       0.12      30.55 f
+  U85/QN (INVX0)                                          0.13      30.68 r
+  U257/Q (AO22X1)                                         0.12      30.80 r
+  mem_to_fifo_sm0/ROM_addr_reg[1]/D (DFFX1)               0.00      30.80 r
+  data arrival time                                                 30.80
+
+  clock clk_mem (rise edge)                              40.00      40.00
+  clock network delay (ideal)                             0.00      40.00
+  clock uncertainty                                      -0.02      39.98
+  mem_to_fifo_sm0/ROM_addr_reg[1]/CLK (DFFX1)             0.00      39.98 r
+  library setup time                                     -0.08      39.90
+  data required time                                                39.90
+  --------------------------------------------------------------------------
+  data required time                                                39.90
+  data arrival time                                                -30.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                        9.10
+
+
+1

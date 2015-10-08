@@ -1,0 +1,43 @@
+# //  ModelSim SE 6.6a Mar 19 2010 Linux 2.6.32-358.2.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -do ubr.do -t 1ns -novopt top 
+# Loading sv_std.std
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw4/work.top
+# Loading work.top
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw4/work.sensor
+# Loading work.sensor
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw4/work.counter_sm
+# Loading work.counter_sm
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw4/work.counter
+# Loading work.counter
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw4/work.divider_even
+# Loading work.divider_even
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw4/work.mem_to_fifo_sm
+# Loading work.mem_to_fifo_sm
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw4/work.fifo
+# Loading work.fifo
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw4/work.shift_register_sm
+# Loading work.shift_register_sm
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw4/work.shift_register
+# Loading work.shift_register
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw4/work.rom
+# Loading work.rom
+# do ubr.do 
+# Missing signal name or pattern
+# hexadecimal
+# Not Working
+# Not Working
+# Not Working
+# Not Working
+# Not Working
+# Not Working
+# Not Working
+# Not Working

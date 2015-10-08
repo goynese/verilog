@@ -1,0 +1,55 @@
+# //  ModelSim SE 6.6a Mar 19 2010 Linux 2.6.32-358.2.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim +nowarnTFMPC -do bin/sensor_with_gates.do -t 1ns -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw5/work.sensor
+# Loading work.sensor
+# Loading work.fifo
+# Loading work.DFFARX1
+# Loading work.DFFX1
+# Loading work.DFFASX1
+# Loading work.MUX21X1
+# Loading work.OR2X1
+# Loading work.XOR2X1
+# Loading work.DFFSSRX1
+# Loading work.AND2X1
+# Loading work.INVX0
+# Loading work.NBUFFX2
+# Loading work.NOR2X0
+# Loading work.NAND2X0
+# Loading work.NAND3X0
+# Loading work.AND3X1
+# Loading work.AO22X1
+# Loading work.NAND4X0
+# Loading work.OR3X1
+# Loading work.AO222X1
+# Loading work.OAI221X1
+# Loading work.NOR3X0
+# Loading work.AND4X1
+# Loading work.AO21X1
+# Loading work.OA21X1
+# Loading work.rom
+# Loading work.s_dffarx1_Q
+# Loading work.s_dffx1_Q
+# Loading work.s_dffasx1_Q
+# Loading work.s_mux21x1
+# Loading work.s_dffssrx1_Q
+# do bin/sensor_with_gates.do 
+# Missing signal name or pattern
+# Not Working
+# Not Working
+# Not Working
+# Not Working
+# Not Working
+# Not Working
+# Not Working
+find drivers -source -time {203592 ns} -cause sim:/top/sensor_0/load_sr

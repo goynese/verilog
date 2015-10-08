@@ -1,0 +1,22 @@
+# vsim -do adder8gate.do -c -quiet -t 1ps -novopt adder8 
+# //  ModelSim SE 6.6a Mar 19 2010 Linux 2.6.32-358.2.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw1/hw1last/work.adder8
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw1/hw1last/work.fadder_0
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw1/hw1last/work.fadder_7
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw1/hw1last/work.fadder_6
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw1/hw1last/work.fadder_5
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw1/hw1last/work.fadder_4
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw1/hw1last/work.fadder_3
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw1/hw1last/work.fadder_2
+# Refreshing /nfs/stak/students/g/goynese/ECE474/hw1/hw1last/work.fadder_1
+# do adder8gate.do 
+# Missing signal name or pattern

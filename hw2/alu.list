@@ -1,0 +1,42 @@
+         ps             in_a             in_b                 out_y            
+                                         in_opcode          out_carry          
+                                                               out_zero        
+       9000             ffff             ffff    1             fffe 0 0 
+      19000             000f             ffff    1             000e 0 0 
+      29000             0000             0000    1             0000 0 0 
+      39000             ffff             ffff    2             0000 0 0 
+      49000             00ff             ffff    2             0100 0 0 
+      59000             0000             0000    2             0000 0 0 
+      69000             ffff             ffff    3             0000 0 0 
+      79000             0000             ffff    3             0001 1 1 
+      89000             00ff             ff00    3             0100 0 0 
+      99000             f0f0             0000    4             f0ef 1 1 
+     109000             ffff             ffff    4             fffe 0 0 
+     119000             0000             ffff    4             ffff 1 1 
+     129000             ffff             ffff    5             ffff 1 1 
+     139000             0f0f             f0f0    5             ffff 1 1 
+     149000             0000             f0f0    5             f0f0 0 0 
+     159000             ffff             ffff    6             ffff 1 1 
+     169000             0f0f             ffff    6             0f0f 1 1 
+     179000             0000             0000    6             0000 0 0 
+     189000             ff0f             0fff    7             f0f0 0 0 
+     199000             ffff             ffff    7             0000 0 0 
+     209000             0000             0000    7             0000 0 0 
+     219000             ffff             ffff    8             7fff 1 1 
+     229000             0000             ffff    8             0000 0 0 
+     239000             0ff0             ffff    8             07f8 0 0 
+     249000             ffff             ffff    9             fffe 0 0 
+     259000             ffff             f0f0    9             fffe 0 0 
+     269000             0000             0000    9             0000 0 0 
+     279000             ffff             ffff    a             0000 0 0 
+     289000             0000             ffff    a             ffff 1 1 
+     299000             ffff             f0f0    a             0000 0 0 
+     309000             ffff             ffff    b             0001 1 1 
+     319000             f0f0             ffff    b             0f10 0 0 
+     329000             0000             ffff    b             0000 0 0 
+     339000             ffff             ffff    c             0000 0 0 
+     349000             f0f0             ffff    b             0f10 0 0 
+     359000             0000             ffff    0             0000 0 0 
+     369000             fxff             ffff    1             xxxx x x 
+     379000             fxfx             fxfx    2             xxxx x x 
+     389000             0000             xxxx    0             0000 0 0 

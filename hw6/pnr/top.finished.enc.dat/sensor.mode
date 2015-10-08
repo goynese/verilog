@@ -1,0 +1,12 @@
+setDesignMode -process 90
+setAnalysisMode -analysisType bcwc -checkType setup -clkSrcPath true -clockPropagation sdcControl -skew true -virtualIPO false
+setTrialRouteMode -fixAirConnect true
+setExtractRCMode  -engine postRoute -coupled false -minNetTermNrToBeInMem 50
+setDelayCalMode -engine feDC -ignoreNetLoad false
+setCTSMode -moveGateLimit 25
+setNanoRouteMode -quiet -routeWithSiDriven false
+setNanoRouteMode -quiet -routeWithTimingDriven false
+
+setPlaceMode -congEffort medium -fastfp false -fp false -ignoreScan true -placeIoPins false -relaxSoftBlockageMode 2 -timingDriven true
+setIlmMode -highFanoutPort true -loopBack false 
+setVerifyGeometryMode -antenna true -area 0 0 0 0 -diffCellViol true -error 1000 -implantCheck true -insuffMetalOverlap false -maxNonPrefLength -1 -maxWidth true -mergedMGridCheck true -minArea false -minHole true -minimumCut true -minSpacing false -minStep true -minWidth false -offMGrid true -offRGrid false -overlap true -padFillerCellsOverlap true -pinInBlkg false -regRoutingOnly false -routingBlkgPinOverlap true -routingCellBlkgOverlap true -sameCellViol false -sameNet false -short true -stackedViasOnRegNet false -useNonDefaultSpacing false -viaEnclosure true -warning 50 -wireExt true

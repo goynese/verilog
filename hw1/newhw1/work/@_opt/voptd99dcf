@@ -1,0 +1,49 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/nfs/stak/students/g/goynese/ECE474/newhw1
+T_opt
+Z1 V`RAX@<JQR>e9^gSIMh4N50
+Z2 04 6 4 work adder8 fast 0
+Z3 =1-24be0511c109-517208a1-63321-2c0b
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6a;45
+Z7 d/nfs/stak/students/g/goynese/ECE474/newhw1
+vadder8
+Z8 Mx1 19 __model_tech/sv_std 3 std
+Z9 DXx19 __model_tech/sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z10 If89?5`YbE^E_V0kM`lS1S0
+Z11 V>JEm1;]lzPc_YQ1HCa<n21
+S1
+R7
+Z12 w1366394762
+Z13 8adder8.sv
+Z14 Fadder8.sv
+L0 1
+Z15 OE;L;6.6a;45
+r1
+31
+Z16 o-L mtiAvm -L mtiOvm -L mtiUPF
+Z17 !s100 =;EELYNOOh]4K0n0P:Ij?0
+Z18 !s105 adder8_sv_unit
+!s85 0
+vfadder
+R8
+R9
+Z19 Ih^]NK0fA5C6lEF>5_1oC62
+Z20 V0_=kX6L`>Za>BeYL`f>n]0
+S1
+R7
+Z21 w1366054882
+Z22 8fadder.sv
+Z23 Ffadder.sv
+L0 4
+R15
+r1
+31
+R16
+Z24 !s100 ;;4d1dY0DO:<957:DK?m@2
+Z25 !s105 fadder_sv_unit
+!s85 0
